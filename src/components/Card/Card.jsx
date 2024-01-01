@@ -7,12 +7,12 @@ import Btn2 from "../Buttons/Btn3";
 const Card = ({ title, link, image, desc }) => {
   console.log(image);
   return (
-    <div class="Card">
-      <Image src={image} width={312} height={210} class="before-element" />
+    <div className="Card">
+      <Image src={image} width={312} height={210} class="before-element" alt={title} />
 
-      <div class="headDesc">
+      <div className="headDesc">
         <h1>{title}</h1>
-        <p class="desc">
+        <p className="desc">
           {desc}
           <Btn2 link={link} />
         </p>

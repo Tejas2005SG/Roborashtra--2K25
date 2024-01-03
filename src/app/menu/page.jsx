@@ -12,7 +12,7 @@ const events = [
   },
   {
     title: "Cam Warrior",
-    desc: "check the top-level render call using",
+    desc: " the ultimate drone competition thats set to put your piloting ",
     link: "/events/cam_warrior",
     image: "event2.svg",
   },

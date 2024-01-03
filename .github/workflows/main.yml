@@ -25,6 +25,8 @@ jobs:
           script: |
             cd /var/www/roborashtra-1/
             git pull
+            echo done Pulling
             git status
             npm run build
-            pm2 restart robo
+            echo done building
+            pm2 restart roborashtra-1

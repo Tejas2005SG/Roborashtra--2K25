@@ -24,7 +24,7 @@ jobs:
           port: 22
           script: |
             cd /var/www/roborashtra-1/
-            git pull origin master
+            git pull
             git status
             npm run build
             pm2 restart robo

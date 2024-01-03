@@ -1,4 +1,15 @@
 {
+  "/_not-found": "app/_not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
-  "/menu/page": "app/menu/page.js"
+  "/events/cam_warrior/page": "app/events/cam_warrior/page.js",
+  "/events/resqlimpic/page": "app/events/resqlimpic/page.js",
+  "/events/page": "app/events/page.js",
+  "/events/robowar/page": "app/events/robowar/page.js",
+  "/events/tactical_tracers/page": "app/events/tactical_tracers/page.js",
+  "/menu/clan/page": "app/menu/clan/page.js",
+  "/menu/page": "app/menu/page.js",
+  "/menu/profile/page": "app/menu/profile/page.js",
+  "/menu/sponsors/page": "app/menu/sponsors/page.js",
+  "/menu/teams/page": "app/menu/teams/page.js"
 }

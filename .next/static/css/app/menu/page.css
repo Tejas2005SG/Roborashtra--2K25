@@ -1,0 +1,215 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/Card/Card.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.Card {
+  background-color: rgba(0, 224, 255, 1);
+  font-family: Roboto;
+  width: 318px;
+  height: 213px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  isolation: isolate;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 74%, 78% 100%, 0 100%, 0% 60%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 74%, 78% 100%, 0 100%, 0% 60%, 0 0);
+  color: white;
+  margin-bottom: 3rem;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.before-element {
+  inset: 2px;
+  position: absolute;
+  z-index: -1;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 74%, 78% 100%, 0 100%, 0% 60%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 74%, 78% 100%, 0 100%, 0% 60%, 0 0);
+}
+
+.before-element img {
+  width: 317px;
+  height: 213px;
+}
+
+.headDesc h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38.46px;
+  letter-spacing: 6%;
+  padding: 1rem 0 1rem 0;
+}
+
+.headDesc {
+  position: absolute;
+  bottom: 2px;
+  padding-left: 20px;
+  height: 30%;
+  width: 100%;
+  text-align: justify;
+  /*background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%);*/
+  transition: all ease-in-out 0.2s;
+}
+
+.headDesc a {
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.desc {
+  padding-right: 2rem;
+}
+
+.desc a {
+  display: block;
+  padding: 1rem 0;
+}
+
+.Card:hover {
+  .headDesc {
+    position: absolute;
+    bottom: 0%;
+    transition: all ease-in-out 0.3s;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 4px solid white;
+  }
+
+  background-color: rgb(246, 247, 243);
+
+
+
+  .before-element img {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+}
+
+/*Bottom Image */
+
+.bottom-container {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  animation-name: imageUp;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+.text-bar {
+  position: absolute;
+  width: 385px;
+  height: 200px;
+  bottom: 50px;
+  left: 237px;
+  -webkit-clip-path: polygon(46% 35%,
+      61% 35%,
+      100% 35%,
+      100% 61%,
+      23% 61%,
+      3% 75%,
+      11% 61%,
+      0 60%,
+      0 35%,
+      39% 35%);
+          clip-path: polygon(46% 35%,
+      61% 35%,
+      100% 35%,
+      100% 61%,
+      23% 61%,
+      3% 75%,
+      11% 61%,
+      0 60%,
+      0 35%,
+      39% 35%);
+  background: rgba(217, 217, 217, 0.2);
+  color: black;
+  animation-name: imageUp;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.2s;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  font-size: 19px;
+  text-align: center;
+  width: 100%;
+  padding-left: 15px;
+  bottom: 75px;
+  color: white;
+}
+
+@keyframes imageUp {
+  0% {
+    bottom: -40%;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 80%;
+  }
+}
+
+/*Responsive ness*/
+@media (max-width: 760px) {
+  .Card {
+    margin: 1rem auto;
+  }
+
+  body {
+    overflow-y: scroll;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/components/Buttons/Btn2.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.Btn2 {
+  background-color: rgba(91, 216, 255, 0.2);
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.Btn2:hover {
+  scale: 1.1;
+  background-color: rgba(58, 196, 237, 0.2);
+}
+
+.Btn2 > * {
+  display: inline-block;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/menu/events.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.Events {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .Events {
+    margin-top: 5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+}
+

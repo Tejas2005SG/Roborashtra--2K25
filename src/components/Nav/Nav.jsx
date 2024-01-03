@@ -9,10 +9,10 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import Btn1 from "../Buttons/Btn1";
 
 const options = [
-  {
-    opt: "Start",
-    link: "/",
-  },
+  // {
+  //   opt: "Start",
+  //   link: "/",
+  // },
   {
     opt: "Event",
     link: "/menu",

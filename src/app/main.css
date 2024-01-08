@@ -1,3 +1,9 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 main {
   width: 100vw;
   height: 100vh;
@@ -127,4 +133,8 @@ main img {
     margin-bottom: 3rem;
     width: 80%;
   }
+}
+
+.max-center-width {
+  width: min(98%, 72rem);
 }

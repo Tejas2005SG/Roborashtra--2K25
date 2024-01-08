@@ -6,13 +6,12 @@ import Btn1 from "@/components/Buttons/Btn1";
 export default function Home() {
   return (
     <div className="wrapper">
-      <div className="nav_wrapper">
-        <Nav />
-      </div>
+      <Nav />
+
       <main className="">
         <div>
           <center>
-          <Image src={MainCharater} />
+            <Image src={MainCharater} />
           </center>
         </div>
         <div className="main_title">

@@ -35,27 +35,32 @@ const Nav = () => {
   const [menu, setmenu] = useState(false);
   let menustyle = menu ? { left: "0%" } : { left: "-110%" };
   return (
-    <nav style={{ padding: "1rem 0" }}>
-      <Image src={logo} width={275} height={100} />
+    <div>
+      <nav style={{ padding: "1rem 0" }}>
+        <Image src={logo} width={275} height={100} />
 
-      <ul className="desktop-links" style={menustyle}>
-        {options.map((option) => {
-          return (
-            <li key={option.opt}>
-              <Link href={option.link} onClick={() => setMenu((prev) => !prev)}>
-                {option.opt}
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-      <GiHamburgerMenu
-        id="hammenu"
-        onClick={() => {
-          setmenu((prev) => !prev);
-        }}
-      />
-    </nav>
+        <ul className="desktop-links" style={menustyle}>
+          {options.map((option) => {
+            return (
+              <li key={option.opt}>
+                <Link
+                  href={option.link}
+                  onClick={() => setMenu((prev) => !prev)}
+                >
+                  {option.opt}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+        <GiHamburgerMenu
+          id="hammenu"
+          onClick={() => {
+            setmenu((prev) => !prev);
+          }}
+        />
+      </nav>
+    </div>
   );
 };
 

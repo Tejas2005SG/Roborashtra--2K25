@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
-
+import Btn1 from "@/components/Buttons/Btn1";
 import Card from "../../components/Card/Card";
 import "./events.css";
+import Link from "next/link";
 const events = [
   {
     title: "Steel Solider Slam",
@@ -31,18 +32,26 @@ const events = [
 ];
 const Cards = () => {
   return (
-    <div className="Events">
-      {events.map((event) => {
-        return (
-          <Card
-            key={event.title}
-            title={event.title}
-            desc={event.desc}
-            link={event.link}
-            image={event.image}
-          />
-        );
-      })}
+    <div>
+      <div className="Events">
+        {events.map((event) => {
+          return (
+            <Card
+              key={event.title}
+              title={event.title}
+              desc={event.desc}
+              link={event.link}
+              image={event.image}
+            />
+          );
+        })}
+      </div>
+
+      <div className="start_btn flex items-center justify-center ">
+              <Link href={"/pg_menu"} >
+                <Btn1 text={"For PG"} link={"/pg_menu"} />
+              </Link>
+      </div>
     </div>
   );
 };

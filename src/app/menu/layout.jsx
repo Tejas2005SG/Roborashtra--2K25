@@ -10,9 +10,9 @@ export const metadata = {
 export default function MenuLayout({ children }) {
   return (
     <div className="menu_mob">
-      <div className="menu_nav">
+      {/* <div className="menu_nav">
         <Nav />
-      </div>
+      </div> */}
       <div className="Menu_wrapper">
         <div>{children}</div>
         <div className="Menu_bar">

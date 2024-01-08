@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Btn1 from "@/components/Buttons/Btn1";
 import Card from "../../components/Card/Card";
@@ -48,9 +47,7 @@ const Cards = () => {
       </div>
 
       <div className="start_btn flex items-center justify-center ">
-              <Link href={"/pg_menu"} >
-                <Btn1 text={"For PG"} link={"/pg_menu"} />
-              </Link>
+        <Btn1 text={"For PG"} link={"/pg_menu"} />
       </div>
     </div>
   );

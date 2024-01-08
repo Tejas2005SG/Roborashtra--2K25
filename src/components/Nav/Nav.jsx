@@ -34,7 +34,7 @@ const options = [
 ];
 
 const Nav = () => {
-  const [menu, setmenu] = useState(false);
+  const [menu, setMenu] = useState(false);
   let menustyle = menu ? { left: "0%" } : { left: "-110%" };
   return (
     <div>
@@ -42,7 +42,6 @@ const Nav = () => {
         <Link href="/">
           <Image src={logo} width={275} height={100} />
         </Link>
-
         <ul className="desktop-links" style={menustyle}>
           {options.map((option) => {
             return (

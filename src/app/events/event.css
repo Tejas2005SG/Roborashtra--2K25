@@ -5,16 +5,18 @@
   height: 100vh;
   overflow: hidden;
 }
+
 .Event {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
 .EventTitle {
   font-family: var(--ft-robo);
   font-size: 36px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 52px;
   letter-spacing: 0.085em;
   text-align: left;
@@ -23,6 +25,7 @@
   border-bottom: 5px solid white;
   margin-bottom: 2rem;
 }
+
 .Event p {
   font-family: var(--ft-ink);
   font-size: 20px;
@@ -31,33 +34,52 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
 .action_btn {
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 600px) {
   .Event {
     width: 90%;
     height: 100%;
-    margin: 3rem auto;
+    margin: 1rem auto;
     margin-bottom: 10rem;
   }
+
   .Event img {
     display: none;
   }
+
   .Event_wrapper {
     overflow: scroll;
     grid-template-columns: 1fr;
   }
+
   body {
     overflow: scroll;
   }
+
   .action_btn {
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  .Event {
+    width: 65vw;
   }
 }

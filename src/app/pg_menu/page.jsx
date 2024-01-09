@@ -1,68 +1,55 @@
 "use client";
 import React from "react";
-import MenuBar from "@/components/Menu/MenuBar";
+import Image from 'next/image';
+import bottomArrow from '../../images/arrow.png';
 import Card from "../../components/Card/Card";
-import Btn1 from "@/components/Buttons/Btn1";
-import Nav from "@/components/Nav/Nav";
 import "../menu/events.css";
-import "../menu/menu.css";
 const events = [
   {
     title: "SubmersiGrip Rover",
-    desc: "check the top-level render call using",
-    link: "/events/robowar",
-    image: "/pg_e1.png",
+    desc: "Remotely Operated Hybrid",
+    link: "/pg_events/submersiGripRover",
+    image: "/pg_e1.svg",
   },
   {
     title: "Autonomous Drive Race",
-    desc: " the ultimate drone competition.",
-    link: "/events/cam_warrior",
-    image: "/pg_e2.png",
+    desc: "Manipulator-Enabled Mobile Robot",
+    link: "/pg_events/AutonomusDrive",
+    image: "/pg_e2.svg",
   },
   {
-    title: "RoboButler Pioneer",
-    desc: "check the top-level render call using",
-    link: "/events/resqlimpic",
-    image: "/pg_e3.png",
+    title: "Robo Butler Pioneer",
+    desc: "Manipulator-Enabled Mobile Robot",
+    link: "/pg_events/RoboButlerPioneer",
+    image: "/pg_e3.svg",
   },
   {
-    title: "Autoplace ROS Dynamo",
+    title: "AutoplaceROS Dynamo",
     desc: "check the top-level render call using",
-    link: "/events/tactical_tracers",
+    link: "/pg_events/AutoplaceRos",
     image: "/pg_e4.png",
   },
 ];
 const Cards = () => {
   return (
-    <div className="menu_mob">
-        <div className="menu_nav m-20">
-            <Nav />
-        </div>
-        <div className="Menu_wrapper">
-            <div className="Events">
-            {events.map((event) => {
-                return (
-                <Card
-                    key={event.title}
-                    title={event.title}
-                    desc={event.desc}
-                    link={event.link}
-                    image={event.image}
-                />
-                );
-            })}
-            </div>
-
-            <div className="Menu_bar">
-                <MenuBar />
-            </div>
-        </div>
-
-        <div className="start_btn flex items-center justify-center ">
-            <Btn1 text={"For UG "} link={"/menu"} />
-        </div>
-
+    <div className="Container" style={{fontSize: "16px"}}>
+      <h1 className="headTitle">Ransangram</h1>
+    <div className="Events" style={{fontSize:"20px"}}>
+      {events.map((event) => {
+        return (
+          <Card
+            key={event.title}
+            title={event.title}
+            desc={event.desc}
+            link={event.link}
+            image={event.image}
+          />
+        );
+      })}
     </div>
+    <button className="bottomButton"><a href="\menu"><Image src={bottomArrow} alt="arrow" srcset="" /></a></button>
+    </div>
+    
   );
 };
 

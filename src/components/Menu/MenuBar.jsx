@@ -18,12 +18,14 @@ const MenuBar = () => {
     <div>
       {options.map((option) => {
         return (
-          <Button
-            key={option.text}
-            style={{ margin: "1rem" }}
-            text={option.text}
-            link={option.link}
-          />
+          <Link href={option.link} key={option.text}>
+            <Button
+              key={option.text}
+              style={{ margin: "1rem" }}
+              text={option.text}
+              link={option.link}
+            />
+          </Link>
         );
       })}
     </div>

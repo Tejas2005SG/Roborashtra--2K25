@@ -60,7 +60,7 @@ const Nav = () => {
         <GiHamburgerMenu
           id="hammenu"
           onClick={() => {
-            setmenu((prev) => !prev);
+            setMenu((prev) => !prev);
           }}
         />
       </nav>

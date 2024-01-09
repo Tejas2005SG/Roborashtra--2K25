@@ -1,8 +1,10 @@
+"use client";
 import React from "react";
-import Btn1 from "@/components/Buttons/Btn1";
+import Image from 'next/image';
+import bottomArrow from '../../images/arrow.png';
+
 import Card from "../../components/Card/Card";
 import "./events.css";
-import Link from "next/link";
 const events = [
   {
     title: "Steel Solider Slam",
@@ -12,7 +14,7 @@ const events = [
   },
   {
     title: "Cam Warrior",
-    desc: " the ultimate drone competition thats set to put your piloting ",
+    desc: "check the top-level render call using",
     link: "/events/cam_warrior",
     image: "event2.svg",
   },
@@ -31,26 +33,23 @@ const events = [
 ];
 const Cards = () => {
   return (
-    <div>
-      <div className="Events">
-        {events.map((event) => {
-          return (
-            <Card
-              key={event.title}
-              title={event.title}
-              desc={event.desc}
-              link={event.link}
-              image={event.image}
-            />
-          );
-        })}
-      </div>
-
-      <div className="start_btn flex items-center justify-center ">
-        <Btn1 text={"For PG"} link={"/pg_menu"} />
-      </div>
-      
+    <div className="Container">
+      <h1 className="headTitle">Dvanadvayuddh</h1>
+    <div className="Events">
+      {events.map((event) => {
+        return (
+          <Card
+            key={event.title}
+            title={event.title}
+            desc={event.desc}
+            link={event.link}
+            image={event.image}
+          />
+        );
+      })}
     </div>
+      <button className="bottomButton"><a href="/pg_menu"><Image src={bottomArrow} alt="arrow" srcset="" /></a></button>
+      </div>
   );
 };
 

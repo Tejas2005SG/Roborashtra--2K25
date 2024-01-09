@@ -10,7 +10,7 @@
   isolation: isolate;
   clip-path: polygon(50% 0%, 100% 0, 100% 74%, 78% 100%, 0 100%, 0% 60%, 0 0);
   color: white;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -33,16 +33,16 @@
 
 .headDesc h1 {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 38.46px;
-  letter-spacing: 6%;
+  letter-spacing: 4%;
   padding: 1rem 0 1rem 0;
 }
 
 .headDesc {
   position: absolute;
   bottom: 2px;
-  padding-left: 20px;
+  padding-left: 15px;
   height: 30%;
   width: 100%;
   text-align: justify;
@@ -58,7 +58,8 @@
 }
 
 .desc {
-  padding-right: 2rem;
+  padding-right: 1rem;
+  font-size: large;
 }
 
 .desc a {
@@ -77,6 +78,8 @@
   }
 
   background-color: rgb(246, 247, 243);
+
+
 
   .before-element img {
     filter: blur(2px);
@@ -102,18 +105,16 @@
   height: 200px;
   bottom: 50px;
   left: 237px;
-  clip-path: polygon(
-    46% 35%,
-    61% 35%,
-    100% 35%,
-    100% 61%,
-    23% 61%,
-    3% 75%,
-    11% 61%,
-    0 60%,
-    0 35%,
-    39% 35%
-  );
+  clip-path: polygon(46% 35%,
+      61% 35%,
+      100% 35%,
+      100% 61%,
+      23% 61%,
+      3% 75%,
+      11% 61%,
+      0 60%,
+      0 35%,
+      39% 35%);
   background: rgba(217, 217, 217, 0.2);
   color: black;
   animation-name: imageUp;
@@ -155,7 +156,7 @@
 }
 
 /*Responsive ness*/
-@media (max-width: 760px) {
+@media (max-width: 650px) {
   .Card {
     margin: 1rem auto;
   }
@@ -164,3 +165,5 @@
     overflow-y: scroll;
   }
 }
+
+@media screen and (max-width: 800px) {}

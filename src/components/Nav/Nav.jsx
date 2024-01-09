@@ -37,7 +37,7 @@ const Nav = () => {
   const [menu, setMenu] = useState(false);
   let menustyle = menu ? { left: "0%" } : { left: "-110%" };
   return (
-    <div>
+    <div >
       <nav>
         <Link href="/">
           <Image src={logo} width={275} height={100} />

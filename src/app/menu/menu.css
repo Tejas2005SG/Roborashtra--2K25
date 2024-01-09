@@ -1,12 +1,15 @@
 .Menu_wrapper {
-  max-width: min(72rem, 98%);
+  /* max-width: min(72rem, 98%); */
   margin: 0 auto;
-  height: 100vh;
+  margin-left: 4%;
+  margin-top: 9%;
+  /* height: 100vh; */
   display: grid;
   grid-template-columns: 1fr 0.4fr;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  /* overflow-y: scroll; */
 }
 @media only screen and (max-width: 600px) {
   .Menu_wrapper {

@@ -1,8 +1,11 @@
 "use client";
 import React from "react";
-
+import MenuBar from "@/components/Menu/MenuBar";
 import Card from "../../components/Card/Card";
+import Btn1 from "@/components/Buttons/Btn1";
+import Nav from "@/components/Nav/Nav";
 import "../menu/events.css";
+import "../menu/menu.css";
 const events = [
   {
     title: "SubmersiGrip Rover",
@@ -31,18 +34,34 @@ const events = [
 ];
 const Cards = () => {
   return (
-    <div className="Events">
-      {events.map((event) => {
-        return (
-          <Card
-            key={event.title}
-            title={event.title}
-            desc={event.desc}
-            link={event.link}
-            image={event.image}
-          />
-        );
-      })}
+    <div className="menu_mob">
+        <div className="menu_nav m-20">
+            <Nav />
+        </div>
+        <div className="Menu_wrapper">
+            <div className="Events">
+            {events.map((event) => {
+                return (
+                <Card
+                    key={event.title}
+                    title={event.title}
+                    desc={event.desc}
+                    link={event.link}
+                    image={event.image}
+                />
+                );
+            })}
+            </div>
+
+            <div className="Menu_bar">
+                <MenuBar />
+            </div>
+        </div>
+
+        <div className="start_btn flex items-center justify-center ">
+            <Btn1 text={"For UG "} link={"/menu"} />
+        </div>
+
     </div>
   );
 };

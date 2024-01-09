@@ -49,6 +49,7 @@ const Cards = () => {
       <div className="start_btn flex items-center justify-center ">
         <Btn1 text={"For PG"} link={"/pg_menu"} />
       </div>
+      
     </div>
   );
 };

@@ -7,7 +7,7 @@
   .Events {
     margin-top: 5rem;
     /* max-width: 100vw; */
-    overflow: hidden;
+    /* overflow: hidden; */
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr;

@@ -89,7 +89,7 @@ const Cards = () => {
               );
             })}
           </div>
-          <button className="bottomButton" onClick={togglePage}>
+          <button className="bottomButton" onClick={togglePage} style={{transition:""}}>
               <Image src={bottomArrow} alt="arrow" srcset="" />
           </button>
         </div>

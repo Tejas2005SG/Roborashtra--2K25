@@ -18,17 +18,17 @@ export default function Clan() {
         to specific time constraints.
       </p>
       <div className="social_media">
-        <a href="">
+        <a href="https://www.instagram.com/robohawk.pccoer?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
           <Image src={instagram} alt="instagram" />
         </a>
-        <a href="">
+        <a href="https://www.facebook.com/profile.php?id=61552083314105&mibextid=ZbWKwL">
           <Image src={facebook} alt="instagram" />
         </a>
 
-        <a href="">
+        <a href="https://www.linkedin.com/in/robo-hawk-510206293/">
           <Image src={linkedin} alt="instagram" />
         </a>
-        <a href="">
+        <a href="https://twitter.com/robohawk_pccoer?t=UdhKVAhcpMhn1Bl9zYw7QQ&s=09">
           <Image src={twitter} alt="instagram" />
         </a>
       </div>

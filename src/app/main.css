@@ -115,17 +115,17 @@ main img {
   .main_bottom p {
     font-size: 20px;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
   main img {
     width: 100%;
-    margin-bottom: 7rem;
+    margin-bottom: 9rem;
   }
 
   .start_btn {
     transform: translate(0%, 0%);
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
   .nav_wrapper {

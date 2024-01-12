@@ -56,7 +56,7 @@ const events2 = [
     title: "AutoplaceROS Dynamo",
     desc: "check the top-level render call using",
     link: "/pg_events/AutoplaceRos",
-    image: "/pg_e4.png",
+    image: "/pg_e4.svg",
   },
 
 ];

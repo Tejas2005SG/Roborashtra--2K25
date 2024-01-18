@@ -3,12 +3,13 @@ import Image from "next/image";
 import MainCharater from "../images/mainChar.png";
 import drdo from "../images/DRDO.png";
 import diat from "../images/DIAT.jpg";
-import handshake from "../images/Handshake.png";
+// import handshake from "../images/Handshake.png";
 import pcet from "../images/PCET.jpg";
 import pccoer from "../images/PCCOER.jpg";
-
 import "./main.css";
-import Btn1 from "@/components/Buttons/Btn1";
+// import Btn1 from "@/components/Buttons/Btn1";
+import Btn4 from "@/components/Buttons/Btn4";
+
 export default function Home() {
   return (
     <div className="wrapper">
@@ -28,7 +29,7 @@ export default function Home() {
         <div className="main_bottom">
           <p>“The Rise Of RoboNation Bharat Leads The Way”</p>
           <div className="start_btn">
-            <Btn1 text={"Start"} link={"/menu"} />
+            <Btn4 link={"/menu"} />
           </div>
         </div>
       </main>

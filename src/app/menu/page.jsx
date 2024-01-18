@@ -1,8 +1,9 @@
 "use client";
+import { Suspense } from "react";
 import React, { useState } from "react";
 import Image from 'next/image';
 import bottomArrow from '../../images/arrow.png';
-
+import Loader from "../../components/loader/loader"
 import Card from "../../components/Card/Card";
 import "./events.css";
 
@@ -70,6 +71,7 @@ const Cards = () => {
 
   const currentEvents = currentPage === 1 ? events : events2;
   const pageTitle = currentPage === 1 ? "Dvanadvayuddh" : "Ransangram";
+  window.scrollTo({top:0, behavior: "smooth"});
 
   return (
     <>
@@ -77,6 +79,7 @@ const Cards = () => {
         <div className="Container">
           <h1 className="headTitle">{pageTitle}</h1>
           <div className="Events">
+          <Suspense fallback={<Loader />}>
             {currentEvents.map((event) => {
               return (
                 <Card
@@ -88,8 +91,9 @@ const Cards = () => {
                 />
               );
             })}
+            </Suspense>
           </div>
-          <button className="bottomButton" onClick={togglePage} style={{transition:""}}>
+          <button className="bottomButton" onClick={togglePage} style={{transition:"2s ease-in-out"}}>
               <Image src={bottomArrow} alt="arrow" srcset="" />
           </button>
         </div>

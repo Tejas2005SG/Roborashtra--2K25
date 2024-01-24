@@ -37,6 +37,7 @@
   line-height: 38.46px;
   letter-spacing: 4%;
   padding: 1rem 0 1rem 0;
+
 }
 
 .headDesc {
@@ -45,9 +46,11 @@
   padding-left: 15px;
   height: 30%;
   width: 100%;
-  text-align: justify;
+  text-align: left;
   /*background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%);*/
-  transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.3s;
+  background-color: rgba(0, 0, 0, 0.5);
+
 }
 
 .headDesc a {
@@ -85,6 +88,10 @@
     filter: blur(2px);
     -webkit-filter: blur(2px);
   }
+}
+
+.desc button {
+  margin-top: 1rem;
 }
 
 /*Bottom Image */
@@ -161,9 +168,22 @@
     margin: 1rem auto;
   }
 
+  .headDesc h1 {
+    font-size: 26px;
+  }
+
   body {
     overflow-y: scroll;
   }
 }
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 920px) {
+  .Card {
+    width: 306px;
+    height: 201px;
+  }
+
+  .desc button {
+    margin-top: 0rem;
+  }
+}

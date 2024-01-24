@@ -1,3 +1,7 @@
+*{
+  width:max-content;
+  max-width: 1300px;
+}
 .team h1 {
   font-family: Roboto;
   font-size: 40px;
@@ -23,7 +27,7 @@
 }
 .team_row {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
   font-family: var(--ft-1);
 }
 
@@ -43,3 +47,25 @@
 .team_wrapper::-webkit-scrollbar-thumb {
   background-color: #00e0ff;
 }
+
+.Menu_bar{
+  display: none;
+}
+
+
+.member_box {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 5px; /* Adjust as needed */
+}
+
+.member_box img {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: contain;
+  object-position: center;
+  top: 0;
+  left: 0;
+}
+

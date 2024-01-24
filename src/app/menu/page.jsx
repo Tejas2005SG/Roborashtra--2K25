@@ -1,9 +1,6 @@
 "use client";
-import { Suspense } from "react";
-import React, { useState } from "react";
+import React from "react";
 import Image from 'next/image';
-import bottomArrow from '../../images/arrow.png';
-import Loader from "../../components/loader/loader"
 import Card from "../../components/Card/Card";
 import "./events.css";
 
@@ -34,52 +31,14 @@ const events = [
   },
 ];
 
-const events2 = [
-  {
-    title: "SubmersiGrip Rover",
-    desc: "Remotely Operated Hybrid",
-    link: "/pg_events/submersiGripRover",
-    image: "/pg_e1.svg",
-  },
-  {
-    title: "Autonomous Drive Race",
-    desc: "Manipulator-Enabled Mobile Robot",
-    link: "/pg_events/AutonomusDrive",
-    image: "/pg_e2.svg",
-  },
-  {
-    title: "Robo Butler Pioneer",
-    desc: "Manipulator-Enabled Mobile Robot",
-    link: "/pg_events/RoboButlerPioneer",
-    image: "/pg_e3.svg",
-  },
-  {
-    title: "AutoplaceROS Dynamo",
-    desc: "check the top-level render call using",
-    link: "/pg_events/AutoplaceRos",
-    image: "/pg_e4.svg",
-  },
 
-];
 
 const Cards = () => {
-  const [currentPage, setCurrentPage] = useState(1);
-
-  const togglePage = () => {
-    setCurrentPage((prevPage) => (prevPage === 1 ? 2 : 1));
-  };
-
-  const currentEvents = currentPage === 1 ? events : events2;
-  const pageTitle = currentPage === 1 ? "Dvanadvayuddh" : "Ransangram";
-  window.scrollTo({top:0, behavior: "smooth"});
-
   return (
     <>
-      <div className={`page${currentPage}`}>
         <div className="Container">
           <h1 className="headTitle">{pageTitle}</h1>
           <div className="Events">
-          <Suspense fallback={<Loader />}>
             {currentEvents.map((event) => {
               return (
                 <Card
@@ -91,13 +50,9 @@ const Cards = () => {
                 />
               );
             })}
-            </Suspense>
           </div>
-          <button className="bottomButton" onClick={togglePage} style={{transition:"2s ease-in-out"}}>
-              <Image src={bottomArrow} alt="arrow" srcset="" />
-          </button>
+  
         </div>
-      </div>
     </>
   );
 };

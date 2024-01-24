@@ -3,7 +3,6 @@ import React from "react";
 import Image from 'next/image';
 import Card from "../../components/Card/Card";
 import "./events.css";
-
 const events = [
   {
     title: "Steel Solider Slam",
@@ -30,30 +29,23 @@ const events = [
     image: "event4.svg",
   },
 ];
-
-
-
 const Cards = () => {
   return (
-    <>
-        <div className="Container">
-          <h1 className="headTitle">{pageTitle}</h1>
-          <div className="Events">
-            {currentEvents.map((event) => {
-              return (
-                <Card
-                  key={events.title}
-                  title={events.title}
-                  desc={events.desc}
-                  link={events.link}
-                  image={events.image}
-                />
-              );
-            })}
-          </div>
-  
-        </div>
-    </>
+    <div className="Container">
+    <div className="Events">
+      {events.map((event) => {
+        return (
+          <Card
+            key={event.title}
+            title={event.title}
+            desc={event.desc}
+            link={event.link}
+            image={event.image}
+          />
+        );
+      })}
+    </div>
+      </div>
   );
 };
 

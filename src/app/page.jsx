@@ -22,7 +22,7 @@ export default function Home() {
           <span>Rashtra</span>
         </div>
         <div className="main_bottom">
-          <p>“The Rise Of RoboNation Bharat Leads The Way”</p>
+          <p>“Rise Of RoboNation Bharat Leads The Way”</p>
           <div className="start_btn">
             <Btn4 link={"/menu"} />
           </div>

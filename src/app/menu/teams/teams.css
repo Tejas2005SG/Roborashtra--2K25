@@ -1,7 +1,4 @@
-*{
-  width:max-content;
-  max-width: 1300px;
-}
+
 .team h1 {
   font-family: Roboto;
   font-size: 40px;
@@ -63,9 +60,12 @@
 .member_box img {
   max-width: 200px;
   max-height: 200px;
-  object-fit: contain;
   object-position: center;
   top: 0;
   left: 0;
 }
 
+*{
+  width:max-content;
+  max-width: 1300px;
+}

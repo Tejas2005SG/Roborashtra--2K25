@@ -42,11 +42,11 @@ const Cards = () => {
             {currentEvents.map((event) => {
               return (
                 <Card
-                  key={event.title}
-                  title={event.title}
-                  desc={event.desc}
-                  link={event.link}
-                  image={event.image}
+                  key={events.title}
+                  title={events.title}
+                  desc={events.desc}
+                  link={events.link}
+                  image={events.image}
                 />
               );
             })}

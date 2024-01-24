@@ -7,7 +7,7 @@ import Btn2 from "../Buttons/Btn3";
 const Card = ({ title, link, image, desc }) => {
   console.log(image);
   return (
-    <div className="Card">
+    <div className="card-container">   <div className="Card">
       <Image src={image} width={312} height={210} class="before-element" alt={title} />
 
       <div className="headDesc">
@@ -17,6 +17,7 @@ const Card = ({ title, link, image, desc }) => {
           <Btn2 link={link} />
         </p>
       </div>
+    </div>
     </div>
   );
 };

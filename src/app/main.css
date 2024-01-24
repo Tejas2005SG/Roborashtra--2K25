@@ -76,7 +76,33 @@ main img {
   height: 100%;
 }
 
+.bottomLogo {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 1rem;
+  left: -20px;
+  align-content: center;
+}
 
+.bottomLogo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+
+.bottomLogo h1 {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(26, 20, 20, 0.853);
+  text-shadow: 4px 0px;
+}
 
 @media only screen and (max-width: 500px) {
   .main_title {
@@ -112,6 +138,18 @@ main img {
     overflow: hidden;
   }
 
+  .bottomLogo {
+    left: 0;
+    bottom: 1rem;
+  }
+
+  .bottomLogo img {
+    width: 75px;
+  }
+
+  .bottomLogo h1 {
+    font-size: 85px;
+  }
 
 }
 
@@ -148,5 +186,9 @@ main img {
 
   .start_btn {
     margin-bottom: 7rem;
+  }
+
+  .bottomLogo {
+    margin-bottom: 2rem;
   }
 }

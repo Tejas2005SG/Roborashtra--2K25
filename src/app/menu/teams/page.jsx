@@ -19,9 +19,9 @@ export default function Teams() {
           <div className="team_row">
             {members.map((member) => {
               return (
-                <div className="member_box">
+                <>
                   <Member name={member.name} image={member.img} />
-                </div>
+                </>
               );
             })}
           </div>
@@ -36,7 +36,6 @@ export default function Teams() {
               );
             })}
           </div>
-
         </div>
       </div> */}
     </div>

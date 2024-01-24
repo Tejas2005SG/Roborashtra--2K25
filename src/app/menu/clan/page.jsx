@@ -9,7 +9,13 @@ export default function Clan() {
     <div className="clan">
       <h1 className="title">RoboHawk</h1>
       <p className="clan_text">
-      Welcome to Robohawk, where innovation meets passion. Our student-driven Robotics Club at PCCOE&R is led by the dynamic leader Om Khare under the guidance of Dr. Mahendra B. Salunke. Robohawk has successfully executed diverse projects, including 3D printing, various types of drones and various robotics projects. It offers students hands-on learning, team collaboration, and opens doors for students in the field of robotics.
+        Advanced drone technology, showcasing autonomous flight, obstacle
+        avoidance, and precision cinematic capture, all while adhering to
+        specific time constraints. This event provides an opportunity to observe
+        the future of aerial cinematography and technological innovation in
+        action. Advanced drone technology, showcasing autonomous flight,
+        obstacle avoidance, and precision cinematic capture, all while adhering
+        to specific time constraints.
       </p>
       <div className="social_media">
         <a href="https://www.instagram.com/robohawk.pccoer?igshid=OGQ5ZDc2ODk2ZA%3D%3D">

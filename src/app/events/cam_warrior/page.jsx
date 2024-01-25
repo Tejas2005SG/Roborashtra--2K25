@@ -6,7 +6,7 @@ import Btn1 from "@/components/Buttons/Btn1";
 const CamWarrior = () => {
   return (
     <div className="Event">
-      <div className="left">
+      <div className="Event-content">
         <h1 className="EventTitle">CAMWARRIOR</h1>
         <p>
           Dive into the action at Cam Warrior, the ultimate drone competition
@@ -23,9 +23,10 @@ const CamWarrior = () => {
           <Btn2 link={"/cam_warriors.pdf"}/>
           <Btn1 text={"Register"} link={"/register"} />
         </div>
-      </div>
+        </div>
       <Image src={EventChar} alt="robowar" width={500} height={200} />
     </div>
+
   );
 };
 

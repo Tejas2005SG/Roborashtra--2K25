@@ -6,7 +6,7 @@ import Btn1 from "@/components/Buttons/Btn1";
 const CamWarrior = () => {
   return (
     <div className="Event">
-      <div>
+      <div className="Event-content">
         <h1 className="EventTitle">Steel Soldier Slam</h1>
         <p>
           RoboWar, the ultimate arena for mechanical warriors, is a cutting-edge

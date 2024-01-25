@@ -333,7 +333,6 @@
 
 .desc button {
   margin-top: 1rem;
-  margin-left: .5rem;
 }
 
 /*Bottom Image */
@@ -416,6 +415,10 @@
 
   body {
     overflow-y: scroll;
+  }
+
+  .desc button {
+    margin: 1rem;
   }
 }
 

@@ -6,7 +6,7 @@ import Btn1 from "@/components/Buttons/Btn1";
 const CamWarrior = () => {
   return (
     <div className="Event">
-      <div>
+      <div className="Event-content">
         <h1 className="EventTitle">Tactical Tracers Tournament</h1>
         <p>
           Line follower robots, using infrared sensors, autonomously track lines

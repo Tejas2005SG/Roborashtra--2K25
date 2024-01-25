@@ -2,11 +2,12 @@ import Nav from "@/components/Nav/Nav";
 import Image from "next/image";
 import MainCharater from "../images/mainChar.png";
 import "./main.css";
-
+import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
 
 export default function Home() {
   return (
+    <ImageLoader>
     <div className="wrapper">
       {/* <div className="nav_wrapper">
         <Nav />
@@ -29,5 +30,6 @@ export default function Home() {
         </div>
       </main>
     </div>
+    </ImageLoader>
   );
 }

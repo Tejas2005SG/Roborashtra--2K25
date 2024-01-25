@@ -1,7 +1,6 @@
 import React from "react";
 import Member from "@/components/Member/Member";
-import "./../teams/teams.css";
-import "../clan/clan.css";
+import "./sponsors.css";
 import member1 from "./img/google.png";
 
 const members = [

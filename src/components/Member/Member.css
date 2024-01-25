@@ -1,60 +1,32 @@
 .Team_Member {
   margin: 4%;
   text-align: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .Team_Member img {
-  margin: 10%;
+  margin: 4%;
   width: 200px;
   height: 200px;
   max-width: 201px;
   max-height: 201px;
   object-fit: cover;
   border-radius: 50%;
-  padding: 2%;
-  backdrop-filter: blur(6px) saturate(10%);
-  -webkit-backdrop-filter: blur(5px) saturate(70%);
-  background-color: rgba(129, 147, 179, 0.11);
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  transform: scale(1.1);
-  box-shadow: 2px 2px 25px rgb(134, 134, 189);
-  animation-name: eventContent;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
 }
 
 
-.Team_Member img:hover {
-  transition-duration: 1s;
-  scale: 1.1;
-  animation: glow 1s infinite alternate; 
+.img :hover{
+  animation: glow 1s infinite alternate;
 }
-
 @keyframes glow {
   from {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); 
   }
   to {
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8); 
   }
-}
-
-@keyframes eventContent {
-  from {
-    transform: scale(1);
-  }
-
-  to {
-    transform: scale(1.1);
-  }
-}
-
-*{
-  width: 100vw;
 }

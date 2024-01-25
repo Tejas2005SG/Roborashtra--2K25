@@ -3,7 +3,7 @@ import "./Btn4.css"
 
 const Btn4 = ({link}) => {
 return (
-    <div className="btn2">
+    <div className="btn4">
     <a href={link}>
     <button>
     S T A R T

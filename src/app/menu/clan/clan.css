@@ -34,21 +34,7 @@
   padding: 0.5rem;
 }
 
-.team_wrapper {
-  display: grid;
-  grid-template-columns: repeat(1fr, 3);
-}
 
-.team_wrapper p {
-  text-align: center;
-  font-size: 24px;
-  color: gold;
-}
-
-h3 {
-  font-size: 26px;
-  text-decoration: underline;
-}
 
 @media only screen and (max-width:700px) {
   .clan {

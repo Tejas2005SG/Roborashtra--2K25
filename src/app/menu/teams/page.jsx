@@ -1,4 +1,4 @@
-import coordinator from "./img/Mahendra Salunkhe .jpeg";
+/*import coordinator from "./img/Mahendra Salunkhe .jpeg";
 import lead from "./img/Om Khare.jpg";
 import colead from "./img/Khushi Rohra.jpg";
 
@@ -57,7 +57,6 @@ import m23 from "./img/Management/Shravani Ladkat.jpg";
 import m24 from "./img/Management/Siddhesh Rohokale.jpg";
 import m25 from "./img/Management/Vedant Mahadi.jpg";
 import m26 from "./img/Management/Vedant Raut.png";
-// import m27 from "./img/Management/Ansh Jannawar.jpg";
 
 
 
@@ -77,10 +76,10 @@ const man = [
   { img: m8, name: "Kaustubh" },
   { img: m9, name: "Madhav Survase" },
   { img: m10, name: "Mayuri Yenare" },
-  // { img: m11, name: "Member 1" },
-  { img: m12, name: "Member" },
-  { img: m13, name: "Sahish Kate" },
-  { img: m14, name: "Ansh Jannawar" },
+  { img: m11, name: "Member 1" },
+  { img: m12, name: "Member 2" },
+  { img: m13, name: "Member 3" },
+  { img: m14, name: "Member 4" },
   { img: m15, name: "Nikita Singh" },
   { img: m16, name: "Omkar Panchal" },
   { img: m17, name: "Prachi Thorat" },
@@ -93,20 +92,19 @@ const man = [
   { img: m24, name: "Siddhesh Rohokale" },
   { img: m25, name: "Vedant Mahadi" },
   { img: m26, name: "Vedant Raut" },
-  // { img : m27,name: "Ansh Jannawar"},
 ];
 
 const pr = [
-  { img: pr1, name: "Girish Jagtap" },
-  { img: pr2, name: "Harsh Palande" },
-  { img: pr3, name: "Manasi Velhal" },
-  { img: pr4, name: "Pranay Dhanve" },
-  { img: pr5, name: "Prathamesh Deshpande" },
-  { img: pr6, name: "Sahil Aher" },
-  { img: pr7, name: "Samrudhi Patil" },
-  { img: pr8, name: "Sandesh Lanke" },
-  { img: pr9, name: "Shreyash Kunjir" },
-  { img: pr10, name: "Shreyash Pawar" },
+  { img: pr1, name: "Aditya Pardeshi" },
+  { img: pr2, name: "Arya Godase" },
+  { img: pr3, name: "Avdhoot" },
+  { img: pr4, name: "Kush Agarwal" },
+  { img: pr5, name: "Manas Ghormade" },
+  { img: pr6, name: "Sneha" },
+  { img: pr7, name: "Swanand" },
+  { img: pr8, name: "Tejasvi" },
+  { img: pr9, name: "Sneha" },
+  { img: pr10, name: "Swanand" },
 ];
 
 const sss = [
@@ -128,33 +126,35 @@ const des = [
 ];
 
 const web = [
-  { img: web1, name: "Shreeram" },
+  { img: web1, name: "Abhishek Deshmukh" },
   { img: web2, name: "Aditya Gaikwad" },
   { img: web3, name: "Vishal Jangid" },
-  { img: web1, name:"Abhishek Deshmukh" },
 ];
-
+*/
 
 export default function Teams() {
   return (
-    <div className=" text-center text-lg">
+    <div className="text-center text-lg">
+      <p>Coming Soon</p>
+    </div>
+    /*<div className=" text-center text-lg">
       <div className="team" >
         <div className="team_wrapper">
 
 
-          <h2 className="text-center text-lg text">Event Co-ordinator</h2>
+          <h2 className="text-center text-lg">Event Co-ordinator</h2>
           <div className="team_row">
-                <Member className="member" name={"Mahendra Salunkhe"} image={coordinator} />
+                <Member name={"Mahendra Salunkhe"} image={coordinator} />
           </div>
 
           <h2 className="text-center text-lg">Lead</h2>
           <div className="team_row">
-                <Member className="member" name={"Om Khare"} image={lead} />
+                <Member name={"Om Khare"} image={lead} />
           </div>
 
           <h2 className="text-center text-lg">Co-Lead</h2>
           <div className="team_row">
-                <Member className="member" name={"Khushi rohra"} image={colead} />
+                <Member name={"Khushi rohra"} image={colead} />
           </div>
 
           <h2 className="text-center text-lg">Web Team</h2>
@@ -179,8 +179,6 @@ export default function Teams() {
             })}
           </div>
 
-        
-
           <h2>Steel Soldier Slam Team</h2>
           <div className="team_row">
             {sss.map((member) => {
@@ -197,7 +195,10 @@ export default function Teams() {
             {pr.map((member) => {
               return (
                 <>
-                  <Member name={member.name} image={member.img} />
+                <div className="member_box">
+                  <Member 
+                   name={member.name} image={member.img} />
+                </div>
                 </>
               );
             })}
@@ -213,9 +214,9 @@ export default function Teams() {
               );
             })}
           </div>
-
         </div>
       </div>
     </div>
+    */
   );
 }

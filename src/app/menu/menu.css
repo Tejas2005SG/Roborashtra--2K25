@@ -9,6 +9,7 @@
   gap: 2rem;
 }
 
+
 @media only screen and (max-width: 650px) {
   .Menu_wrapper {
     grid-template-columns: 1fr;
@@ -22,6 +23,10 @@
 @media only screen and (max-width: 920px) {
   .Menu_bar {
     display: none;
+  }
+
+  .menu_nav {
+    display: flex;
   }
 
   .Menu_wrapper {

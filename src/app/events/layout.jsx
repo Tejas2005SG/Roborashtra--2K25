@@ -1,6 +1,7 @@
 import EventMenu from "@/components/Menu/EventMenu";
 import "./event.css";
 import Nav from "@/components/Nav/Nav";
+import ImageLoader from "@/components/loader/Loader";
 export const metadata = {
   title: "Roborastra",
   description:
@@ -9,7 +10,7 @@ export const metadata = {
 
 export default function EventLayout({ children }) {
   return (
-    <div>
+       <div>
       <Nav />
       <div className="Event_wrapper">
         <div>
@@ -18,5 +19,7 @@ export default function EventLayout({ children }) {
         <div>{children}</div>
       </div>
     </div>
+    
+ 
   );
 }

@@ -1,6 +1,7 @@
 import MenuBar from "@/components/Menu/MenuBar";
 import "./menu.css";
 import Nav from "@/components/Nav/Nav";
+import ImageLoader from "@/components/loader/Loader";
 export const metadata = {
   title: "Roborastra",
   description:
@@ -9,6 +10,7 @@ export const metadata = {
 
 export default function MenuLayout({ children }) {
   return (
+    <ImageLoader>
     <div className="menu_mob">
       <div className="menu_nav">
     <Nav />
@@ -20,5 +22,6 @@ export default function MenuLayout({ children }) {
         </div>
       </div>
     </div>
+    </ImageLoader>
   );
 }

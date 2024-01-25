@@ -1,5 +1,4 @@
 import "./globals.css";
-import ImageLoader from "@/components/loader/Loader";
 export const metadata = {
   title: "Roborastra",
   description:
@@ -8,10 +7,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ImageLoader>
     <html lang="en">
       <body>{children}</body>
     </html>
-    </ImageLoader>
   );
 }

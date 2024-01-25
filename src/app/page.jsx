@@ -7,7 +7,8 @@ import Btn4 from "@/components/Buttons/Btn4";
 
 export default function Home() {
   return (
-    <ImageLoader>    <div className="wrapper">
+    <ImageLoader>
+    <div className="wrapper">
       {/* <div className="nav_wrapper">
         <Nav />
       </div> */}
@@ -30,6 +31,5 @@ export default function Home() {
       </main>
     </div>
     </ImageLoader>
-
   );
 }

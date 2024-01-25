@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function EventLayout({ children }) {
   return (
-    <ImageLoader>   <div>
+       <div>
       <Nav />
       <div className="Event_wrapper">
         <div>
@@ -19,7 +19,7 @@ export default function EventLayout({ children }) {
         <div>{children}</div>
       </div>
     </div>
-    </ImageLoader>
+    
  
   );
 }

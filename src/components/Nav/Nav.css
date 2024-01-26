@@ -42,14 +42,42 @@ nav img {
   display: none;
 }
 
+.hamburgMenu {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+
+}
+
+#smallLogo {
+  display: none;
+}
+
 .desktop-links a {
   transition: all ease-in-out 0.1s;
 }
 
 @media only screen and (max-width: 680px) {
+  nav {
+    padding: .25rem;
+  }
+
   nav img {
     display: none;
   }
+
+  #smallLogo {
+    position: relative;
+    top: 0;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+  }
+
   .desktop-links {
     z-index: 99;
     top: -10px;
@@ -74,12 +102,38 @@ nav img {
 
   #hammenu {
     position: absolute;
-    top: 1rem;
-    right: 0.5rem;
+    top: 1.2rem;
+    right: 1.5rem;
     z-index: 900;
     display: block;
-    color: #00e0ff;
     font-size: 1.5rem;
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+
+  .hamMenu {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  .hamMenu div {
+    margin-top: 2px;
+    border: 2px solid black;
+    width: 3rem;
+    height: .5rem;
+    background-color: #00e0ff;
+  }
+
+  .hamMenu div:nth-child(2) {
+    width: 2rem;
+  }
+
+  .hamMenu div:nth-child(3) {
+    width: 1rem;
   }
 
   .desktop-links a {

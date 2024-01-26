@@ -6,22 +6,22 @@ const events = [
   {
     title: "Robowar",
     link: "/events/robowar",
-    image: "/event1.jpeg",
+    image: "/event1.svg",
   },
   {
     title: "Cam Warrior",
     link: "/events/cam_warrior",
-    image: "/event2.jpeg",
+    image: "/event2.svg",
   },
   {
     title: "ResQlimpic",
     link: "/events/resqlimpic",
-    image: "/event3.jpeg",
+    image: "/event3.svg",
   },
   {
     title: "Tacticle Tracers",
     link: "/events/tactical_tracers",
-    image: "/event4.jpeg",
+    image: "/event4.svg",
   },
 ];
 const EventMenu = () => {

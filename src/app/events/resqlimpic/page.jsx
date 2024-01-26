@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import EventChar from "../../../images/Char3.svg";
+import EventChar from "../../../images/Char3.png";
 import Btn2 from "@/components/Buttons/Btn2";
 import Btn1 from "@/components/Buttons/Btn1";
 const CamWarrior = () => {

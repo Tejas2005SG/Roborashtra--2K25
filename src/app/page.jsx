@@ -1,14 +1,49 @@
-
+'use client';
+import react, {useEffect, useState} from "react";
 import Image from "next/image";
 import MainCharater from "../images/mainChar.png";
 import "./main.css";
 import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
-
+import Logo from "@/images/loaderLogo.png";
 
 export default function Home() {
+  const [showStarterPage, setShowStarterPage] = useState(true);
+  const [showContent, setShowContent] = useState(false);
+
+  useEffect(() => {
+    // Show starterPage for 4 seconds
+    const starterPageTimeout = setTimeout(() => {
+      setShowStarterPage(false);
+    }, 
+    5000);
+
+    // After 4 seconds, hide starterPage and show content
+    const contentTimeout = setTimeout(() => {
+      setShowContent(true);
+    }, 3000); // 4s (starterPage time) + 4s (delay before showing content)
+
+    // Cleanup timeouts on component unmount
+    return () => {
+      clearTimeout(starterPageTimeout);
+      clearTimeout(contentTimeout);
+    };
+  }, []);
   return (
-    <ImageLoader>
+    <>  
+    {showStarterPage &&
+      <div className='startPage'>
+      <div className="logo">
+        <Image src={Logo} alt="logo" srcset="" />
+      </div>
+      <div className="startTitle">
+        <span style={{color:"orange"}}>ROBO</span>
+        <span>RAS</span>
+        <span style={{color:"green"}}>HTRA</span>
+        </div>
+    </div>
+}
+    {showContent &&    <ImageLoader>
     <div className="wrapper">
       {/* <div className="nav_wrapper">
         <Nav />
@@ -32,5 +67,8 @@ export default function Home() {
       </main>
     </div>
     </ImageLoader>
+}
+    </>
+
   );
 }

@@ -1,7 +1,5 @@
 import "./globals.css";
-// import { useCallback } from "react";
-// import Particles from "react-particles";
-// import { loadSlim } from "tsparticles-slim";
+
 export const metadata = {
   title: "Roborastra",
   description:

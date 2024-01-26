@@ -104,3 +104,9 @@
 .btn:where(:hover, :focus) {
     color: #fff;
 }
+
+@media screen and (max-width : 650px) {
+    .btn {
+        margin-bottom: 2rem;
+    }
+}

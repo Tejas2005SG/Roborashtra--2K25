@@ -1,11 +1,58 @@
-.particles-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
+body {
+  overflow: hidden;
+}
+
+.startPage {
   width: 100%;
   height: 100%;
-  z-index: -1;
+  background-color: black;
+  background-size: cover;
+  z-index: 99;
+
 }
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: calc(50% - 5rem);
+  left: calc(50% - 5rem);
+  z-index: 0;
+}
+
+
+.startTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.startTitle {
+  width: 100%;
+  height: 100%;
+  font-size: 120px;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--ft-ink);
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: animated-text 4s 1s normal ease-in-out both
+}
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
 
 main {
   width: 100vw;
@@ -89,6 +136,20 @@ main img {
 
 
 @media only screen and (max-width: 500px) {
+  .logo {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: calc(50% - 2.5rem);
+    left: calc(50% - 2.5rem);
+  }
+
+  .startTitle {
+    font-size: 42px;
+    position: relative;
+    top: -2%;
+  }
+
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -167,6 +228,10 @@ main img {
 }
 
 @media screen and (min-width:951px) and (max-width:1200px) {
+  .startTitle {
+    font-size: 62px;
+  }
+
   main img {
     margin-bottom: 12rem;
     width: 100%;

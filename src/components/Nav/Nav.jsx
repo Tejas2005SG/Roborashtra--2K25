@@ -23,12 +23,12 @@ const options = [
     link: "/menu/teams",
   },
   {
-    opt: "Our Clan",
+    opt: "Clan",
     link: "/menu/clan",
   },
   {
-    opt: "Sponsors",
-    link: "/menu/sponsors",
+    opt: "Contact Us",
+    link: "/menu/Contact",
   },
 ];
 

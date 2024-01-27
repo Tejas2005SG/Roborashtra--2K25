@@ -7,7 +7,6 @@ body {
   height: 100%;
   background-color: black;
   background-size: cover;
-  z-index: 99;
 
 }
 
@@ -27,6 +26,11 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  z-index: 2;
+}
+
+.startTitle span {
+  z-index: 2;
 }
 
 .startTitle {
@@ -35,7 +39,7 @@ body {
   font-size: 120px;
   text-align: center;
   font-weight: bold;
-  font-family: var(--ft-ink);
+  font-family: mokoto;
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
@@ -63,6 +67,22 @@ main {
   flex-direction: column;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%);
   overflow: hidden;
+
+}
+
+.clgName {
+  display: flex;
+  position: relative;
+  top: 2rem;
+  letter-spacing: 0.25rem;
+  justify-content: space-between;
+  font-size: 28px;
+  font-family: bankGothlic;
+}
+
+.clgName p:nth-child(1) {
+  padding-bottom: 1rem;
+  font-family: mokoto;
 }
 
 main {
@@ -84,7 +104,7 @@ main {
 }
 
 .main_bottom p {
-  font-family: var(--ft-ink);
+  font-family: bankGothlic;
   font-size: 32px;
   font-weight: 400;
   /* line-height: 83px; */
@@ -95,15 +115,15 @@ main {
 }
 
 .main_title {
-  font-family: var(--ft-ink);
-  font-size: 152px;
-  font-weight: 400;
+  font-family: mokoto;
+  font-size: 132px;
+  font-weight: 100;
   line-height: 248px;
   letter-spacing: 0em;
   text-align: left;
   position: absolute;
   top: 30%;
-  left: 50%;
+  left: 55%;
   transform: translate(-50%, -50%);
   z-index: -1;
 }
@@ -112,13 +132,13 @@ main {
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 12rem;
+  gap: 11rem;
   margin-left: 45px;
 }
 
 main img {
   width: 100%;
-  margin-bottom: 10rem;
+  margin-bottom: 12rem;
   margin-left: 4rem;
 }
 
@@ -145,9 +165,12 @@ main img {
   }
 
   .startTitle {
-    font-size: 42px;
-    position: relative;
-    top: -2%;
+    font-size: 38px;
+
+  }
+
+  .clgName p {
+    font-size: 16px;
   }
 
   .wrapper {
@@ -158,8 +181,8 @@ main img {
   }
 
   .main_title {
-    font-size: 56px;
-    top: 18%;
+    font-size: 42px;
+    top: 14%;
     gap: 0rem;
     margin-left: 0px;
   }
@@ -172,13 +195,13 @@ main img {
 
   main img {
     width: 100vw;
-    margin-bottom: 7rem;
+    margin-bottom: 10rem;
 
   }
 
   .start_btn {
     transform: translate(0%, 0%);
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
   }
 
   .nav_wrapper {
@@ -194,13 +217,34 @@ main img {
 
 @media screen and (max-width:380px) {
   .start_btn {
-    margin-bottom: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .clgName p {
+    font-size: 10px;
+  }
+
+  .main_title {
+    font-size: 34px;
+  }
+
+  .main img {
+    position: relative;
+    top: -2rem;
+  }
+
+  .main_bottom p {
+    font-size: 12px;
   }
 }
 
 @media only screen and (min-width:501px) and (max-width: 950px) {
+  .startTitle {
+    font-size: 72px;
+  }
+
   .start_btn {
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
 
   body {
@@ -212,24 +256,30 @@ main img {
   }
 
   .main_title {
-    font-size: 6rem;
-    text-align: left;
-    gap: 12rem;
+    font-size: 4rem;
+    text-align: center;
+    gap: 10rem;
     position: absolute;
     left: 24rem;
     margin-top: 2rem;
   }
 
   main img {
-    margin-bottom: 9rem;
+    margin-bottom: 11rem;
     width: 100%;
   }
 
 }
 
 @media screen and (min-width:951px) and (max-width:1200px) {
+  .clgName p {
+    font-size: 34px;
+    position: relative;
+    top: 2%;
+  }
+
   .startTitle {
-    font-size: 62px;
+    font-size: 84px;
   }
 
   main img {
@@ -238,12 +288,13 @@ main img {
   }
 
   .main_title {
-    gap: 8rem;
+    font-size: 6rem;
+    gap: 10rem;
     margin-top: 5.5rem;
   }
 
   .start_btn {
-    margin-bottom: 9rem;
+    margin-bottom: 7rem;
   }
 
   .main_bottom {

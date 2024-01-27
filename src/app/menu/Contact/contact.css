@@ -1,0 +1,15 @@
+.contact_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border-radius: 20px;
+    background: black;
+    border: 2px solid darkblue;
+    padding-left: 1rem;
+}

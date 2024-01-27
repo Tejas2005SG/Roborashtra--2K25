@@ -9,13 +9,7 @@ const CamWarrior = () => {
       <div className="Event-content">
       <h1 className="EventTitle">ResQlimpic</h1>
         <p>
-          This robotics competition challenges teams to construct manually
-          controlled robots within specific size, control, and design
-          constraints. It spans two days, with the first day focusing on
-          navigation and mine handling, while day two intensifies the challenge.
-          Deviations from rules and arena damage lead to disqualification. It
-          emphasizes rule compliance, teamwork, engineering precision, and
-          creativity in robotics.
+        Welcome to Resqlympic, where robots demonstrate life-saving rescue operations! This thrilling event showcases the incredible abilities of robots navigating challenging scenarios to extract people in distress. Join us for a celebration of innovation, compassion, and the vital role of technology in humanitarian efforts. Get ready for a remarkable fusion of cutting-edge robotics and the noble mission of saving lives in the most demanding situations.
         </p>
         <div className="action_btn">
           <Btn2 link={"/robowar.pdf"} />

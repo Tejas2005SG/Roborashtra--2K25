@@ -7,7 +7,7 @@ const CamWarrior = () => {
   return (
     <div className="Event">
       <div className="Event-content">
-        <h1 className="EventTitle">Tactical Tracers Tournament</h1>
+        <h1 className="EventTitle">Tactical Tracers</h1>
         <p>
           Line follower robots, using infrared sensors, autonomously track lines
           on the ground. Components include microcontrollers, motors, sensors,

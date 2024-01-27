@@ -20,25 +20,24 @@
 
 
 .EventTitle {
-  font-family: var(--ft-robo);
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 52px;
+  font-family: designer;
+  font-size: 34px;
+  line-height: 40px;
   letter-spacing: 0.085em;
   text-align: left;
   text-transform: uppercase;
   padding-bottom: 1rem;
   border-bottom: 5px solid white;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .Event p {
-  font-family: var(--ft-ink);
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 41px;
+  font-family: bankGothlic;
+  font-size: 18px;
+  line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+  z-index: 3;
 }
 
 .action_btn {
@@ -83,7 +82,10 @@
   }
 
   .Event img {
-    display: none;
+    position: absolute;
+    top: 10rem;
+    z-index: -1;
+    left: 0rem;
   }
 
   .Event_wrapper {
@@ -106,16 +108,15 @@
   }
 
   .Event p {
-    font-size: 18px;
-    line-height: auto;
-    letter-spacing: 0em;
+    font-size: 16px;
   }
 
   .Event-content {
     margin-top: 1rem;
     width: 90%;
     height: 80%;
-
+    backdrop-filter: blur(6px) saturate(10%);
+    -webkit-backdrop-filter: blur(5px) saturate(0%);
     /* Set height to 100% */
     position: relative;
 
@@ -146,7 +147,10 @@
   }
 
   .Event img {
-    display: none;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    z-index: -1;
   }
 
   .EventTitle {

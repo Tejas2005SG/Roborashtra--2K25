@@ -1,7 +1,6 @@
 .title {
-  font-family: var(--ft-3);
+  font-family: mortend;
   font-size: 38px;
-  font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.015em;
   text-align: left;
@@ -12,8 +11,8 @@
 }
 
 .clan_text {
-  font-family: Inknut Antiqua;
-  font-size: 20px;
+  font-family: bankGothlic;
+  font-size: 16px;
   font-weight: 400;
   line-height: 42px;
   letter-spacing: 0em;

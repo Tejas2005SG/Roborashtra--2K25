@@ -3,16 +3,43 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Inknut+Antiqua&family=Roboto:wght@400;700&display=swap");
+@import url("https://www.freepik.com/font/mokoto");
 
 * {
   padding: 0;
   margin: 0;
 }
 
+@font-face {
+  font-family: bankGothlic;
+  src: url(../../public/BankGothic\ Regular.ttf);
+}
+
+@font-face {
+  font-family: designer;
+  src: url(../../public/Designer.otf);
+}
+
+@font-face {
+  font-family: mokoto;
+  src: url(../../public/Mokoto\ Demo.ttf);
+}
+
+@font-face {
+  font-family: mortend;
+  src: url(../../public/Mortend\ Bold.ttf);
+}
+
+@font-face {
+  font-family: shapeSpace;
+  src: url(../../public/Square\ Space.ttf);
+}
+
 :root {
   --ft-car: "Carrois Gothic SC", sans-serif;
   --ft-ink: "Inknut Antiqua", serif;
   --ft-robo: "Roboto", sans-serif;
+
 }
 
 body {

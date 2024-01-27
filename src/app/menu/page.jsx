@@ -5,7 +5,7 @@ import Card from "../../components/Card/Card";
 import "./events.css";
 const events = [
   {
-    title: "Steel Solider Slam",
+    title: "Robowar",
     desc: "check the top-level render call using",
     link: "/events/robowar",
     image: "event1.svg",

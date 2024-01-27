@@ -4,8 +4,6 @@
 }
 
 .Card {
-
-
   font-family: Roboto;
   width: 318px;
   height: 213px;
@@ -121,52 +119,6 @@
   margin-left: .5rem;
 }
 
-/*Bottom Image */
-
-.bottom-container {
-  position: absolute;
-  bottom: 0;
-  left: 0px;
-  animation-name: imageUp;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
-  overflow: hidden;
-}
-
-.text-bar {
-  position: absolute;
-  width: 385px;
-  height: 200px;
-  bottom: 50px;
-  left: 237px;
-  clip-path: polygon(46% 35%,
-      61% 35%,
-      100% 35%,
-      100% 61%,
-      23% 61%,
-      3% 75%,
-      11% 61%,
-      0 60%,
-      0 35%,
-      39% 35%);
-  background: rgba(217, 217, 217, 0.2);
-  color: black;
-  animation-name: imageUp;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
-  animation-delay: 0.2s;
-  overflow: hidden;
-}
-
-.text {
-  position: absolute;
-  font-size: 19px;
-  text-align: center;
-  width: 100%;
-  padding-left: 15px;
-  bottom: 75px;
-  color: white;
-}
 
 @keyframes imageUp {
   0% {
@@ -175,32 +127,6 @@
 
   100% {
     bottom: 0;
-  }
-}
-
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-
-  to {
-    width: 80%;
-  }
-}
-
-/*Responsive ness*/
-@media (max-width: 650px) {
-  .Card {
-    margin: 1rem auto;
-  }
-
-  .headDesc h1 {
-    font-size: 26px;
-  }
-
-  body {
-    overflow-y: scroll;
   }
 }
 
@@ -222,7 +148,7 @@
 
 .Card {
   background-color: rgba(0, 224, 255, 1);
-  font-family: Roboto;
+  font-family: designer;
   width: 318px;
   height: 213px;
   display: flex;
@@ -257,17 +183,17 @@
 }
 
 .headDesc h1 {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 38.46px;
-  letter-spacing: 4%;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 28.46px;
+  letter-spacing: 0;
   padding: 1rem 0 1rem 0;
 
 }
 
 .headDesc {
   position: absolute;
-  bottom: 2px;
+  bottom: 1px;
   padding-left: 15px;
   height: 30%;
   width: 100%;
@@ -282,17 +208,18 @@
   cursor: pointer;
   color: blue;
   text-decoration: none;
-  font-weight: 500;
 }
 
 .desc {
   padding-right: 1rem;
-  font-size: large;
+  font-size: 10px;
+  font-family: mortend;
 }
 
 .desc a {
   display: block;
   padding: 1rem 0;
+  font-family: mortend;
 }
 
 /* .Card:hover {
@@ -418,8 +345,9 @@
     overflow-y: scroll;
   }
 
-  .desc button {
-    margin: 1rem;
+  .desc a {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
   }
 }
 

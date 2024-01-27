@@ -36,6 +36,7 @@ nav img {
 .desktop-links a:hover {
   border-bottom: 2px solid #fff;
   border-top: 2px solid #fff;
+  color: #00e0ff;
 }
 
 #hammenu {
@@ -90,7 +91,7 @@ nav img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
-    gap: 2rem;
+    gap: 3rem;
     padding-top: 5rem;
     background-color: rgba(44, 42, 42, 0.923);
     transition: all ease-in-out 0.3s;
@@ -122,7 +123,7 @@ nav img {
 
   .hamMenu div {
     margin-top: 2px;
-    border: 2px solid black;
+    border: 1px solid black;
     width: 3rem;
     height: .5rem;
     background-color: #00e0ff;

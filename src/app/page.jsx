@@ -16,7 +16,7 @@ export default function Home() {
     const starterPageTimeout = setTimeout(() => {
       setShowStarterPage(false);
     }, 
-    5000);
+    4000);
 
     // After 4 seconds, hide starterPage and show content
     const contentTimeout = setTimeout(() => {
@@ -33,17 +33,26 @@ export default function Home() {
     <>  
     {showStarterPage &&
       <div className='startPage'>
-      <div className="logo">
-        <Image src={Logo} alt="logo" srcset="" />
-      </div>
+     
       <div className="startTitle">
         <span style={{color:"orange"}}>ROBO</span>
         <span>RAS</span>
         <span style={{color:"green"}}>HTRA</span>
         </div>
+        <div className="logo">
+        <Image src={Logo} alt="logo" srcset="" />
+      </div>
     </div>
 }
-    {showContent &&    <ImageLoader>
+    {showContent &&    
+    <ImageLoader>
+      <div className="clgName text-xl text-center">
+        <div className="leftLogo"></div>
+        <div className="Name">
+        <p>Pimpri Chinchwad College Of Engineering & Research</p><p>Presents</p>
+        </div>
+        <div className="rightLogo"></div>
+      </div>
     <div className="wrapper">
       {/* <div className="nav_wrapper">
         <Nav />
@@ -59,7 +68,7 @@ export default function Home() {
           <span>Rashtra</span>
         </div>
         <div className="main_bottom">
-          <p>“Rise Of The RoboNation, Bharat Leads The Way”</p>
+          <p>“Rise Of The RoboNation: Bharat Leads The Way”</p>
           <div className="start_btn">
             <Btn4 link={"/menu"} />
           </div>

@@ -7,15 +7,11 @@ const CamWarrior = () => {
   return (
     <div className="Event">
       <div className="Event-content">
-        <h1 className="EventTitle">Steel Soldier Slam</h1>
+        <h1 className="EventTitle">Robowar</h1>
         <p>
-          RoboWar, the ultimate arena for mechanical warriors, is a cutting-edge
-          competition that brings together the brightest minds in robotics and
-          engineering. This adrenaline-pumping event showcases the most recent
-          advancements in robotic combat and promises an electrifying experience
-          for both participants and spectators. RoboWar is more than just a
-          battle of robots; its also a test of creativity, engineering prowess,
-          and strategic thinking.
+        Step into the exciting world of Robowar! Robowar is a competitive sporting event where teams design, build, and control remote-controlled robots to engage in combat with each other.Imagine fierce battles where teams of enthusiasts and engineers create incredible robots to compete in adrenaline-pumping showdowns. From speedy wheeled robots to mighty hammer-wielding machines, our webpage is your front-row seat to the thrilling clashes of these mechanical gladiators. Dive into the latest in cutting-edge technology, witness epic battles, and become part of a community passionate about pushing the limits of robotics. Whether you are an experienced engineer, a curious enthusiast, or just someone who loves high-tech action, Robowar is where creativity meets destruction for the ultimate victory. Get ready to experience the future of robotic warfare!
+
+
         </p>
         <div className="action_btn">
           <Btn2 link={"/robowar.pdf"} />

@@ -116,14 +116,14 @@ main {
 
 .main_title {
   font-family: mokoto;
-  font-size: 132px;
+  font-size: 118px;
   font-weight: 100;
   line-height: 248px;
   letter-spacing: 0em;
   text-align: left;
   position: absolute;
   top: 30%;
-  left: 55%;
+  left: 53%;
   transform: translate(-50%, -50%);
   z-index: -1;
 }

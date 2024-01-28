@@ -61,6 +61,16 @@ nav img {
   transition: all ease-in-out 0.1s;
 }
 
+@media screen and (max-width: 960px) {
+  nav img {
+    width: 220px;
+  }
+
+  .desktop-links {
+    width: 60%;
+  }
+}
+
 @media only screen and (max-width: 680px) {
   nav {
     padding: .25rem;

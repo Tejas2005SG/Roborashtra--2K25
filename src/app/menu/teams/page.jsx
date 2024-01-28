@@ -1,7 +1,6 @@
 import Member from "@/components/Member/Member";
 import "./teams.css";
 
-
 const man = [
   { img: "https://drive.google.com/uc?export=download&id=1g81Es3-RJUIJY7fPAFC5a7DU-Bydged4  ", name: "Abhinandan" },
   { img: "https://drive.google.com/uc?export=download&id=1qyjOmDgXztcD-AT2fwNFfWxDpGvoQw5X  ", name: "Aditi Kshirsagar" },
@@ -13,9 +12,7 @@ const man = [
   { img: "https://drive.google.com/uc?export=download&id=1vibYWUjHd1YDZuu67uNP5j3kya15LKQV", name: "Kaustubh" },
   { img: "https://drive.google.com/uc?export=download&id=1H0kjvzk7oPx8TVKFxysAx7cBcvPtz7uF  ", name: "Madhav Survase" },
   { img: "https://drive.google.com/uc?export=download&id=1O_iTEmamD8n6msB61TPBxKlR5nHnVZje  ", name: "Mayuri Yenare" },
-  { img: "https://drive.google.com/uc?export=download&id=1X7Qo6uqb3IScza2aHjuxAsNq26Z0lk_5  ", name: "Member 1" },
-  { img: "https://drive.google.com/uc?export=download&id=1n_NonF8h4ChTv0itHy6gjC72FwHiifnt  ", name: "Member 2" },
-  { img: "https://drive.google.com/uc?export=download&id=1MuxQCRaCqmVYmynkw9Chkhaiw2V25KFd  ", name: "Member 3" },
+  { img: "https://drive.google.com/uc?export=download&id=1X7Qo6uqb3IScza2aHjuxAsNq26Z0lk_5  ", name: "Shreyash Kunjir" },
   { img: "https://drive.google.com/uc?export=download&id=1wFGRUSElOv853e20HA7ikaA0oCjLf1GJ  ", name: "Member 4" },
   { img: "https://drive.google.com/uc?export=download&id=1ZGFMAyeFNaXyRNL21cnmgWfp7Q75jxpq  ", name: "Nikita Singh" },
   { img: "https://drive.google.com/uc?export=download&id=1ObAH6f3Col7lpx3Oki0T7V4KKncmmeFv  ", name: "Omkar Panchal" },
@@ -33,49 +30,50 @@ const man = [
 
 
 const pr = [
-  { img: "https://drive.google.com/uc?export=download&id=1tO8WSU5ho43O7NbM5XwMSsXltcCfCGXu  ", name: "Aditya Pardeshi" },
-  { img: "https://drive.google.com/uc?export=download&id=1PIQeYJayono2bAfaMYYw_5TeO_r5kbd3  ", name: "Arya Godase" },
-  { img: "https://drive.google.com/uc?export=download&id=1kxBEQd58qOO97YN62XlB5b2fP8Rveb56  ", name: "Avdhoot" },
-  { img: "https://drive.google.com/uc?export=download&id=1lZRASL_NCgUEqmjPoeL4s6tSrbMJhfKt  ", name: "Kush Agarwal" },
-  { img: "https://drive.google.com/uc?export=download&id=1k_Vyhx-Yp8lrHLo0z61LuL-abAEM_FO1  ", name: "Manas Ghormade" },
-  { img: "https://drive.google.com/uc?export=download&id=1GqvvJgXRREHbs58bbduA1KP5EiFjLOZa  ", name: "Sneha" },
-  { img: "https://drive.google.com/uc?export=download&id=11EO2q7X9a177GLonKHfl8fpgCmaIjD2a  ", name: "Swanand" },
-  { img: "https://drive.google.com/uc?export=download&id=1RYeM8LW-9MC6zlfIuHTm_EsOuP5HDxTW  ", name: "Tejasvi" },
-  { img: "https://drive.google.com/uc?export=download&id=1g5eXTlUL-6yLDMLSZwhR6jYqyO6X-Mh8  ", name: "Sneha" },
-  { img: "https://drive.google.com/uc?export=download&id=1m-fc-zU4elK-pXVJKSCsNrXsof9SdBbc  ", name: "Swanand" },
+  { img: "https://drive.google.com/uc?export=download&id=1tO8WSU5ho43O7NbM5XwMSsXltcCfCGXu  ", name: "Girish Jagtap" },
+  { img: "https://drive.google.com/uc?export=download&id=1PIQeYJayono2bAfaMYYw_5TeO_r5kbd3  ", name: "Harsh Palande" },
+  { img: "https://drive.google.com/uc?export=download&id=1kxBEQd58qOO97YN62XlB5b2fP8Rveb56  ", name: "Manasi Velhal" },
+  { img: "https://drive.google.com/uc?export=download&id=1lZRASL_NCgUEqmjPoeL4s6tSrbMJhfKt  ", name: "Pranay Dhanve" },
+  { img: "https://drive.google.com/uc?export=download&id=1k_Vyhx-Yp8lrHLo0z61LuL-abAEM_FO1  ", name: "Prathamesh Deshpande" },
+  { img: "https://drive.google.com/uc?export=download&id=1GqvvJgXRREHbs58bbduA1KP5EiFjLOZa  ", name: "Sahil Aher" },
+  { img: "https://drive.google.com/uc?export=download&id=11EO2q7X9a177GLonKHfl8fpgCmaIjD2a  ", name: "Samruddhi Patil" },
+  { img: "https://drive.google.com/uc?export=download&id=1RYeM8LW-9MC6zlfIuHTm_EsOuP5HDxTW  ", name: "Sandesh Lanke" },
+  { img: "https://drive.google.com/uc?export=download&id=1g5eXTlUL-6yLDMLSZwhR6jYqyO6X-Mh8  ", name: "Shreyash Kunjir" },
+  { img: "https://drive.google.com/uc?export=download&id=1m-fc-zU4elK-pXVJKSCsNrXsof9SdBbc  ", name: "Shreyash Pawar" },
 ];
 
 
 
 const sss = [
-  { img: "https://drive.google.com/uc?export=download&id=1z78xhHNdYOgGJyZ4acbqzTrNRhBR7L6p  ", name: "Aditya Pardeshi" },
-  { img: "https://drive.google.com/uc?export=download&id=1fltwAjPMl1q_jyLCC3isUWp5VTyTOGew  ", name: "Arya Godase" },
-  { img: "https://drive.google.com/uc?export=download&id=1KdVlibUhxYHMsZdjdH4SJ1w2pzZOEGfn  ", name: "Avdhoot" },
-  { img: "https://drive.google.com/uc?export=download&id=1hB79HQzoIT7Mc0_8rSvL8InzFrlNmKSt  ", name: "Kush Agarwal" },
-  { img: "https://drive.google.com/uc?export=download&id=196kAQFndgg0DRddU2evT7KL6XX6bqkZw  ", name: "Manas Ghormade" },
-  { img: "https://drive.google.com/uc?export=download&id=1m5DqfCKtlqmoY77bFArX1Hp-dG1Xeyke  ", name: "Sneha" },
-  { img: "https://drive.google.com/uc?export=download&id=12ldtVNZYjZ33mn_jSqqYteBRXf6rsP4r  ", name: "Swanand" },
-  { img: "https://drive.google.com/uc?export=download&id=118A_7-MmU_KW1sKv1lwReYyYYqBnSlkj  ", name: "Tejasvi" },
+  { img: "https://drive.google.com/uc?export=download&id=196kAQFndgg0DRddU2evT7KL6XX6bqkZw  ", name: "Manas Ghormade", position:"Head" },
+  { img: "https://drive.google.com/uc?export=download&id=1z78xhHNdYOgGJyZ4acbqzTrNRhBR7L6p  ", name: "Aditya Pardeshi", position:"Member" },
+  { img: "https://drive.google.com/uc?export=download&id=1fltwAjPMl1q_jyLCC3isUWp5VTyTOGew  ", name: "Arya Godase", position:"Member" },
+  { img: "https://drive.google.com/uc?export=download&id=1KdVlibUhxYHMsZdjdH4SJ1w2pzZOEGfn  ", name: "Avdhoot", position:"Member" },
+  { img: "https://drive.google.com/uc?export=download&id=12ldtVNZYjZ33mn_jSqqYteBRXf6rsP4r  ", name: "Swanand", position:"Member" },
+  { img: "https://drive.google.com/uc?export=download&id=1hB79HQzoIT7Mc0_8rSvL8InzFrlNmKSt  ", name: "Kush Agarwal", position:"Member" },
+  { img: "https://drive.google.com/uc?export=download&id=1m5DqfCKtlqmoY77bFArX1Hp-dG1Xeyke  ", name: "Sneha", position:"Member" },
+  { img: "https://drive.google.com/uc?export=download&id=118A_7-MmU_KW1sKv1lwReYyYYqBnSlkj  ", name: "Tejasvi", position:"Member"},
 ];
 
 const des = [
-  { img: "https://drive.google.com/uc?export=download&id=1kOoYFaxPaglIUNgZTllnPEqYa9Dn0ZZx", name: "Vedant Patil" },
-  { img: "https://drive.google.com/uc?export=download&id=1zxoVmAh_AFQ1tJpL6oqX_M-Y5ZSK7yHe", name: "Suyash Wagde" },
-  { img: "https://drive.google.com/uc?export=download&id=1XK8-d_rix-5ltlcTSWM3Dakk18JNxazd", name: "Shreya Kale" },
-  { img: "https://drive.google.com/uc?export=download&id=1VHiQzIslkjMSVJM9eXaSUx_x_aH02HPv  ", name: "Aastha" },
+  { img: "https://drive.google.com/uc?export=download&id=1kOoYFaxPaglIUNgZTllnPEqYa9Dn0ZZx", name: "Vedant Patil", position:"Branding Head" },
+  { img: "", name: "DnyaneshWari", position:"Designing Head" },
+  { img: "https://drive.google.com/uc?export=download&id=1zxoVmAh_AFQ1tJpL6oqX_M-Y5ZSK7yHe", name: "Suyash Wagde", position:"Member" },
+  { img: "https://drive.google.com/uc?export=download&id=1XK8-d_rix-5ltlcTSWM3Dakk18JNxazd", name: "Shreya Kale", position:"Member" },
+  { img: "https://drive.google.com/uc?export=download&id=1VHiQzIslkjMSVJM9eXaSUx_x_aH02HPv  ", name: "Aastha", position:"Member" },
 ];
 
 
 const web = [
-  { img: "https://drive.google.com/uc?export=download&id=1cgSuRkLs0wPA2dPT6I5pjC-RWOqWdYkp", name: "Shreeram" },
-  { img: "https://drive.google.com/uc?export=download&id=1cgSuRkLs0wPA2dPT6I5pjC-RWOqWdYkp", name: "Aditya Gaikwad" },
-  { img: "https://drive.google.com/uc?export=download&id=1HQYaxiVUlpGH54xNIoV9jN_pYyzxnc2b  ", name: "Vishal Jangid" },
-  { img: "https://drive.google.com/uc?export=download&id=1jw8DWxtHvZxsnHV5KXEV7QeOaePxsnPk  ", name: "Abhishek Deshmukh" },
+  { img: "", name: "Shreeram" ,position:"Head"},
+  { img: "https://drive.google.com/uc?export=download&id=1cgSuRkLs0wPA2dPT6I5pjC-RWOqWdYkp", name: "Aditya Gaikwad", position:"Member" },
+  { img: "https://drive.google.com/uc?export=download&id=1HQYaxiVUlpGH54xNIoV9jN_pYyzxnc2b  ", name: "Vishal Jangid", position:"Member" },
 ];
 
 const coordinator = "https://drive.google.com/uc?export=download&id=17dk0NSis5kg2i2wK-ykVMmNG0E57PenT"
 const lead="https://drive.google.com/uc?export=download&id=1IaGNS6xyJlDN6H9m1R0amyvxKnfr9oRp"
 const colead="https://drive.google.com/uc?export=download&id=1SXdLx1ZFc41Gyv1Q37IKFF4G-KPeUeeZ"
+const colead2 = "https://drive.google.com/uc?export=download&id=1Tpdwv6YQl13nMNRauIt8LQiiIVGMs_XV"
 
 export default function Teams() {
 

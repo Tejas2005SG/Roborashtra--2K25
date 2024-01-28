@@ -84,8 +84,8 @@ export default function Teams() {
   return (
     
     <div className=" text-center text-lg">
-      Coming Soon
-      {/* <div className="team" >
+      Coming Soon </div>
+      /* <div className="team" >
         <div className="team_wrapper">
 
 
@@ -160,7 +160,7 @@ export default function Teams() {
             })}
           </div>
         </div>
-      </div> */}
-    </div>
+      </div> */
+
   );
 }

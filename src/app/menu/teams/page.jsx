@@ -1,143 +1,89 @@
-/*import coordinator from "./img/Mahendra Salunkhe .jpeg";
-import lead from "./img/Om Khare.jpg";
-import colead from "./img/Khushi Rohra.jpg";
-
-import des1 from "./img/Design/Vedant _Patil.jpg";
-import des2 from "./img/Design/Shreya_kale.png";
-import des3 from "./img/Design/Suyash_wagde.jpg";
-import des4 from "./img/Design/aastha.jpg";
-
-import web1 from "./img/Web/Abhishek Deshmukh.jpg";
-import web2 from "./img/Web/Aditya_Gaikwad.jpg";
-import web3 from "./img/Web/Vishal Jangid.png";
-
-import s1 from "./img/Steel_soldier_slam/Aditya Pardeshi.jpg";
-import s2 from "./img/Steel_soldier_slam/Arya Godase.jpg";
-import s3 from "./img/Steel_soldier_slam/Avdhoot.jpg";
-import s4 from "./img/Steel_soldier_slam/Kush Agarwal.jpg";
-import s5 from "./img/Steel_soldier_slam/Manas Ghormade.jpg";
-import s6 from "./img/Steel_soldier_slam/Sneha.jpg";
-import s7 from "./img/Steel_soldier_slam/Swanand.jpg";
-import s8 from "./img/Steel_soldier_slam/Tejasvi.jpg";
-
-import pr1 from "./img/Public_relation/Girish_Jagtap.jpeg";
-import pr2 from "./img/Public_relation/Harsh_Palande.jpeg";
-import pr3 from "./img/Public_relation/Manasi_Velhal.jpeg";
-import pr4 from "./img/Public_relation/Pranay_Dhanve.jpg";
-import pr5 from "./img/Public_relation/Prathmesh_Deshpande.jpeg";
-import pr6 from "./img/Public_relation/Sahil_Aher.jpeg";
-import pr7 from "./img/Public_relation/Samruddhi_Patil.jpg";
-import pr8 from "./img/Public_relation/Sandesh_Lanke.jpeg";
-import pr9 from "./img/Public_relation/Shreyash_Kunjir.jpeg";
-import pr10 from "./img/Public_relation/Shreyash_Pawar.jpeg";
-
-import m1 from "./img/Management/Abhinandan.jpeg";
-import m2 from "./img/Management/Aditi Kshirsagar _Management .jpg";
-import m3 from "./img/Management/Ashish Saini_Accommodation.png";
-import m4 from "./img/Management/Atharv Borhade_Accomodation.jpg";
-import m5 from "./img/Management/chetan_managment.jpg";
-import m6 from "./img/Management/Darshan Patgar_Management.jpg";
-import m7 from "./img/Management/Dhiraj_management.jpg";
-import m8 from "./img/Management/Kaustubh_Management.jpg";
-import m9 from "./img/Management/Madhav Surwase_Accommodation.jpg";
-import m10 from "./img/Management/Mayuri Yenare_Accessories.jpg";
-import m11 from "./img/Management/member1.jpg";
-import m12 from "./img/Management/member2.jpg";
-import m13 from "./img/Management/member3.jpg";
-import m14 from "./img/Management/member4.jpg";
-import m15 from "./img/Management/Nikita Singh management.jpg";
-import m16 from "./img/Management/Omkar_panchal_computer.jpg";
-import m17 from "./img/Management/Prachi Thorat_Accessories.jpg";
-import m18 from "./img/Management/Prathamesh walekar.jpg";
-import m19 from "./img/Management/pratikchavare.jpg";
-import m20 from "./img/Management/Sanskar shinde.jpg";
-import m21 from "./img/Management/Sayali Metkar.png";
-import m22 from "./img/Management/Shraddha Dagdu.jpg";
-import m23 from "./img/Management/Shravani Ladkat.jpg";
-import m24 from "./img/Management/Siddhesh Rohokale.jpg";
-import m25 from "./img/Management/Vedant Mahadi.jpg";
-import m26 from "./img/Management/Vedant Raut.png";
-
-
-
-
 import Member from "@/components/Member/Member";
 import "./teams.css";
 import "../clan/clan.css";
 
 const man = [
-  { img: m1, name: "Abhinandan" },
-  { img: m2, name: "Aditi Kshirsagar" },
-  { img: m3, name: "Ashish Saini" },
-  { img: m4, name: "Atharva Borhade" },
-  { img: m5, name: "Chetan Phulmante" },
-  { img: m6, name: "Darshan Patgar" },
-  { img: m7, name: "Dhiraj Marathe" },
-  { img: m8, name: "Kaustubh" },
-  { img: m9, name: "Madhav Survase" },
-  { img: m10, name: "Mayuri Yenare" },
-  { img: m11, name: "Member 1" },
-  { img: m12, name: "Member 2" },
-  { img: m13, name: "Member 3" },
-  { img: m14, name: "Member 4" },
-  { img: m15, name: "Nikita Singh" },
-  { img: m16, name: "Omkar Panchal" },
-  { img: m17, name: "Prachi Thorat" },
-  { img: m18, name: "Prathamesh Walekar" },
-  { img: m19, name: "Pratik Chaware" },
-  { img: m20, name: "Sanskar Shinde" },
-  { img: m21, name: "Sayali Metkar" },
-  { img: m22, name: "Shraddha Dagdu" },
-  { img: m23, name: "Shravani Ladkat" },
-  { img: m24, name: "Siddhesh Rohokale" },
-  { img: m25, name: "Vedant Mahadi" },
-  { img: m26, name: "Vedant Raut" },
+  { img: "https://drive.google.com/uc?export=download&id=1g81Es3-RJUIJY7fPAFC5a7DU-Bydged4  ", name: "Abhinandan" },
+  { img: "https://drive.google.com/uc?export=download&id=1qyjOmDgXztcD-AT2fwNFfWxDpGvoQw5X  ", name: "Aditi Kshirsagar" },
+  { img: "https://drive.google.com/uc?export=download&id=1O8VXmZrAljK6heY88E6nv1GsvorYHo7U  ", name: "Ashish Saini" },
+  { img: "https://drive.google.com/uc?export=download&id=1Fi_d_6Wie9260k7sbOKu3fTXu7ycb-rO  ", name: "Atharva Borhade" },
+  { img: "https://drive.google.com/uc?export=download&id=1MSvb3ILPUawt071ZSDhtH4R2KNdfgbEQ  ", name: "Chetan Phulmante" },
+  { img: "https://drive.google.com/uc?export=download&id=1fPcYu7F2V7n8i6rxpMfCfbfmDIDd9xFr  ", name: "Darshan Patgar" },
+  { img: "https://drive.google.com/uc?export=download&id=1-AZypnM6Isfae8GGT0ahp6uKboWfLtkP  ", name: "Dhiraj Marathe" },
+  { img: "https://drive.google.com/uc?export=download&id=1vibYWUjHd1YDZuu67uNP5j3kya15LKQV", name: "Kaustubh" },
+  { img: "https://drive.google.com/uc?export=download&id=1H0kjvzk7oPx8TVKFxysAx7cBcvPtz7uF  ", name: "Madhav Survase" },
+  { img: "https://drive.google.com/uc?export=download&id=1O_iTEmamD8n6msB61TPBxKlR5nHnVZje  ", name: "Mayuri Yenare" },
+  { img: "https://drive.google.com/uc?export=download&id=1X7Qo6uqb3IScza2aHjuxAsNq26Z0lk_5  ", name: "Member 1" },
+  { img: "https://drive.google.com/uc?export=download&id=1n_NonF8h4ChTv0itHy6gjC72FwHiifnt  ", name: "Member 2" },
+  { img: "https://drive.google.com/uc?export=download&id=1MuxQCRaCqmVYmynkw9Chkhaiw2V25KFd  ", name: "Member 3" },
+  { img: "https://drive.google.com/uc?export=download&id=1wFGRUSElOv853e20HA7ikaA0oCjLf1GJ  ", name: "Member 4" },
+  { img: "https://drive.google.com/uc?export=download&id=1ZGFMAyeFNaXyRNL21cnmgWfp7Q75jxpq  ", name: "Nikita Singh" },
+  { img: "https://drive.google.com/uc?export=download&id=1ObAH6f3Col7lpx3Oki0T7V4KKncmmeFv  ", name: "Omkar Panchal" },
+  { img: "https://drive.google.com/uc?export=download&id=1-I5JCQN7BbpHHa315HC9RUvrPk9ZY5vd  ", name: "Prachi Thorat" },
+  { img: "https://drive.google.com/uc?export=download&id=1QgyTgbaIiPbI0qGHzusfNwMPDcF4M_YH  ", name: "Prathamesh Walekar" },
+  { img: "https://drive.google.com/uc?export=download&id=1xnJoXt2Xh5x9H-ZHj5aaSTFV9EYVLOf4  ", name: "Pratik Chaware" },
+  { img: "https://drive.google.com/uc?export=download&id=10w4nfF603IYUCl3XrMumofBwqQ7L_RjX  ", name: "Sanskar Shinde" },
+  { img: "https://drive.google.com/uc?export=download&id=1MIVU0Cx6_CDrvgNvt9FesmdF1mm8HJJp  ", name: "Sayali Metkar" },
+  { img: "https://drive.google.com/uc?export=download&id=10u_Wc7t-LMD0t_g2-0b4pwZP8xY9VMd0  ", name: "Shraddha Dagdu" },
+  { img: "https://drive.google.com/uc?export=download&id=1EJRI3AbCWuY6gqYcwFM34QVFSNqX0SZf  ", name: "Shravani Ladkat" },
+  { img: "https://drive.google.com/uc?export=download&id=1GzrlK6y06MfM7OaIWGlMlg7DA82Uw358  ", name: "Siddhesh Rohokale" },
+  { img: "https://drive.google.com/uc?export=download&id=1ZOLNhMzF61ilV0eky7ZjGEQmJTWmgczo  ", name: "Vedant Mahadi" },
+  { img: "https://drive.google.com/uc?export=download&id=1oSwuPtMWtjbplpZy5cPxC-2J-y8qKHHm  ", name: "Vedant Raut" },
 ];
+
 
 const pr = [
-  { img: pr1, name: "Aditya Pardeshi" },
-  { img: pr2, name: "Arya Godase" },
-  { img: pr3, name: "Avdhoot" },
-  { img: pr4, name: "Kush Agarwal" },
-  { img: pr5, name: "Manas Ghormade" },
-  { img: pr6, name: "Sneha" },
-  { img: pr7, name: "Swanand" },
-  { img: pr8, name: "Tejasvi" },
-  { img: pr9, name: "Sneha" },
-  { img: pr10, name: "Swanand" },
+  { img: "https://drive.google.com/uc?export=download&id=1tO8WSU5ho43O7NbM5XwMSsXltcCfCGXu  ", name: "Aditya Pardeshi" },
+  { img: "https://drive.google.com/uc?export=download&id=1PIQeYJayono2bAfaMYYw_5TeO_r5kbd3  ", name: "Arya Godase" },
+  { img: "https://drive.google.com/uc?export=download&id=1kxBEQd58qOO97YN62XlB5b2fP8Rveb56  ", name: "Avdhoot" },
+  { img: "https://drive.google.com/uc?export=download&id=1lZRASL_NCgUEqmjPoeL4s6tSrbMJhfKt  ", name: "Kush Agarwal" },
+  { img: "https://drive.google.com/uc?export=download&id=1k_Vyhx-Yp8lrHLo0z61LuL-abAEM_FO1  ", name: "Manas Ghormade" },
+  { img: "https://drive.google.com/uc?export=download&id=1GqvvJgXRREHbs58bbduA1KP5EiFjLOZa  ", name: "Sneha" },
+  { img: "https://drive.google.com/uc?export=download&id=11EO2q7X9a177GLonKHfl8fpgCmaIjD2a  ", name: "Swanand" },
+  { img: "https://drive.google.com/uc?export=download&id=1RYeM8LW-9MC6zlfIuHTm_EsOuP5HDxTW  ", name: "Tejasvi" },
+  { img: "https://drive.google.com/uc?export=download&id=1g5eXTlUL-6yLDMLSZwhR6jYqyO6X-Mh8  ", name: "Sneha" },
+  { img: "https://drive.google.com/uc?export=download&id=1m-fc-zU4elK-pXVJKSCsNrXsof9SdBbc  ", name: "Swanand" },
 ];
 
+
+
 const sss = [
-  { img: s1, name: "Aditya Pardeshi" },
-  { img: s2, name: "Arya Godase" },
-  { img: s3, name: "Avdhoot" },
-  { img: s4, name: "Kush Agarwal" },
-  { img: s5, name: "Manas Ghormade" },
-  { img: s6, name: "Sneha" },
-  { img: s7, name: "Swanand" },
-  { img: s8, name: "Tejasvi" },
+  { img: "https://drive.google.com/uc?export=download&id=1z78xhHNdYOgGJyZ4acbqzTrNRhBR7L6p  ", name: "Aditya Pardeshi" },
+  { img: "https://drive.google.com/uc?export=download&id=1fltwAjPMl1q_jyLCC3isUWp5VTyTOGew  ", name: "Arya Godase" },
+  { img: "https://drive.google.com/uc?export=download&id=1KdVlibUhxYHMsZdjdH4SJ1w2pzZOEGfn  ", name: "Avdhoot" },
+  { img: "https://drive.google.com/uc?export=download&id=1hB79HQzoIT7Mc0_8rSvL8InzFrlNmKSt  ", name: "Kush Agarwal" },
+  { img: "https://drive.google.com/uc?export=download&id=196kAQFndgg0DRddU2evT7KL6XX6bqkZw  ", name: "Manas Ghormade" },
+  { img: "https://drive.google.com/uc?export=download&id=1m5DqfCKtlqmoY77bFArX1Hp-dG1Xeyke  ", name: "Sneha" },
+  { img: "https://drive.google.com/uc?export=download&id=12ldtVNZYjZ33mn_jSqqYteBRXf6rsP4r  ", name: "Swanand" },
+  { img: "https://drive.google.com/uc?export=download&id=118A_7-MmU_KW1sKv1lwReYyYYqBnSlkj  ", name: "Tejasvi" },
 ];
 
 const des = [
-  { img: des1, name: "Vedant Patil" },
-  { img: des2, name: "Shreya Kale" },
-  { img: des3, name: "Suyash Wagde" },
-  { img: des4, name: "Aastha" },
+  { img: "https://drive.google.com/uc?export=download&id=1kOoYFaxPaglIUNgZTllnPEqYa9Dn0ZZx", name: "Vedant Patil" },
+  { img: "https://drive.google.com/uc?export=download&id=1zxoVmAh_AFQ1tJpL6oqX_M-Y5ZSK7yHe", name: "Suyash Wagde" },
+  { img: "https://drive.google.com/uc?export=download&id=1XK8-d_rix-5ltlcTSWM3Dakk18JNxazd", name: "Shreya Kale" },
+  { img: "https://drive.google.com/uc?export=download&id=1VHiQzIslkjMSVJM9eXaSUx_x_aH02HPv  ", name: "Aastha" },
 ];
+
 
 const web = [
-  { img: web1, name: "Abhishek Deshmukh" },
-  { img: web2, name: "Aditya Gaikwad" },
-  { img: web3, name: "Vishal Jangid" },
+  { img: "https://drive.google.com/uc?export=download&id=1cgSuRkLs0wPA2dPT6I5pjC-RWOqWdYkp", name: "Shreeram" },
+  { img: "https://drive.google.com/uc?export=download&id=1cgSuRkLs0wPA2dPT6I5pjC-RWOqWdYkp", name: "Aditya Gaikwad" },
+  { img: "https://drive.google.com/uc?export=download&id=1HQYaxiVUlpGH54xNIoV9jN_pYyzxnc2b  ", name: "Vishal Jangid" },
+  { img: "https://drive.google.com/uc?export=download&id=1jw8DWxtHvZxsnHV5KXEV7QeOaePxsnPk  ", name: "Abhishek Deshmukh" },
 ];
-*/
+
+const coordinator = "https://drive.google.com/uc?export=download&id=17dk0NSis5kg2i2wK-ykVMmNG0E57PenT"
+const lead="https://drive.google.com/uc?export=download&id=1IaGNS6xyJlDN6H9m1R0amyvxKnfr9oRp"
+const colead="https://drive.google.com/uc?export=download&id=1SXdLx1ZFc41Gyv1Q37IKFF4G-KPeUeeZ"
 
 export default function Teams() {
+
+
+
   return (
-    <div className="text-center text-lg">
-      <p>Coming Soon</p>
-    </div>
-    /*<div className=" text-center text-lg">
+    
+    <div className=" text-center text-lg">
       <div className="team" >
         <div className="team_wrapper">
 
@@ -195,10 +141,8 @@ export default function Teams() {
             {pr.map((member) => {
               return (
                 <>
-                <div className="member_box">
                   <Member 
                    name={member.name} image={member.img} />
-                </div>
                 </>
               );
             })}
@@ -217,6 +161,5 @@ export default function Teams() {
         </div>
       </div>
     </div>
-    */
   );
 }

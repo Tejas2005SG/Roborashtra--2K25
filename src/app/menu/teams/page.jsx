@@ -1,6 +1,7 @@
 import Member from "@/components/Member/Member";
 import "./teams.css";
 
+
 const man = [
   { img: "https://drive.google.com/uc?export=download&id=1g81Es3-RJUIJY7fPAFC5a7DU-Bydged4  ", name: "Abhinandan" },
   { img: "https://drive.google.com/uc?export=download&id=1qyjOmDgXztcD-AT2fwNFfWxDpGvoQw5X  ", name: "Aditi Kshirsagar" },
@@ -79,47 +80,35 @@ export default function Teams() {
 
 
 
-
   return (
     
-      <div className="team" >
+    <div className=" text-center text-lg">
+      Coming Soon </div>
+      /* <div className="team" >
         <div className="team_wrapper">
 
 
           <h2 className="text-center text-lg">Event Co-ordinator</h2>
           <div className="team_row">
-                <Member name={"Dr.Mahendra Salunkhe"} image={coordinator} position={"Event Co-ordinator"}/>
+                <Member name={"Mahendra Salunkhe"} image={coordinator} />
           </div>
 
           <h2 className="text-center text-lg">Lead</h2>
           <div className="team_row">
-                <Member name={"Om Khare"} image={lead} position={"Team Lead"}/>
+                <Member name={"Om Khare"} image={lead} />
           </div>
 
           <h2 className="text-center text-lg">Co-Lead</h2>
           <div className="team_row">
-          <Member name={"Chandrakant Raut"} image={colead2} position={"Management Lead"}/>
-                <Member name={"Khushi rohra"} image={colead} position={"Finance Lead"}/>
+                <Member name={"Khushi rohra"} image={colead} />
           </div>
-          
-          <h2 className=" text-center text-lg">Management Team</h2>
+
+          <h2 className="text-center text-lg">Web Team</h2>
           <div className="team_row">
-            {man.map((member) => {
+            {web.map((member) => {
               return (
                 <>
                   <Member name={member.name} image={member.img} />
-                </>
-              );
-            })}
-          </div>
-          
-          <h2 className=" text-center text-lg">Public Reaction Team</h2>
-          <div className="team_row">
-            {pr.map((member) => {
-              return (
-                <>
-                  <Member 
-                  name={member.name} image={member.img} />
                 </>
               );
             })}
@@ -130,18 +119,7 @@ export default function Teams() {
             {des.map((member) => {
               return (
                 <>
-                  <Member name={member.name} image={member.img} position={member.position} />
-                </>
-              );
-            })}
-            </div>
-            
-          <h2 className="text-center text-lg">Web Team</h2>
-          <div className="team_row">
-            {web.map((member) => {
-              return (
-                <>
-                  <Member name={member.name} image={member.img} position={member.position}/>
+                  <Member name={member.name} image={member.img} />
                 </>
               );
             })}
@@ -152,15 +130,36 @@ export default function Teams() {
             {sss.map((member) => {
               return (
                 <>
-                  <Member name={member.name} image={member.img} position={member.position}/>
+                  <Member name={member.name} image={member.img} />
                 </>
               );
             })}
           </div>
 
+          <h2 className=" text-center text-lg">Public Reaction Team</h2>
+          <div className="team_row">
+            {pr.map((member) => {
+              return (
+                <>
+                  <Member 
+                   name={member.name} image={member.img} />
+                </>
+              );
+            })}
+          </div>
 
+          <h2 className=" text-center text-lg">Management Team</h2>
+          <div className="team_row">
+            {man.map((member) => {
+              return (
+                <>
+                  <Member name={member.name} image={member.img} />
+                </>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      </div> */
+
   );
 }
-

@@ -1,5 +1,6 @@
 import Member from "@/components/Member/Member";
 import "./teams.css";
+import ImageLoader from "@/components/loader/Loader";
 
 
 const man = [
@@ -66,9 +67,9 @@ const des = [
 
 
 const web = [
-  { img: "", name: "Shreeram" ,position:"Head"},
+  { img: "https://drive.google.com/uc?export=download&id=1HQYaxiVUlpGH54xNIoV9jN_pYyzxnc2b  ", name: "Vishal Jangid", position:"Head" },
+  { img: "", name: "Shreeram" ,position:"Co-Head"},
   { img: "https://drive.google.com/uc?export=download&id=1cgSuRkLs0wPA2dPT6I5pjC-RWOqWdYkp", name: "Aditya Gaikwad", position:"Member" },
-  { img: "https://drive.google.com/uc?export=download&id=1HQYaxiVUlpGH54xNIoV9jN_pYyzxnc2b  ", name: "Vishal Jangid", position:"Member" },
 ];
 
 const coordinator = "https://drive.google.com/uc?export=download&id=17dk0NSis5kg2i2wK-ykVMmNG0E57PenT"
@@ -84,6 +85,7 @@ export default function Teams() {
     
     // <div className=" text-center text-lg">
     //   Coming Soon </div>
+    <ImageLoader>
     <div className="team" >
     <div className="team_wrapper">
 
@@ -103,25 +105,13 @@ export default function Teams() {
       <Member name={"Chandrakant Raut"} image={colead2} position={"Management Lead"}/>
             <Member name={"Khushi rohra"} image={colead} position={"Finance Lead"}/>
       </div>
-      
-      <h2 className=" text-center text-lg">Management Team</h2>
+        
+      <h2 className="text-center text-lg">Web Team</h2>
       <div className="team_row">
-        {man.map((member) => {
+        {web.map((member) => {
           return (
             <>
-              <Member name={member.name} image={member.img} />
-            </>
-          );
-        })}
-      </div>
-      
-      <h2 className=" text-center text-lg">Public Reaction Team</h2>
-      <div className="team_row">
-        {pr.map((member) => {
-          return (
-            <>
-              <Member 
-              name={member.name} image={member.img} />
+              <Member name={member.name} image={member.img} position={member.position}/>
             </>
           );
         })}
@@ -138,16 +128,30 @@ export default function Teams() {
         })}
         </div>
         
-      <h2 className="text-center text-lg">Web Team</h2>
+      <h2 className=" text-center text-lg">Public Reaction Team</h2>
       <div className="team_row">
-        {web.map((member) => {
+        {pr.map((member) => {
           return (
             <>
-              <Member name={member.name} image={member.img} position={member.position}/>
+              <Member 
+              name={member.name} image={member.img} />
             </>
           );
         })}
       </div>
+      
+      <h2 className=" text-center text-lg">Management Team</h2>
+      <div className="team_row">
+        {man.map((member) => {
+          return (
+            <>
+              <Member name={member.name} image={member.img} />
+            </>
+          );
+        })}
+      </div>
+      
+      
 
       <h2>Steel Soldier Slam Team</h2>
       <div className="team_row">
@@ -163,6 +167,6 @@ export default function Teams() {
 
     </div>
   </div>
-
+  </ImageLoader>
   );
 }

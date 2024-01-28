@@ -3,8 +3,10 @@ import Image from "next/image";
 import EventChar from "../../../images/Char2.png";
 import Btn2 from "@/components/Buttons/Btn2";
 import Btn1 from "@/components/Buttons/Btn1";
+import ImageLoader from "@/components/loader/Loader";
 const CamWarrior = () => {
   return (
+    <ImageLoader>
     <div className="Event">
       <div className="Event-content">
         <h1 className="EventTitle">CAMWARRIOR</h1>
@@ -18,7 +20,7 @@ const CamWarrior = () => {
         </div>
       <Image src={EventChar} alt="robowar" width={500} height={200} />
     </div>
-
+    </ImageLoader>
   );
 };
 

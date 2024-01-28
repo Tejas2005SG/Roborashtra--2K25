@@ -1,6 +1,7 @@
 import Member from "@/components/Member/Member";
 import "./teams.css";
 
+
 const man = [
   { img: "https://drive.google.com/uc?export=download&id=1g81Es3-RJUIJY7fPAFC5a7DU-Bydged4  ", name: "Abhinandan" },
   { img: "https://drive.google.com/uc?export=download&id=1qyjOmDgXztcD-AT2fwNFfWxDpGvoQw5X  ", name: "Aditi Kshirsagar" },
@@ -82,8 +83,7 @@ export default function Teams() {
   return (
     
     <div className=" text-center text-lg">
-      Coming Soon
-      {/* <div className="team" >
+      <div className="team" >
         <div className="team_wrapper">
 
 
@@ -158,7 +158,7 @@ export default function Teams() {
             })}
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

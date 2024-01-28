@@ -1,13 +1,16 @@
+*{
+  width:max-content;
+  max-width: 1300px;
+}
 .team h1 {
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 600;
   line-height: 48px;
   letter-spacing: 0.015em;
-  text-align: center;
+  text-align :center;
   margin: 2rem;
 }
-
 .team h2 {
   font-family: Roboto;
   font-size: 32px;
@@ -17,11 +20,11 @@
   text-align: center;
   margin: 2rem 0;
 }
-
 .team_wrapper {
+  height: 100vh;
+  width: 100vw;
   overflow-y: scroll;
 }
-
 .team_row {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 2fr;
@@ -46,14 +49,16 @@
   background-color: #00e0ff;
 }
 
+.Menu_bar{
+  display: none;
+}
 
 
 .member_box {
   width: 200px;
   height: 200px;
   overflow: hidden;
-  margin: 5px;
-  /* Adjust as needed */
+  margin: 5px; /* Adjust as needed */
 }
 
 .member_box img {
@@ -65,36 +70,37 @@
   left: 0;
 }
 
-nav {
+nav{
   /* display: none; */
 }
 
-.team_row {}
+.team_row{
+  
+}
 
-.team_row :hover {
+.team_row :hover{
   cursor: pointer;
   transform: scale(1.1);
-
+  
   transition: transform 0.8s, scale 0.5s;
   transform-origin: center;
   transform: scale(1.1);
 }
 
 
-.img :hover {
+.img :hover{
   animation: glow 1s infinite alternate;
 }
-
 @keyframes glow {
   from {
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); 
   }
-
   to {
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8); 
   }
 }
 
-.team {
+.team{
   margin: 10% 3%;
 }
+

@@ -4,12 +4,9 @@ import instagram from "./icons/instagram.svg";
 import facebook from "./icons/facebook.svg";
 import linkedin from "./icons/linkedin.svg";
 import twitter from "./icons/twitter.svg";
-import menuBar from "./../../../components/Menu/MenuBar"
 export default function Clan() {
   return (
-    <>
     <div className="clan">
-      <div className="clanContent">
       <h1 className="title">RoboHawk</h1>
       <p className="clan_text">
       Welcome to Robohawk, where innovation meets passion. Our student-driven Robotics Club at PCCOE&R under the guidance of Dr. Mahendra B. Salunke, is led by the dynamic leader Om Khare under the guidance of Dr. Mahendra B. Salunke. Robohawk has successfully executed diverse projects, including 3D printing, various types of drone and various robotics projects. It offers students hands-on learning, team collaboration, and opens doors for students in the field of robotics.
@@ -29,13 +26,6 @@ export default function Clan() {
           <Image src={twitter} alt="instagram" />
         </a>
       </div>
-      </div>
-      <div className="Menu_Bar">
-      <menuBar />
     </div>
-    </div>
-    
-    </>
-
   );
 }

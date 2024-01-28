@@ -4,31 +4,32 @@ import emailjs from '@emailjs/browser';
 import './contact.css';
 import events from '../../../app/menu/page'
 const Contact = () => {
-  const form = useRef();
-  const btnClick = ()=>{
-    let btn = document.querySelectorAll('button');
-    btn.innerText = "Thanks";
-    let inputValue = document.querySelectorAll('input');
-    inputValue.innerText = "";
-  }
+  // const form = useRef();
+  // const btnClick = ()=>{
+  //   let btn = document.querySelectorAll('button');
+  //   btn.innerText = "Thanks";
+  //   let inputValue = document.querySelectorAll('input');
+  //   inputValue.innerText = "";
+  // }
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs.sendForm("service_ioe7yho", "template_3l1ab43", form.current, 'fpJMvF84PjWEw5tqj')
-      .then((result) => {
-          console.log(result.text);
-          console.log("Message Sent");
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+  //   emailjs.sendForm("service_ioe7yho", "template_3l1ab43", form.current, 'fpJMvF84PjWEw5tqj')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //         console.log("Message Sent");
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  // };
 
 
   return(
     <div className="contact_wrapper text-3xl ">
       Contact Us
-      <form ref={form} onSubmit={sendEmail}>
+      {/* <form ref={form} onSubmit={sendEmail}> */}
+      <form action="">
         <div className="Name">
         <p>Name:</p>
         <input type="text" name="user_name" id="name"  required/>
@@ -50,7 +51,7 @@ const Contact = () => {
       <textarea className="query-box" rows={"4"} name="message" required></textarea>
       </div>
       <div className="submitBtn">
-         <button type="submit" value={"Send"} onClick={btnClick} id="">Submit</button>
+         <button type="submit" value={"Send"} id="">Submit</button>
       </div>
       </form>
 

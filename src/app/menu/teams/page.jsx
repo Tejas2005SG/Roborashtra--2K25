@@ -13,7 +13,6 @@ const man = [
   { img: "https://drive.google.com/uc?export=download&id=1-AZypnM6Isfae8GGT0ahp6uKboWfLtkP  ", name: "Dhiraj Marathe" },
   { img: "https://drive.google.com/uc?export=download&id=1vibYWUjHd1YDZuu67uNP5j3kya15LKQV", name: "Kaustubh" },
   { img: "https://drive.google.com/uc?export=download&id=1H0kjvzk7oPx8TVKFxysAx7cBcvPtz7uF  ", name: "Madhav Survase" },
-  { img: "https://drive.google.com/uc?export=download&id=1O_iTEmamD8n6msB61TPBxKlR5nHnVZje  ", name: "Mayuri Yenare" },
   { img: "https://drive.google.com/uc?export=download&id=1X7Qo6uqb3IScza2aHjuxAsNq26Z0lk_5  ", name: "Shreyash Kunjir" },
   { img: "https://drive.google.com/uc?export=download&id=1wFGRUSElOv853e20HA7ikaA0oCjLf1GJ  ", name: "Member 4" },
   { img: "https://drive.google.com/uc?export=download&id=1ZGFMAyeFNaXyRNL21cnmgWfp7Q75jxpq  ", name: "Nikita Singh" },
@@ -75,7 +74,7 @@ const web = [
 const coordinator = "https://drive.google.com/uc?export=download&id=17dk0NSis5kg2i2wK-ykVMmNG0E57PenT"
 const lead="https://drive.google.com/uc?export=download&id=1IaGNS6xyJlDN6H9m1R0amyvxKnfr9oRp"
 const colead="https://drive.google.com/uc?export=download&id=1SXdLx1ZFc41Gyv1Q37IKFF4G-KPeUeeZ"
-const colead2 = "https://drive.google.com/uc?export=download&id=1Tpdwv6YQl13nMNRauIt8LQiiIVGMs_XV"
+const colead2 = "https://drive.google.com/uc?export=download&id=1sygX1k7rOzv1JfSxaNMzYCf6PIl6JAbc"
 
 export default function Teams() {
 
@@ -92,7 +91,7 @@ export default function Teams() {
 
       <h2 className="text-center text-lg">Event Co-ordinator</h2>
       <div className="team_row">
-            <Member name={"Dr.Mahendra Salunkhe"} image={coordinator} position={"Event Co-ordinator"}/>
+            <Member name={"Dr.Mahendra Salunkhe"} image={coordinator} position={"Faculty Co-ordinator"}/>
       </div>
 
       <h2 className="text-center text-lg">Lead</h2>
@@ -128,7 +127,7 @@ export default function Teams() {
         })}
         </div>
         
-      <h2 className=" text-center text-lg">Public Reaction Team</h2>
+      <h2 className=" text-center text-lg">Public Relation Team</h2>
       <div className="team_row">
         {pr.map((member) => {
           return (

@@ -42,15 +42,16 @@ body {
     border-radius: 50%;
     background-color: #aaa9ad;
     animation-name: bottomLoader;
+    animation-duration: .1s;
 }
 
 .bottomLoader div:nth-child(2) {
-    animation-delay: 1s;
+    animation-delay: .1s;
 }
 
 
 .bottomLoader div:nth-child(3) {
-    animation-delay: 2s;
+    animation-delay: .2s;
 }
 
 @keyframes rotateCoin {

@@ -6,7 +6,6 @@ import "./main.css";
 import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
 import Logo from "@/images/loaderLogo.png";
-import FogComponent from "@/components/Fog/page";
 export default function Home() {
   const [showStarterPage, setShowStarterPage] = useState(true);
   const [showContent, setShowContent] = useState(false);
@@ -75,6 +74,7 @@ export default function Home() {
         </div>
       </main>
     </div>
+   
     </ImageLoader>
 }
     </>

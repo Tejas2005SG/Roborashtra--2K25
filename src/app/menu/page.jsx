@@ -6,24 +6,24 @@ import "./events.css";
 const events = [
   {
     title: "Robowar",
-    desc: "check the top-level render call using",
+    desc: "Step into the exciting world of Robowar!..",
     link: "/events/robowar",
     image: "event1.svg",
   },
   {
     title: "Cam Warrior",
-    desc: "check the top-level render call using",
+    desc: "Welcome to CamWarriors, an exciting...",
     link: "/events/cam_warrior",
     image: "event2.svg",
   },
   {
     title: "ResQlimpic",
-    desc: "check the top-level render call using",
+    desc: "Welcome to Resqlympic, where robots...",
     link: "/events/resqlimpic",
     image: "event3.svg",
   },
   {
-    title: "Tacticle Tracers",
+    title: "Fire Fighter",
     desc: "check the top-level render call using",
     link: "/events/tactical_tracers",
     image: "event4.svg",

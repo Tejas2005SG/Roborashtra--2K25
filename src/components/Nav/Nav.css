@@ -25,7 +25,7 @@ nav img {
 .desktop-links a {
   font-size: 20px;
   padding: 8px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
@@ -43,15 +43,7 @@ nav img {
   display: none;
 }
 
-.hamburgMenu {
-  width: 3rem;
-  height: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
 
-}
 
 #smallLogo {
   display: none;
@@ -105,6 +97,7 @@ nav img {
     padding-top: 5rem;
     background-color: rgba(44, 42, 42, 0.923);
     transition: all ease-in-out 0.3s;
+    border-top: none;
   }
 
   #Logo {
@@ -132,15 +125,15 @@ nav img {
   }
 
   .hamMenu div {
-    margin-top: 2px;
+    margin-top: 1px;
     border: 1px solid black;
-    width: 3rem;
-    height: .5rem;
+    width: 2.3rem;
+    height: .3rem;
     background-color: #00e0ff;
   }
 
   .hamMenu div:nth-child(2) {
-    width: 2rem;
+    width: 1.7rem;
   }
 
   .hamMenu div:nth-child(3) {
@@ -160,5 +153,6 @@ nav img {
     border-bottom: 3px solid #00e0ff;
     padding-right: 25vw;
     color: #00e0ff;
+    border-top: none;
   }
 }

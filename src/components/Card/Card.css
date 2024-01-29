@@ -212,8 +212,9 @@
 
 .desc {
   padding-right: 1rem;
-  font-size: 10px;
-  font-family: mortend;
+  font-size: 18px;
+  font-family: bankGothlic;
+  font-weight: bolder;
 }
 
 .desc a {
@@ -260,7 +261,7 @@
 }
 
 .desc button {
-  margin-top: 1rem;
+  margin: 1rem;
 }
 
 /*Bottom Image */

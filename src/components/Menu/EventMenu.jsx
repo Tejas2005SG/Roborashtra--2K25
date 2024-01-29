@@ -19,7 +19,7 @@ const events = [
     image: "/event3.svg",
   },
   {
-    title: "Tacticle Tracers",
+    title: "Fire Fighter",
     link: "/events/tactical_tracers",
     image: "/event4.svg",
   },

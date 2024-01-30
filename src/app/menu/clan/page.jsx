@@ -4,6 +4,7 @@ import instagram from "./icons/instagram.svg";
 import facebook from "./icons/facebook.svg";
 import linkedin from "./icons/linkedin.svg";
 import twitter from "./icons/twitter.svg";
+import sittedRobo from "@/images/sittingRobo.png";
 export default function Clan() {
   return (
     <div className="clan">
@@ -25,6 +26,9 @@ export default function Clan() {
         <a href="https://twitter.com/robohawk_pccoer?t=UdhKVAhcpMhn1Bl9zYw7QQ&s=09">
           <Image src={twitter} alt="instagram" />
         </a>
+      </div>
+      <div className="sittingRobo">
+      <Image src={sittedRobo} alt="" srcset="" />
       </div>
     </div>
   );

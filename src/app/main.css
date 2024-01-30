@@ -1,5 +1,8 @@
 body {
   overflow: hidden;
+  /* background-image: url("../images//EFI0.gif");
+  background-repeat: no-repeat; */
+
 }
 
 .startPage {
@@ -10,14 +13,7 @@ body {
 
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  position: absolute;
-  top: calc(50% - 5rem);
-  left: calc(50% - 5rem);
-  z-index: 0;
-}
+
 
 
 .startTitle {
@@ -238,6 +234,40 @@ main img {
   }
 }
 
+.prizePool {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+  top: 5em;
+}
+
+.prizes {
+  position: relative;
+  text-align: center;
+  font-size: 28px;
+  padding: 1.6rem;
+  width: 20rem;
+  top: -4rem;
+  left: -.5rem;
+  font-family: mokoto;
+  width: fit-content;
+  backdrop-filter: blur(5px) saturate(35%);
+  -webkit-backdrop-filter: blur(5px) saturate(35%);
+  background-color: rgba(17, 25, 40, 0.46);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  z-index: 2;
+}
+
+.prizes p {
+  color: aqua;
+}
+
 @media only screen and (min-width:501px) and (max-width: 950px) {
   .startTitle {
     font-size: 72px;
@@ -267,6 +297,10 @@ main img {
   main img {
     margin-bottom: 11rem;
     width: 100%;
+  }
+
+  .prizePool {
+    display: none;
   }
 
 }
@@ -299,5 +333,9 @@ main img {
 
   .main_bottom {
     height: 27%;
+  }
+
+  .prizePool {
+    display: none;
   }
 }

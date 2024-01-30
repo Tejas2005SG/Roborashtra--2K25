@@ -12,7 +12,7 @@ const colead2 = "https://drive.google.com/uc?export=download&id=1jTs5U0jnHXyCcjs
 const chetan = "https://drive.google.com/uc?export=download&id=1U1VD75d25q2hDXGy_wSOrf2sPmAxkcoF";
 const dnyanesh = "https://drive.google.com/uc?export=download&id=1rZ3aggd63viXnRrpJ8S9vWRiAZhYrC9Q";
 const manas = "https://drive.google.com/uc?export=download&id=1P9B3oT8GPIX5OYYSAMYDT9PAAXbmdx5Z";
-const manas_pr = "https://drive.google.com/uc?export=download&id=1P9B3oT8GPIX5OYYSAMYDT9PAAXbmdx5Z";
+const manas_pr = "https://drive.google.com/uc?export=download&id=1km7akZt7jwl__Pq3wMN2w8uTiw2W_CI0";
 const manasi = "https://drive.google.com/uc?export=download&id=1v3O0i-XW5buTJ9mKrwjKvjxpGRAzTBlV";
 const mayur = "https://drive.google.com/uc?export=download&id=19MSHDGAY8XVtp-x8qLBUIQvBJMDv-nuP";
 const mehul = "https://drive.google.com/uc?export=download&id=1BjZatuHgef6Ml6MwgYXcEIFKfc9XfPzM";

@@ -6,8 +6,11 @@ import "./main.css";
 import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
 import Logo from "@/images/loaderLogo.png";
+import pccoer from "@/images/pccoer.png";
+import pcet from "@/images/pcet.png";
 import RoboBoard from "@/images/RoboBoard.png";
 export default function Home() {
+  
   const [showStarterPage, setShowStarterPage] = useState(true);
   const [showContent, setShowContent] = useState(false);
 
@@ -46,6 +49,10 @@ export default function Home() {
 }
     {showContent &&    
     <ImageLoader>
+      <div className="clgLogo">
+        <Image src={pccoer} alt="" srcset="" />
+        <Image src={pcet} alt="" srcset="" />
+      </div>
       <div className="clgName text-xl text-center">
         <div className="leftLogo"></div>
         <div className="Name">
@@ -75,6 +82,7 @@ export default function Home() {
         </div>
       </main>
     </div>
+
     
     <div className="prizePool">
     <Image src={RoboBoard} alt="roboBoard" srcset="" />

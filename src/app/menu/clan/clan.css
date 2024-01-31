@@ -34,8 +34,8 @@
   width: 10rem;
   height: 10rem;
   position: absolute;
-  top: -4rem;
-  left: calc(50% - 5rem);
+  top: -7rem;
+  left: -4rem;
 }
 
 .clan {
@@ -46,13 +46,20 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   padding: 1rem;
-  margin-top: 1.5rem;
   margin: 1rem;
+  position: relative;
+  top: 1rem;
+}
+
+@media screen and (max-width:950px) {
+  .onlyImg {
+    display: none;
+  }
 }
 
 
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:650px) {
   .clan {
     position: absolute;
     top: 5rem;

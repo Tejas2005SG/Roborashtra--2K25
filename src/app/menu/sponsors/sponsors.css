@@ -13,3 +13,18 @@ h3 {
     font-size: 26px;
     text-decoration: underline;
 }
+
+.menu_nav nav {
+    display: none;
+}
+
+@media screen and (max-width:950px) {
+    .menu_nav nav {
+        display: block;
+    }
+
+    .onlyImg {
+        display: none;
+    }
+
+}

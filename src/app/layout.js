@@ -1,5 +1,6 @@
 import "./globals.css";
 
+
 export const metadata = {
   title: "Roborastra",
   description:
@@ -10,7 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}</body>
+        {children}
+        </body>
+
     </html>
   );
 }

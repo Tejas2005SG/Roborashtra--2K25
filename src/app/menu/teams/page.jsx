@@ -2,7 +2,7 @@ import Member from "@/components/Member/Member";
 import "./teams.css";
 import Manas from "./img/34.jpg"
 import ImageLoader from "@/components/loader/Loader";
-
+import Nav from "@/components/Nav/Nav"
 
 
 const coordinator = "https://drive.google.com/uc?export=download&id=17krXNhYPK8RdRXOGSh18u0hQ1kP1_bFQ"
@@ -28,9 +28,10 @@ export default function Teams() {
 
 
   return (
-    
-    // <div className=" text-center text-lg">
-    //   Coming Soon </div>
+    <> 
+    <div className="menuNav">
+      <Nav />
+    </div>
     <div className="team" >
     <div className="team_wrapper">
 
@@ -124,5 +125,7 @@ export default function Teams() {
 
     </div>
   </div>
+  </>
+  
   );
 }

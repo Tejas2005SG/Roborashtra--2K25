@@ -1,3 +1,7 @@
+body {
+  overflow-y: scroll;
+}
+
 .team h2 {
   font-family: mokoto;
   font-size: 32px;
@@ -10,11 +14,16 @@
   margin: 2rem 0;
 }
 
+
 .team {
   width: 125vw;
   position: relative;
   top: -2rem;
 
+}
+
+.menu_nav {
+  display: none;
 }
 
 .team_wrapper {
@@ -101,6 +110,7 @@
     font-size: 24px;
   }
 
+
   .team_row {
     gap: 2rem;
     margin-right: 1rem;
@@ -124,5 +134,9 @@
 
   .team_row {
     margin-right: 2rem;
+  }
+
+  .onlyImg {
+    display: none;
   }
 }

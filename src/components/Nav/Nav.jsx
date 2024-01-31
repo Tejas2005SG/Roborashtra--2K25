@@ -57,7 +57,6 @@ const Nav = () => {
             );
           })}
         </ul>
-  
         {/* <GiHamburgerMenu
           id="hammenu"
           onClick={() => {
@@ -72,6 +71,7 @@ const Nav = () => {
         <div></div>
       </div>
       </nav>
+     
     </div>
   );
 };

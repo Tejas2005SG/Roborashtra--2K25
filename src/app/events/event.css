@@ -10,10 +10,6 @@
   transform: scale(0.9);
 }
 
-.onlyImg {
-  display: none;
-}
-
 .Event {
   display: flex;
   justify-content: center;
@@ -39,8 +35,8 @@
 .Event p {
   font-family: bankGothlic;
   font-size: 18px;
-  font-weight: bold;
   line-height: 24px;
+  letter-spacing: 0em;
   text-align: left;
   z-index: 3;
 }

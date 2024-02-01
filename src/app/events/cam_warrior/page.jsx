@@ -4,6 +4,7 @@ import EventChar from "../../../images/Char2.png";
 import Btn2 from "@/components/Buttons/Btn2";
 import Btn1 from "@/components/Buttons/Btn1";
 import ImageLoader from "@/components/loader/Loader";
+
 const CamWarrior = () => {
   return (
     <ImageLoader>
@@ -20,6 +21,7 @@ const CamWarrior = () => {
         </div>
       <Image src={EventChar} alt="robowar" width={500} height={200} />
     </div>
+    
     </ImageLoader>
   );
 };

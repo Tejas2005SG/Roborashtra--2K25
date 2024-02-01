@@ -6,8 +6,8 @@ import "./main.css";
 import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
 import Logo from "@/images/loaderLogo.png";
-import pccoer from "@/images/pccoer.png";
-import pcet from "@/images/pcet.png";
+import pccoer from "@/images/pccoer.svg";
+import pcet from "@/images/pcet.svg";
 import RoboBoard from "@/images/RoboBoard.png";
 export default function Home() {
   
@@ -50,8 +50,8 @@ export default function Home() {
     {showContent &&    
     <ImageLoader>
        <div className="clgLogo">
-        <Image src={pccoer} alt="" srcset="" />
-        <Image src={pcet} alt="" srcset="" />
+        <Image src={pccoer} alt="pccoer" srcset="" />
+        <Image src={pcet} alt="pcet" srcset="" />
       </div> 
       <div className="clgName text-xl text-center">
         <div className="leftLogo"></div>
@@ -68,6 +68,9 @@ export default function Home() {
         <div>
           <center>
           <Image src={MainCharater} alt="main-character" />
+          {/* <div className="color-dots"></div>
+          <div className="color-dots"></div>
+          <div className="color-dots"></div> */}
           </center>
         </div>
         <div className="main_title">

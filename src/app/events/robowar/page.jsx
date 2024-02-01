@@ -4,6 +4,7 @@ import EventChar from "../../../images/Char1.png";
 import Btn2 from "@/components/Buttons/Btn2";
 import Btn1 from "@/components/Buttons/Btn1";
 import ImageLoader from "@/components/loader/Loader";
+import RoboBoard from "@/images/RoboBoard.png"
 const CamWarrior = () => {
   return (
     <ImageLoader>

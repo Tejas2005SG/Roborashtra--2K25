@@ -161,6 +161,66 @@ main img {
   margin-left: 4rem;
 }
 
+/* .color-dots {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+.color-dots:nth-child(3) {
+  position: absolute;
+  animation: dot1 infinite 3s ease-in-out;
+  left: 60%;
+  background-color: blue;
+  box-shadow: -12px 2px 15px rgb(43, 0, 255);
+}
+
+.color-dots:nth-child(2) {
+  position: absolute;
+  left: 30%;
+  background-color: aqua;
+  box-shadow: 12px 12px 10px rgba(0, 255, 255, 0.366);
+
+}
+
+@keyframes dot1 {
+  0% {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+  }
+
+  30% {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+  }
+
+  50% {
+    position: absolute;
+    top: 60%;
+    left: 75%;
+  }
+
+  80% {
+    position: absolute;
+    z-index: -1;
+    top: 45%;
+    left: 50%;
+  }
+
+  100% {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+  }
+} */
+
+
 .start_btn {
   transform: translate(-10%, 0%);
   margin-bottom: .5rem;
@@ -281,9 +341,7 @@ main img {
     overflow: hidden;
   }
 
-  .prizePool {
-    display: none;
-  }
+
 }
 
 @media screen and (max-width:380px) {

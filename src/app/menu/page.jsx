@@ -1,9 +1,11 @@
 "use client";
 import React from "react";
+import {useState} from "react";
 import Image from 'next/image';
 import Card from "../../components/Card/Card";
 import "./events.css";
 import RoboBoard from "@/images/RoboBoard.png";
+import react from "react";
 const events = [
   {
     title: "Robowar",
@@ -31,8 +33,10 @@ const events = [
   },
 ];
 const Cards = () => {
+  
   return (
-    <>    <div className="Container">
+    <>    
+    <div className="Container">
     <div className="Events">
       {events.map((event) => {
         return (

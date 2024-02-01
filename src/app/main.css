@@ -1,7 +1,7 @@
 body {
   overflow: hidden;
-  /* background-image: url("../images//EFI0.gif");
-  background-repeat: no-repeat; */
+  background-image: url("../images/bgSmoke.gif");
+  background-repeat: no-repeat;
 
 }
 
@@ -71,6 +71,22 @@ main {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%);
   overflow: hidden;
 
+}
+
+.clgLogo img {
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+}
+
+.clgLogo img:nth-child(1) {
+  left: 1rem;
+  top: 1rem;
+}
+
+.clgLogo img:nth-child(2) {
+  right: 1rem;
+  top: 1rem;
 }
 
 .clgName {
@@ -162,6 +178,9 @@ main img {
   justify-content: center;
   align-content: center;
   align-items: center;
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
   width: 18rem;
   height: 18rem;
 }
@@ -194,13 +213,31 @@ main img {
     left: calc(50% - 2.5rem);
   }
 
+
   .startTitle {
     font-size: 38px;
 
   }
 
+  .clgLogo img {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+  }
+
+  .clgLogo img:nth-child(1) {
+    left: 3rem;
+    top: 6rem;
+  }
+
+  .clgLogo img:nth-child(2) {
+    right: 3rem;
+    top: 6rem;
+  }
+
   .clgName p {
     font-size: 16px;
+    margin: 1px;
   }
 
   .wrapper {
@@ -283,6 +320,20 @@ main img {
 
   .start_btn {
     margin-bottom: 6rem;
+  }
+
+  .clgLogo img:nth-child(1) {
+    left: 1rem;
+    top: 5rem;
+  }
+
+  .clgLogo img:nth-child(2) {
+    right: 1rem;
+    top: 5rem;
+  }
+
+  .clgName {
+    margin: 1px;
   }
 
   body {

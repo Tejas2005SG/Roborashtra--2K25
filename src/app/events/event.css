@@ -10,6 +10,11 @@
   transform: scale(0.9);
 }
 
+
+.onlyImg {
+  display: none;
+}
+
 .Event {
   display: flex;
   justify-content: center;
@@ -36,7 +41,7 @@
   font-family: bankGothlic;
   font-size: 18px;
   line-height: 24px;
-  letter-spacing: 0em;
+  font-weight: bold;
   text-align: left;
   z-index: 3;
 }

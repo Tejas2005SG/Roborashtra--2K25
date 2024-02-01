@@ -341,6 +341,10 @@ main img {
     overflow: hidden;
   }
 
+  .prizePool {
+    display: none;
+  }
+
 
 }
 

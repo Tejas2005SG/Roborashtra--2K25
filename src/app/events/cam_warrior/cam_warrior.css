@@ -1,0 +1,39 @@
+.animatedDiv img {
+    animation: drone 4s forwards ease-in-out;
+}
+
+@keyframes drone {
+    0% {
+        position: relative;
+        bottom: -35rem;
+        transform: rotate(15deg);
+    }
+
+    25% {
+        position: relative;
+        bottom: -25rem;
+        transform: rotate(0deg);
+
+    }
+
+    50% {
+        position: relative;
+        bottom: -15rem;
+        transform: rotate(-15deg);
+
+    }
+
+    75% {
+        position: relative;
+        bottom: -5rem;
+        transform: rotate(15deg);
+
+    }
+
+    100% {
+        position: relative;
+        bottom: 0rem;
+        transform: rotate(0deg);
+
+    }
+}

@@ -26,8 +26,8 @@ const events = [
     image: "event3.svg",
   },
   {
-    title: "Fire Fighter",
-    desc: "check the top-level render call using",
+    title: "Tacticle Tracer",
+    desc: "Welcome to Tactical Tracer, an arena where...",
     link: "/events/tactical_tracers",
     image: "event4.svg",
   },

@@ -263,6 +263,56 @@ main img {
   z-index: 2;
 }
 
+.drone img {
+  width: 10rem;
+  height: 10rem;
+  animation: drone 4s ease-in-out forwards;
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+}
+
+@keyframes drone {
+  10% {
+    position: absolute;
+    bottom: 10%;
+    right: 1%;
+    transform: rotate(-15deg);
+  }
+
+  25% {
+    position: absolute;
+    bottom: 25%;
+    right: 1%;
+    transform: rotate(0deg);
+  }
+
+  40% {
+    position: absolute;
+    bottom: 50%;
+    right: 1%;
+    transform: rotate(-45deg);
+  }
+
+  60% {
+    position: absolute;
+    bottom: 50%;
+    right: 10%;
+  }
+
+  90% {
+    position: absolute;
+    bottom: 65%;
+    right: 13%;
+  }
+
+  100% {
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+    transform: rotateZ(-30deg);
+  }
+}
 
 @media only screen and (max-width: 500px) {
   .logo {
@@ -324,6 +374,11 @@ main img {
     width: 100vw;
     margin-bottom: 10rem;
 
+  }
+
+  .drone img {
+    width: 7rem;
+    height: 7rem;
   }
 
   .start_btn {

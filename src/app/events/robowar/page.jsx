@@ -21,7 +21,7 @@ const CamWarrior = () => {
           <Btn1 text={"Register"} link={"/events"} />
         </div>
       </div>
-      <Image src={EventChar} alt="robowar" width={500} height={200} />
+      <Image src={EventChar} alt="robowar" width={500} height={400}/>
     </div>
     </ImageLoader>
   );

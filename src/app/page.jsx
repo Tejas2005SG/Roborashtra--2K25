@@ -9,6 +9,7 @@ import Logo from "@/images/loaderLogo.png";
 import pccoer from "@/images/pccoer.svg";
 import pcet from "@/images/pcet.svg";
 import RoboBoard from "@/images/RoboBoard.png";
+import drone from "@/images/drone.png"
 export default function Home() {
   
   const [showStarterPage, setShowStarterPage] = useState(true);
@@ -19,12 +20,12 @@ export default function Home() {
     const starterPageTimeout = setTimeout(() => {
       setShowStarterPage(false);
     }, 
-    4000);
+    3900);
 
     // After 4 seconds, hide starterPage and show content
     const contentTimeout = setTimeout(() => {
       setShowContent(true);
-    }, 3000); // 4s (starterPage time) + 4s (delay before showing content)
+    }, 4000); // 4s (starterPage time) + 4s (delay before showing content)
 
     // Cleanup timeouts on component unmount
     return () => {
@@ -87,13 +88,16 @@ export default function Home() {
     </div>
 
     
-    <div className="prizePool">
+    {/* <div className="prizePool">
     <Image src={RoboBoard} alt="roboBoard" srcset="" />
 
     <div className="prizes">
     <p>PrizePool</p>
     <p>2,00,000/- +</p>
     </div>
+  </div> */}
+  <div className="drone">
+    <Image src={drone} alt="drone" srcset="" />
   </div>
     </ImageLoader>
 }

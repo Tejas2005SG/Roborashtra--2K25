@@ -1,39 +1,62 @@
 .animatedDiv img {
-    animation: drone 4s forwards ease-in-out;
+    animation: drone 4s ease-in-out;
+    z-index: -1;
+    top: 15rem;
 }
 
 @keyframes drone {
     0% {
         position: relative;
-        bottom: -35rem;
+        top: 50rem;
+        right: 1rem;
         transform: rotate(15deg);
     }
 
     25% {
         position: relative;
-        bottom: -25rem;
+        top: 40rem;
+        right: 1rem;
         transform: rotate(0deg);
 
     }
 
     50% {
         position: relative;
-        bottom: -15rem;
+        top: 30rem;
+        right: 1rem;
         transform: rotate(-15deg);
 
     }
 
     75% {
         position: relative;
-        bottom: -5rem;
+        top: 20rem;
+        right: 1rem;
         transform: rotate(15deg);
 
     }
 
     100% {
         position: relative;
-        bottom: 0rem;
+        top: 10rem;
+        right: 1rem;
         transform: rotate(0deg);
 
+    }
+}
+
+@media screen and (max-width:620px) {
+    .animatedDiv img {
+        position: absolute;
+        top: 7rem;
+        z-index: -1;
+        animation: none;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .animatedDiv img {
+        animation: none;
+        top: 7rem;
     }
 }

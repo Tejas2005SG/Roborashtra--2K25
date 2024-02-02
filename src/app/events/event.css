@@ -163,7 +163,7 @@
 
   .Event img {
     position: absolute;
-    top: 30%;
+    top: 10rem;
     left: 40%;
     z-index: -1;
   }

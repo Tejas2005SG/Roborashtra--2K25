@@ -4,7 +4,7 @@ import Image from "next/image";
 import "./EventMenu.css";
 const events = [
   {
-    title: "Robowar",
+    title: "Steel Soldier Slam",
     link: "/events/robowar",
     image: "/event1.svg",
   },
@@ -14,12 +14,12 @@ const events = [
     image: "/event2.svg",
   },
   {
-    title: "ResQlimpic",
+    title: "ResQlympic",
     link: "/events/resqlimpic",
     image: "/event3.svg",
   },
   {
-    title: "Tactical Tracers",
+    title: "Blaze Maze",
     link: "/events/tactical_tracers",
     image: "/event4.svg",
   },

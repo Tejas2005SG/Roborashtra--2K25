@@ -8,7 +8,6 @@ import Btn4 from "@/components/Buttons/Btn4";
 import Logo from "@/images/loaderLogo.png";
 import pccoer from "@/images/pccoer.svg";
 import pcet from "@/images/pcet.svg";
-import RoboBoard from "@/images/RoboBoard.png";
 import drone from "@/images/drone.png"
 export default function Home() {
   

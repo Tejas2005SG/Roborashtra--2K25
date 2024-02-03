@@ -7,8 +7,8 @@ import "./events.css";
 import react from "react";
 const events = [
   {
-    title: "Robowar",
-    desc: "Step into the exciting world of Robowar!..",
+    title: "Steel Soldier Slam",
+    desc: "Step into the exciting world of Steel Soldier !..",
     link: "/events/robowar",
     image: "event1.svg",
   },
@@ -19,14 +19,14 @@ const events = [
     image: "event2.svg",
   },
   {
-    title: "ResQlimpic",
+    title: "ResQlympic",
     desc: "Welcome to Resqlympic, where robots...",
     link: "/events/resqlimpic",
     image: "event3.svg",
   },
   {
-    title: "Tacticle Tracer",
-    desc: "Welcome to Tactical Tracer, an arena where...",
+    title: "Blaze Maze",
+    desc: "Welcome to Blaze Maze, an arena where...",
     link: "/events/tactical_tracers",
     image: "event4.svg",
   },

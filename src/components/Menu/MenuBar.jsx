@@ -7,7 +7,7 @@ import Link from "next/link";
 // all options for to navigate
 const options = [
   { text: "EVENTS", link: "/menu" },
-  { text: "Teams", link: "/menu/teams" },
+  { text: "Our Team", link: "/menu/teams" },
   { text: "Our Clan", link: "/menu/clan" },
   { text: "Sponsors", link: "/menu/sponsors" },
   { text: "Contact", link: "/menu/Contact" },

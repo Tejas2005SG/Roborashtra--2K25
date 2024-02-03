@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Btn1 = ({ text, style, link }) => {
   return (
-    <Link href={link}>
+    <Link href={link} rel="noopener noreferrer" target="_blank">
       <div className="btn1_wrapper" style={style}>
         <div className="btn1_bar1"></div>
 

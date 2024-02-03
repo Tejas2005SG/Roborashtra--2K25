@@ -15,7 +15,7 @@ const CamWarrior = () => {
         </p>
         <div className="action_btn">
           <Btn2 link={"/resqlympics.pdf"} />
-          <Btn1 text={"Register"} link={"/events"} />
+          <Btn1 text={"Register"} link={"https://unstop.com/p/resqlympic-roborashtra-2k24-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-889624"} />
         </div>
       </div>
       <Image src={EventChar} alt="robowar" width={500} height={200} />

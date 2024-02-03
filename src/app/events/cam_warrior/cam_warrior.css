@@ -1,4 +1,4 @@
-.Event-content {
+.camWarrior {
     background-image: url("../../../images/event2bg.jpg");
     background-size: cover;
 }
@@ -53,7 +53,6 @@
         position: absolute;
         top: 7rem;
         z-index: -1;
-        animation: none;
     }
 }
 

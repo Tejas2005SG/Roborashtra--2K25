@@ -4,7 +4,7 @@ import Image from "next/image";
 import Btn2 from "@/components/Buttons/Btn2";
 import Btn1 from "@/components/Buttons/Btn1";
 import ImageLoader from "@/components/loader/Loader";
-import "./robowar.css"
+
 const CamWarrior = () => {
   const EventChar = "https://drive.google.com/uc?export=download&id=1ewQMI58evhQ--5uIVx5yNALqlE0h8WIg";
   return (

@@ -48,6 +48,11 @@
   padding: 1rem;
   margin-top: 1.5rem;
   margin: .5rem;
+  background-image: url(../../../images/loaderLogo.png);
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
 }
 
 

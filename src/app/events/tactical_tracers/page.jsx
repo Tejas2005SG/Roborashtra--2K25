@@ -4,7 +4,6 @@ import Image from "next/image";
 import Btn2 from "@/components/Buttons/Btn2";
 import Btn1 from "@/components/Buttons/Btn1";
 import ImageLoader from "@/components/loader/Loader";
-import "./tractical.css"
 
 
 

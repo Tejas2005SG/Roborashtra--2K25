@@ -1,3 +1,20 @@
+.robowar {
+  background-image: url("../../images/event1bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.resq {
+  background-position: center;
+  background-size: contain;
+}
+
+.tractical {
+  background-image: url("../../images/event4bg.jpg");
+  background-size: cover;
+}
+
+
 .body {
   overflow: hidden;
   background-position: fixed;
@@ -95,6 +112,7 @@
     top: 10rem;
     z-index: -1;
     left: 0rem;
+    display: none;
   }
 
   .Event_wrapper {

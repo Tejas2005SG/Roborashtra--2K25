@@ -6,8 +6,8 @@ import "./main.css";
 import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
 import Logo from "@/images/loaderLogo.png";
-import pccoer from "@/images/pccoer.svg";
-import pcet from "@/images/pcet.svg";
+import pccoer from "@/images/pccoer.png";
+import pcet from "@/images/pcet.png";
 import drone from "@/images/drone.png"
 export default function Home() {
   

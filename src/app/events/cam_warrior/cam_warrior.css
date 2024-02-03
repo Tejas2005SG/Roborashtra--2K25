@@ -1,24 +1,25 @@
-.camWarrior {
+.Event-content {
     background-image: url("../../../images/event2bg.jpg");
     background-size: cover;
 }
 
 .animatedDiv img {
-    animation: drone 6s ease-in-out forwards;
+    animation: drone 4s ease-in-out;
     z-index: -1;
+    top: 15rem;
 }
 
 @keyframes drone {
     0% {
         position: relative;
-        top: 30rem;
+        top: 50rem;
         right: 1rem;
         transform: rotate(15deg);
     }
 
     25% {
         position: relative;
-        top: 20rem;
+        top: 40rem;
         right: 1rem;
         transform: rotate(0deg);
 
@@ -26,7 +27,7 @@
 
     50% {
         position: relative;
-        top: 10rem;
+        top: 30rem;
         right: 1rem;
         transform: rotate(-15deg);
 
@@ -34,7 +35,7 @@
 
     75% {
         position: relative;
-        top: 5rem;
+        top: 20rem;
         right: 1rem;
         transform: rotate(15deg);
 
@@ -42,9 +43,10 @@
 
     100% {
         position: relative;
-        top: 0rem;
+        top: 10rem;
         right: 1rem;
         transform: rotate(0deg);
+
     }
 }
 

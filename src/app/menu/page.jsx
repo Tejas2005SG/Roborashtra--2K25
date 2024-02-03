@@ -4,7 +4,6 @@ import {useState} from "react";
 import Image from 'next/image';
 import Card from "../../components/Card/Card";
 import "./events.css";
-import RoboBoard from "@/images/RoboBoard.png";
 import react from "react";
 const events = [
   {

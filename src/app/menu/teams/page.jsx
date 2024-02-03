@@ -17,7 +17,8 @@ const manasi = "https://drive.google.com/uc?export=download&id=1v3O0i-XW5buTJ9mK
 const mayur = "https://drive.google.com/uc?export=download&id=19MSHDGAY8XVtp-x8qLBUIQvBJMDv-nuP";
 const mehul = "https://drive.google.com/uc?export=download&id=1BjZatuHgef6Ml6MwgYXcEIFKfc9XfPzM";
 const samrudhi = "https://drive.google.com/uc?export=download&id=1YIDpKeieU-oPt2XhePgHroTlWS3_nQWX";
-const shreeram = "https://drive.google.com/uc?export=download&id=1Y4xmRW2sqf7CxIXVMFFsytqWR4AgIN0g";
+const shreeram = "https://drive.google.com/uc?export=download&id=1lEOIr_MaE__ta_nlTI2ULSlWbADu6EWe";
+const gaurav = "https://drive.google.com/uc?export=download&id=18g8ILvtYTbociH2MorIC5Yxwj2o9bu9y"
 const vedant = "https://drive.google.com/uc?export=download&id=1TIb_wQxidq5QyXQf1tFxb1VVCB6Qi1h6";
 const vishal = "https://drive.google.com/uc?export=download&id=1TE463tRRpkG0fpKWvZr6Cx-RmSpeOcB-";
 
@@ -52,6 +53,7 @@ export default function Teams() {
       <div className="team_row">
       <Member image={vishal}/>
             <Member image={shreeram}/>
+            <Member image={gaurav}/>
             <Member image={vedant}/>
             <Member image={dnyanesh}/>
             <Member image={manas_pr}/>

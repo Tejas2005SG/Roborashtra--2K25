@@ -87,15 +87,6 @@ export default function Home() {
       </main>
     </div>
 
-    
-    {/* <div className="prizePool">
-    <Image src={RoboBoard} alt="roboBoard" srcset="" />
-
-    <div className="prizes">
-    <p>PrizePool</p>
-    <p>2,00,000/- +</p>
-    </div>
-  </div> */}
   <div className="drone">
     <Image src={drone} alt="drone" srcset="" />
   </div>

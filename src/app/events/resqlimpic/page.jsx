@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import EventChar from "../../../images/Char3.png";
 import Btn2 from "@/components/Buttons/Btn2";
 import Btn1 from "@/components/Buttons/Btn1";
 import ImageLoader from "@/components/loader/Loader";
 const CamWarrior = () => {
+  const EventChar = "https://drive.google.com/uc?export=download&id=18MICSbtuq-MXSwOGSdKHmRJA5T-645I1"
   return (
     <ImageLoader>
     <div className="Event">
@@ -18,7 +18,7 @@ const CamWarrior = () => {
           <Btn1 text={"Register"} link={"https://unstop.com/p/resqlympic-roborashtra-2k24-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-889624"} />
         </div>
       </div>
-      <Image src={EventChar} alt="robowar" width={500} height={200} />
+      <Image src={EventChar} alt="robowar" width={400} height={200} />
     </div>
     </ImageLoader>
   );

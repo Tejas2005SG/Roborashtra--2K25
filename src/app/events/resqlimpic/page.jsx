@@ -4,7 +4,7 @@ import Btn2 from "@/components/Buttons/Btn2";
 import Btn1 from "@/components/Buttons/Btn1";
 import ImageLoader from "@/components/loader/Loader";
 const CamWarrior = () => {
-  const EventChar = "https://drive.google.com/uc?export=download&id=18MICSbtuq-MXSwOGSdKHmRJA5T-645I1"
+  const EventChar = "https://drive.google.com/uc?export=download&id=1jL-8j78OoS_rveAEXH4Gq4TTwdlzounB"
   return (
     <ImageLoader>
     <div className="Event">

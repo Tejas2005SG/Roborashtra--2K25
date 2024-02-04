@@ -60,9 +60,10 @@ export default function Teams() {
             <Member image={manasi}/>
             <Member image={samrudhi}/>
             <Member image={chetan}/>
-            <Member image={manas}/>
             <Member image={mayur}/>
             <Member image={mehul}/>
+            <Member image={manas}/>
+
       </div>
         
       {/* <h2 className="text-center text-lg">Web Team</h2>

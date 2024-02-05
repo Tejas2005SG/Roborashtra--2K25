@@ -1,10 +1,12 @@
 "use client";
 import React from "react";
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import Image from 'next/image';
 import Card from "../../components/Card/Card";
 import "./events.css";
 import react from "react";
+import { ImCross } from "react-icons/im";
+import popUpimage from "@/images/POP UP.jpg"
 const events = [
   {
     title: "Steel Soldier Slam",
@@ -32,10 +34,23 @@ const events = [
   },
 ];
 const Cards = () => {
-  
+  const [isPopUpVisible, setIsPopUpVisible] = useState(true);
+  useEffect(() => {
+    // If you want to show the popup only once:
+     localStorage.setItem('popupShown', true);
+     if (!localStorage.getItem('popupShown')) {
+       setIsPopUpVisible(true);
+     }
+  }, []);
   return (
-    <>    
-    <div className="Container">
+    <>
+    <div className="popUp" style={{ display: isPopUpVisible ? 'grid' : 'none' }}>
+      <div className="closeBtn" onClick={() => setIsPopUpVisible(false)}>
+        <ImCross />
+      </div>
+      <Image src={popUpimage} alt="" srcset="" />
+      </div>    
+    <div className="Container" style={{ display: isPopUpVisible ? 'none' : 'grid' }}>
     <div className="Events">
       {events.map((event) => {
         return (

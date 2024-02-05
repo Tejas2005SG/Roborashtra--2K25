@@ -4,6 +4,8 @@ import {useState} from "react";
 import Image from 'next/image';
 import Card from "../../components/Card/Card";
 import "./events.css";
+import { GiTireIronCross } from "react-icons/gi";
+import bgChar from "@/images/POP UP.jpg"
 import react from "react";
 const events = [
   {
@@ -32,10 +34,18 @@ const events = [
   },
 ];
 const Cards = () => {
+  const [isPopUpVisible, setIsPopUpVisible] = useState(true);
   
   return (
-    <>    
-    <div className="Container">
+    <>
+
+      <div className="popUp" style={{ display: isPopUpVisible ? 'grid' : 'none' }}>
+      <div className="closeBtn" onClick={() => setIsPopUpVisible(false)}>
+        <GiTireIronCross />
+      </div>
+      <Image src={bgChar} alt="" srcset="" />
+      </div>
+    <div className="Container" style={{ display: isPopUpVisible ? 'none' : 'block' }}>
     <div className="Events">
       {events.map((event) => {
         return (
@@ -50,8 +60,6 @@ const Cards = () => {
       })}
     </div>
       </div>
-      
- 
   </>
 
   );

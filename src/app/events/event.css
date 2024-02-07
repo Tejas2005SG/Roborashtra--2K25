@@ -1,3 +1,7 @@
+.eventBtn {
+  display: none;
+}
+
 .robowar {
   background-image: url("../../images/event1bg.jpg");
   background-size: cover;
@@ -102,6 +106,20 @@
     top: 2rem;
   }
 
+  .eventBtn {
+    position: absolute;
+    top: 3rem;
+    color: aqua;
+    background-color: black;
+    font-family: mokoto;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    display: block;
+  }
+
+
   .body {
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -124,8 +142,12 @@
     justify-content: center;
   }
 
-  .EventMenu {
+  /* .EventMenu {
     display: none;
+  } */
+  .Event_Menu {
+    display: block;
+    z-index: 999;
   }
 
   .EventTitle {

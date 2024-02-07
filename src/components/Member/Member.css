@@ -9,6 +9,7 @@
    background-color: rgba(17, 25, 40, 0.37);
    border: 1px solid rgba(255, 255, 255, 0.125);
    border-radius: 10px;
+   overflow: hidden;
  }
 
  .Team_Member img {
@@ -21,6 +22,46 @@
 
  .Team_Member:hover {
    animation: glow 1s infinite alternate;
+ }
+
+ .contactInfo {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   background-color: rgba(0, 0, 0, 0.345);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-content: space-around;
+   align-items: left;
+   padding-left: 2rem;
+   font-size: 20px;
+   font-family: mokoto;
+   top: 20rem;
+ }
+
+ .email,
+ .linkedIn a {
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+ }
+
+ .Team_Member:hover .contactInfo {
+   animation: dropUp 1s ease-in-out forwards;
+ }
+
+ @keyframes dropUp {
+   from {
+     position: absolute;
+     top: 20rem
+   }
+
+   to {
+     position: absolute;
+     top: 0rem;
+   }
  }
 
  @keyframes glow {

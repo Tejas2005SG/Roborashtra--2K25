@@ -12,8 +12,7 @@ const CamWarrior = () => {
     <div className="Event animatedDiv">
       <div className="Event-content camWarrior">
         <h1 className="EventTitle">CAMWARRIOR</h1>
-        <p>
-        Welcome to CamWarriors, an exciting event that combines the thrill of drone navigation with the art of cinematic storytelling! Picture drones taking on challenging checkpoints, not just showcasing their technical skills, but also their ability to create stunning cinematic shots. CamWarriors is where technology meets creativity, as participants use drones to capture visually captivating sequences. From navigating through precision checkpoints to crafting beautiful shots, this event pushes the boundaries of aerial cinematography. Join us for an exhilarating experience where the sky transforms into a canvas, and drones become the CamWarriors, capturing breathtaking moments in innovative and visually compelling ways. Get ready for a glimpse into the future of aerial cinematography!
+        <p>Get ready to soar to new heights at our exhilarating drone competition! Join us for a thrilling event where participants showcase their piloting skills in a series of rounds designed to challenge the drone enthusiasts. With each round presenting unique obstacles and tasks, contestants will maneuver their drones with precision and agility, aiming to outperform their rivals and claim victory. Dont miss out  for an unforgettable action-packed spectacle as pilots showcase their talent and push the boundaries of aerial excellence!!
         </p> 
         <div className="action_btn">
           <Btn2 link={"/camwarrior.pdf"}/>

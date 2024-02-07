@@ -1,12 +1,25 @@
 import React from "react";
 import Image from "next/image";
 import "./Member.css";
-const Member = ({ image }) => {
+import { MdOutlineMailOutline } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+const Member = ({ image, email, linkedIn }) => {
   return (
     <div className="Team_Member">
-
-
        <Image src={image} width={240} height={320} alt="member-position" /> 
+       {/* <div className="contactInfo">
+        <div className="email">
+          <MdOutlineMailOutline />
+          {email}
+        </div>
+        <div className="linkedIn">
+          <a href={linkedIn}  rel="noopener noreferrer" target="_blank" >
+            <FaLinkedin />
+            <p>LinkedIn</p>
+          </a>
+        </div>
+
+       </div> */}
     </div>
   );
 };

@@ -1,4 +1,6 @@
+
 import EventMenu from "@/components/Menu/EventMenu";
+import React from "react";
 import "./event.css";
 import Nav from "@/components/Nav/Nav";
 import ImageLoader from "@/components/loader/Loader";
@@ -14,7 +16,7 @@ export default function EventLayout({ children }) {
     <div>
       <Nav />
       <div className="Event_wrapper">
-        <div>
+        <div className="event_menu">
           <EventMenu />
         </div>
         <div>{children}</div>

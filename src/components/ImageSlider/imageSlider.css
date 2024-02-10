@@ -1,8 +1,0 @@
-@import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css";
-
-.Slidercontainer {
-    width: 50vw;
-    margin: 1rem auto;
-    height: 300px;
-}

@@ -97,16 +97,21 @@
   }
 } */
 
-.card-container:hover .Card {
-  transform: rotateY(180deg);
-}
+.card-container:hover {
 
-.card-container:hover .headDesc {
-  position: absolute;
-  bottom: 0%;
-  height: 100%;
-  border: 4px solid white;
-  transform: rotateY(180deg);
+  .Card {
+    transform: rotateY(180deg);
+  }
+
+  .headDesc {
+    position: absolute;
+    bottom: 0%;
+    height: 100%;
+    border: 4px solid white;
+    transform: rotateY(180deg);
+
+  }
+
 }
 
 .desc button {

@@ -6,16 +6,15 @@
     gap: 1rem;
     font-family: bankGothlic;
     font-weight: 400;
-    width: 70%;
-    margin-top: 3rem;
+    width: 80%;
     position: relative;
-    left: 15%;
+    left: 10%;
     backdrop-filter: blur(2px) saturate(150%);
     -webkit-backdrop-filter: blur(5px) saturate(150%);
     background-color: rgba(17, 25, 40, 0.11);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-    padding: .5rem;
+    padding: 0.5rem;
     transform: scale(1.1);
     box-shadow: 2px 2px 25px rgb(0, 255, 255);
 }
@@ -79,20 +78,10 @@ textarea {
     border: 2px solid black;
 }
 
-.socialMedia > a:hover {
-    color: aquamarine;
-}
-
 @media screen and (max-width:620px) {
     .emaiPhn {
         display: flex;
         flex-direction: column;
-    }
-
-    .contact_wrapper {
-        width: 90%;
-        left: 5%;
-        margin-bottom: 1rem;
     }
 
 }

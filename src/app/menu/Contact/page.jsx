@@ -1,7 +1,5 @@
 import React from "react";
 import './contact.css';
-import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
 
 const page = () => {
    return(
@@ -32,18 +30,7 @@ const page = () => {
        <button type="submit" value={"Send"} id="">Submit</button>
     </div>
     </form>
-    <p>Follow US ON</p>
-    <div className="socialMedia flex row-auto gap-3">
-    <a href="https://www.youtube.com/@RobohawkPCCOER"><FaYoutube />
-</a>
-<a href="https://www.linkedin.com/showcase/98926593/admin/feed/posts/"><FaLinkedin />
-</a>
-<a href="https://www.instagram.com/roborashtra.pccoer/?igsh=MzB4bW1kcnNuOGw1"><FaInstagram />
-</a>
-<a href="https://www.facebook.com/profile.php?id=61555881009876&mibextid=ZbWKwL"><FaFacebook />
-</a>
-<a href="https://twitter.com/robohawk_pccoer?t=hC53cUOhsLkE3kaTwc6TNQ&s=08"><FaTwitter /> </a>
-    </div>
+
   </div>
    )
 };

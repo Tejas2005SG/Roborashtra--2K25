@@ -6,7 +6,7 @@ import Card from "../../components/Card/Card";
 import "./events.css";
 import react from "react";
 import { ImCross } from "react-icons/im";
-import popUpimage from "@/images/POP UP.png"
+import popUpimage from "@/images/POP UP.jpg"
 const events = [
   {
     title: "Steel Soldier Slam",

@@ -30,7 +30,6 @@
   margin: 0.5rem;
 }
 
-
 .sittingRobo {
   width: 10rem;
   height: 10rem;
@@ -47,8 +46,9 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   padding: 1rem;
-  position: relative;
-  top: 7rem;
+  /* position: relative;
+  top: 5rem; */
+  margin-top: 5rem;
   margin: .5rem;
   background-image: url(../../../images/blackLogo.png);
   background-position: center;
@@ -62,19 +62,7 @@
   height: 50vh;
 }
 
-.clan::-webkit-scrollbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 5px;
-  background-color: white;
-}
-
-.clan::-webkit-scrollbar-thumb {
-  background-color: aquamarine;
-}
-
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:700px) {
   .clan {
     position: absolute;
     top: 5rem;
@@ -91,11 +79,4 @@
     top: -5rem;
   }
 
-}
-
-@media screen and (max-width:950px) {
-  .clan {
-    position: relative;
-    top: 4rem;
-  }
 }

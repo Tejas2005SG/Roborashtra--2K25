@@ -11,7 +11,7 @@ const CamWarrior = () => {
       <div className="Event-content resq">
       <h1 className="EventTitle">ResQlympic</h1>
         <p>
-        Welcome to Roborashtras ResQlympics! Its a thrilling competition where teams control robots to navigate obstacles and rescue hostages in a race against time. With a prize pool up for grabs, participants must follow strict rules, ensuring fair play and safety at all times. Manual control is key, with robots limited in size and power supply. The challenge spans two days, with top teams advancing based on performance. Get ready for an action-packed event where innovation meets excitement!
+        Welcome to Resqlympic, where robots demonstrate life-saving rescue operations! This thrilling event showcases the incredible abilities of robots navigating challenging scenarios to extract people in distress. Join us for a celebration of innovation, compassion, and the vital role of technology in humanitarian efforts. Get ready for a remarkable fusion of cutting-edge robotics and the noble mission of saving lives in the most demanding situations.
         </p>
         <div className="action_btn">
           <Btn2 link={"/resqlympics.pdf"} />

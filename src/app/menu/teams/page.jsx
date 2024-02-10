@@ -16,14 +16,11 @@ const manas_pr = "https://drive.google.com/uc?export=download&id=1km7akZt7jwl__P
 const manasi = "https://drive.google.com/uc?export=download&id=1v3O0i-XW5buTJ9mKrwjKvjxpGRAzTBlV";
 const mayur = "https://drive.google.com/uc?export=download&id=19MSHDGAY8XVtp-x8qLBUIQvBJMDv-nuP";
 const mehul = "https://drive.google.com/uc?export=download&id=1BjZatuHgef6Ml6MwgYXcEIFKfc9XfPzM";
-const samrudhi = "https://drive.google.com/uc?export=download&id=1Hcc0rLRYka0HsX-59ZdQ3Oe2yO912xYV";
+const samrudhi = "https://drive.google.com/uc?export=download&id=1YIDpKeieU-oPt2XhePgHroTlWS3_nQWX";
 const shreeram = "https://drive.google.com/uc?export=download&id=1lEOIr_MaE__ta_nlTI2ULSlWbADu6EWe";
 const gaurav = "https://drive.google.com/uc?export=download&id=18g8ILvtYTbociH2MorIC5Yxwj2o9bu9y"
 const vedant = "https://drive.google.com/uc?export=download&id=1TIb_wQxidq5QyXQf1tFxb1VVCB6Qi1h6";
 const vishal = "https://drive.google.com/uc?export=download&id=1TE463tRRpkG0fpKWvZr6Cx-RmSpeOcB-";
-const shrushti = "https://drive.google.com/uc?export=download&id=1yip3hjKCYRmLcN7wq0JcSuNyw-zG0KR_";
-const srushti = "https://drive.google.com/uc?export=download&id=1BPH5ocDjW6m6zcJHstYqZcxK-BLxCBzb";
-const vedantRaut = "https://drive.google.com/uc?export=download&id=1_NCNC0NZOTTkWdNMkUkAU8E0HGLusjl4"
 
 
 
@@ -41,36 +38,93 @@ export default function Teams() {
 
       <h2 className="text-center text-lg">Event Co-ordinator</h2>
       <div className="team_row">
-            <Member image={coordinator} email={"mahendra.salunke@pccoer.in"} linkedIn={"https://www.linkedin.com/in/mahendra-salunke-b9958128/"}/>
+            <Member name={"Dr.Mahendra Salunkhe"} image={coordinator} position={"Faculty Co-ordinator"}/>
       </div>
 
       <h2 className="text-center text-lg">Lead & Co-Lead</h2>
       <div className="team_row">
-            <Member image={lead} email={"om.khare_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/om-khare-5bb6b8236/"}/>
-            <Member image={colead} linkedIn={"khushi.rohra_comp21@pccoer.in"} email={"https://www.linkedin.com/in/khushi-rohra-aa53a6259/"}/>
-            <Member image={colead2} email={"chandrakant.raut_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/chandrakant-raut-0606b8236/"}/>
+            <Member image={lead}/>
+            <Member image={colead}/>
+            <Member image={colead2}/>
 
       </div>
 
       <h2 className="text-center text-lg">Head & Co-Head</h2>
       <div className="team_row">
-      <Member image={vishal} email={"vishal.jangid_it22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/vishal-jangid-359b54259/"}/>
-            <Member image={shreeram} linkedIn={"https://www.linkedin.com/in/shreeramshanmugasundaram/"}/>
-            <Member image={gaurav} email={"gaurav.latpate_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/latpate-gaurav-433ba7236"}/>
-            <Member image={vedant} email={"vedant.patil_comp221@pccoer.in"} linkedIn={"https://www.linkedin.com/in/connect-vedant-patil/"}/>
-            <Member image={dnyanesh} email={"dnyaneshwari.jadhav_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/dnyaneshwari-jadhav-a927a3236"}/>
-            <Member image={shrushti} email={"srushti.bhoir_entc22@pccoer.in"}/>
-            <Member image={vedantRaut}/>
-            <Member image={srushti} email={"shrushti.bahiruwale_entc22@pccoer.in"}/>
+      <Member image={vishal}/>
+            <Member image={shreeram}/>
+            <Member image={gaurav}/>
+            <Member image={vedant}/>
+            <Member image={dnyanesh}/>
             <Member image={manas_pr}/>
-            <Member image={manasi} email={"manasi.velhal_comp21@pccoer.in"} linkedIn={"www.linkedin.com/in/manasi-velhal-2a9921277"}/>
-            <Member image={samrudhi} email={"samruddhi.patil_comp22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/samruddhi-patil-833817259"}/>
-            <Member image={chetan} email={"chetan.phulmante_comp21@pccoer.in"} linkedIn={"www.linkedin.com/in/chetan-phulmante-303b99236"}/>
+            <Member image={manasi}/>
+            <Member image={samrudhi}/>
+            <Member image={chetan}/>
             <Member image={mayur}/>
             <Member image={mehul}/>
             <Member image={manas}/>
 
       </div>
+        
+      {/* <h2 className="text-center text-lg">Web Team</h2>
+      <div className="team_row">
+        {web.map((member) => {
+          return (
+            <>
+              <Member name={member.name} image={member.img} position={member.position}/>
+            </>
+          );
+        })}
+      </div>
+      
+      <h2 className=" text-center text-lg">Design Team</h2>
+      <div className="team_row">
+        {des.map((member) => {
+          return (
+            <>
+              <Member name={member.name} image={member.img} position={member.position} />
+            </>
+          );
+        })}
+        </div>
+        
+      <h2 className=" text-center text-lg">Public Relation Team</h2>
+      <div className="team_row">
+        {pr.map((member) => {
+          return (
+            <>
+              <Member 
+              name={member.name} image={member.img} />
+            </>
+          );
+        })}
+      </div>
+      
+      <h2 className=" text-center text-lg">Management Team</h2>
+      <div className="team_row">
+        {man.map((member) => {
+          return (
+            <>
+              <Member name={member.name} image={member.img} />
+            </>
+          );
+        })}
+      </div>
+      
+      
+
+      <h2>Steel Soldier Slam Team</h2>
+      <div className="team_row">
+        {sss.map((member) => {
+          return (
+            <>
+              <Member name={member.name} image={member.img} position={member.position}/>
+            </>
+          );
+        })}
+      </div> */}
+
+
     </div>
   </div>
   );

@@ -31,10 +31,8 @@
 }
 
 .popUp img {
-  position: absolute;
-  top: 2rem;
-  height: 90%;
-  width: 35%;
+  height: 50%;
+  width: 50%;
 }
 
 @media only screen and (max-width: 650px) {
@@ -44,7 +42,7 @@
 
   .popUp img {
     width: 100%;
-    height: 30%;
+    height: 45%;
   }
 
   .Menu_bar {
@@ -58,8 +56,8 @@
   }
 
   .popUp img {
-    width: 70%;
-    height: 90%;
+    width: 100%;
+    height: 45%;
   }
 
   .menu_nav {

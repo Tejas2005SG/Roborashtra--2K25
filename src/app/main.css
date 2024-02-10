@@ -132,7 +132,7 @@ main {
 .main_title {
   font-family: mokoto;
   font-size: 118px;
-  font-weight: 400;
+  font-weight: 100;
   line-height: 248px;
   letter-spacing: 0em;
   text-align: left;
@@ -141,7 +141,6 @@ main {
   left: 53%;
   transform: translate(-50%, -50%);
   z-index: -1;
-  color: white;
 }
 
 .main_title {

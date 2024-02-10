@@ -7,21 +7,19 @@ const Member = ({ image, email, linkedIn }) => {
   return (
     <div className="Team_Member">
        <Image src={image} width={240} height={320} alt="member-position" /> 
-        <div className="contactInfo text-center">
-        <div className="email text-center">
-          <a href={`mailto:${email}`}>
+       {/* <div className="contactInfo">
+        <div className="email">
           <MdOutlineMailOutline />
-          <p>Email</p>
-          </a>
+          {email}
         </div>
-        <div className="linkedIn text-center">
+        <div className="linkedIn">
           <a href={linkedIn}  rel="noopener noreferrer" target="_blank" >
             <FaLinkedin />
             <p>LinkedIn</p>
           </a>
         </div>
 
-       </div>
+       </div> */}
     </div>
   );
 };

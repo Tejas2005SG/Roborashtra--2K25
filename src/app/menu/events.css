@@ -30,6 +30,15 @@
   gap: 2rem;
 }
 
+.workshopLink {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+}
+
+.workshopLink h3 {
+  font-family: bankGothlic;
+}
 
 
 @media only screen and (max-width: 600px) {

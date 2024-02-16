@@ -4,11 +4,12 @@ nav {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 999;
   background: rgba(17, 16, 16, 0.447);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  backface-visibility: hidden;
 }
 
 nav img {
@@ -148,6 +149,7 @@ nav img {
     padding-right: 10vw;
     font-family: "Courier New", Courier, monospace;
   }
+
 
   .desktop-links a:hover {
     border-bottom: 3px solid #00e0ff;

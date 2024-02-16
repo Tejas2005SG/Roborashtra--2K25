@@ -27,7 +27,6 @@ const avishkar = "https://drive.google.com/uc?export=download&id=1349abd4F_J9qud
 const chandrakantBM = "https://drive.google.com/uc?export=download&id=1BG-MWvTq62l3CrV14waDueXe_9cpmXOB"
 
 
-
 export default function Teams() {
 
 

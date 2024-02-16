@@ -10,7 +10,7 @@ import Btn1 from "@/components/Buttons/Btn1";
 import popUpimage from "@/images/POP UP.png"
 const events = [
   {
-    title: "Steel Soldier Slam",
+    title: "Steel Soldier Slam",       
     desc: "Step into the exciting world of Steel Soldier !..",
     link: "/events/robowar",
     image: "event1.svg",
@@ -65,11 +65,12 @@ const Cards = () => {
         );
       })}
     </div>
-    <div className="workshopLink">
+     <div className="workshopLink">
     <h3 className="text-center text-2xl">Free Workshop on glimpse of working of Autonomus Drone</h3>
     <Btn1 link={"https://unstop.com/p/autonomous-drone-robotics-workshop-roborashtra-2k24-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-891168 "} text={"Click Me"} />
     </div>
       </div>
+      
       
  
   </>

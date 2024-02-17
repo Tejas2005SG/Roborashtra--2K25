@@ -8,6 +8,8 @@ import pcet from "../images/PCET.png";
 import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
 import Logo from "@/images/loaderLogo.png";
+import diat from "@/images/Diat.png";
+import DRDO from "@/images/DRDO.png";
 
 import drone from "@/images/drone.png"
 export default function Home() {
@@ -86,6 +88,13 @@ export default function Home() {
         </div>
       </main>
     </div>
+    {/* <div className="colaboration">
+      <h3>Technical Collaboration With</h3>
+      <div className="DRDOlogo">
+      <Image src={DRDO} alt="" srcset="" />
+      <Image src={diat} alt="" srcset="" />
+      </div>
+    </div> */}
 
   <div className="drone">
     <Image src={drone} alt="drone" srcset="" />

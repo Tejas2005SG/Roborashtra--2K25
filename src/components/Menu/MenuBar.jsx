@@ -10,7 +10,7 @@ const options = [
   { text: "Our Team", link: "/menu/teams" },
   { text: "Our Clan", link: "/menu/clan" },
   { text: "Sponsors", link: "/menu/sponsors" },
-  { text: "Contact", link: "/menu/Contact" },
+  { text: "Contact", link: "/menu/Contact" }
 ];
 
 const MenuBar = () => {

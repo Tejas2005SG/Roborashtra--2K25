@@ -43,6 +43,47 @@ const Cards = () => {
        setIsPopUpVisible(true);
      }
   }, []);
+  const calculateTimeLeft = () => {
+    const endDate = new Date("2024-03-28");
+    const difference = endDate - new Date();
+    let timeLeft = {};
+
+    if (difference > 0) {
+      timeLeft = {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / 1000 / 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60),
+      };
+    }
+
+    return timeLeft;
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, [timeLeft]);
+
+  const timerComponents = [];
+
+  Object.keys(timeLeft).forEach((interval) => {
+    if (!timeLeft[interval]) {
+      return;
+    }
+
+    timerComponents.push(
+      <div key={interval} className="timer-card">
+        <span className="timer-number">{timeLeft[interval]}</span>
+        <span className="timer-label">{interval}</span>
+      </div>
+    );
+  });
   return (
     <>
     <div className="popUp" style={{ display: isPopUpVisible ? 'grid' : 'none' }}>
@@ -65,9 +106,11 @@ const Cards = () => {
         );
       })}
     </div>
-     <div className="workshopLink">
-    <h3 className="text-center text-2xl">Free Workshop on glimpse of working of Autonomus Drone</h3>
-    <Btn1 link={"https://unstop.com/p/autonomous-drone-robotics-workshop-roborashtra-2k24-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-891168 "} text={"Click Me"} />
+    <div className="countdown-container">
+      <h1>Witness Innovation Take Flight: RoboRashtra 2024!</h1>
+      <div className="timer-container">
+      {timerComponents.length ? timerComponents : <span>Times up!</span>}
+      </div>
     </div>
       </div>
       

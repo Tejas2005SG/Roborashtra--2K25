@@ -5,7 +5,7 @@
   align-content: center;
   align-items: center;
   gap: 1rem;
-  margin-top: 0rem;
+  margin-top: 2rem;
 }
 
 
@@ -30,29 +30,88 @@
   gap: 2rem;
 }
 
-.workshopLink {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  place-items: center;
+.countdown-container {
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 8px;
 }
 
-.workshopLink h3 {
+.countdown-container h1 {
+  font-family: bankGothlic;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: .5rem;
+}
+
+.timer-card {
+  border-radius: 8px;
+  width: 150px;
+  height: 80px;
+  text-align: center;
+}
+
+.timer-number {
+  font-size: 3rem;
   font-family: bankGothlic;
 }
+
+.timer-label {
+  font-size: 1rem;
+  font-family: mokoto;
+  color: rgb(9, 207, 233);
+
+}
+
 
 
 @media only screen and (max-width: 600px) {
   .Events {
     justify-content: center;
     align-items: center;
+    place-items: center;
     grid-template-columns: 1fr;
   }
 
   .Container {
     gap: 1rem;
-    margin-top: 5rem;
+    margin-top: 3.5rem;
   }
 
+  .countdown-container {
+    width: 100%;
+    display: grid;
+  }
+
+  .countdown-container h1 {
+    font-size: 20px;
+  }
+
+  .timer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+    place-items: center;
+  }
+
+  .timer-card {
+    width: 80px;
+    margin: 2px;
+  }
+
+  .timer-number {
+    font-size: 2.5rem;
+  }
+
+  .timer-label {
+    font-size: .75rem;
+  }
 }
 
 @media screen and (max-width: 920px) {

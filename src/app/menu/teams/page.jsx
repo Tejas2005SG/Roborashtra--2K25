@@ -17,7 +17,7 @@ const mehul = "https://drive.google.com/uc?export=download&id=1BjZatuHgef6Ml6Mwg
 const samrudhi = "https://drive.google.com/uc?export=download&id=1Hcc0rLRYka0HsX-59ZdQ3Oe2yO912xYV";
 const shreeram = "https://drive.google.com/uc?export=download&id=1lEOIr_MaE__ta_nlTI2ULSlWbADu6EWe";
 const gaurav = "https://drive.google.com/uc?export=download&id=18g8ILvtYTbociH2MorIC5Yxwj2o9bu9y"
-const vedant = "https://drive.google.com/uc?export=download&id=1TIb_wQxidq5QyXQf1tFxb1VVCB6Qi1h6";
+const vedant = "https://drive.google.com/uc?export=download&id=14luZ-VUtPWaEc9-4dnzlZKo8h0rTkA4P";
 const vishal = "https://drive.google.com/uc?export=download&id=1TE463tRRpkG0fpKWvZr6Cx-RmSpeOcB-";
 const shrushti = "https://drive.google.com/uc?export=download&id=1yip3hjKCYRmLcN7wq0JcSuNyw-zG0KR_";
 const srushti = "https://drive.google.com/uc?export=download&id=1BPH5ocDjW6m6zcJHstYqZcxK-BLxCBzb";

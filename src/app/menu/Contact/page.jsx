@@ -5,11 +5,35 @@ import { FaInstagram } from "react-icons/fa6";
 import './contact.css';
 
 const ContactPage = () => {
+  async function handleSubmit(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "2cec5405-77e6-4044-bb15-7a5ebd6ad059");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+    });
+    const result = await response.json();
+    if (result.success) {
+        console.log(result);
+        alert("Message Sent Sucessfully!...")
+    }
+}
   
   return (
     <div className="contact_wrapper text-3xl ">
       <h2>Contact Us</h2>
-      <form>
+      <form onSubmit={handleSubmit}>
+        
         <div className="Name">
           <p>Name:</p>
           <input
@@ -41,7 +65,7 @@ const ContactPage = () => {
           <textarea
             className="query-box"
             rows={4}
-            name="query"
+            name="message"
             required
           ></textarea>
         </div>

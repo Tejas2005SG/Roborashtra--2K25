@@ -73,3 +73,60 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+
+
+
+
+
+.bell {
+  width: 2rem;
+    animation: bellshake .5s cubic-bezier(.36,.07,.19,.97) infinite;
+    backface-visibility: hidden;
+    transform-origin: top right;
+}
+
+@keyframes bellshake {
+  0% { transform: rotate(0); }
+  15% { transform: rotate(5deg); }
+  30% { transform: rotate(-5deg); }
+  45% { transform: rotate(4deg); }
+  60% { transform: rotate(-4deg); }
+  75% { transform: rotate(2deg); }
+  85% { transform: rotate(-2deg); }
+  92% { transform: rotate(1deg); }
+  100% { transform: rotate(0); }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.wrapper {
+  display: flex;
+  width: 10%;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40%;
+  cursor: pointer;
+}
+
+.title {
+  font-family: "poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1;
+}
+
+.description {
+  font-family: "poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  color: #666;
+}

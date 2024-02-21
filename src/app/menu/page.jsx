@@ -106,11 +106,13 @@ const Cards = () => {
         );
       })}
     </div>
+    
     <div className="countdown-container">
       <h1>Witness Innovation Take Flight: RoboRashtra 2024!</h1>
       <div className="timer-container">
       {timerComponents.length ? timerComponents : <span>Times up!</span>}
       </div>
+  
     </div>
       </div>
       

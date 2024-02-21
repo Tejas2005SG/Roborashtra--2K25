@@ -7,7 +7,7 @@ const coordinator = "https://drive.google.com/uc?export=download&id=17krXNhYPK8R
 const lead="https://drive.google.com/uc?export=download&id=1hQVM9pWlFG0d9zdj4ixiZyH24uoUegsv"
 const colead="https://drive.google.com/uc?export=download&id=1moKkj5GKyT2f3JlTzTr6y7hxBDhGWi5M"
 const colead2 = "https://drive.google.com/uc?export=download&id=1jTs5U0jnHXyCcjsO4DrKFBw32dkNz0me"
-const chetan = "https://drive.google.com/uc?export=download&id=1U1VD75d25q2hDXGy_wSOrf2sPmAxkcoF";
+const chetan = "https://drive.google.com/uc?export=download&id=1itO9IjekkgFBHqQmuY3nnGlc2yu8pwoR";
 const dnyanesh = "https://drive.google.com/uc?export=download&id=1rZ3aggd63viXnRrpJ8S9vWRiAZhYrC9Q";
 const manas = "https://drive.google.com/uc?export=download&id=1P9B3oT8GPIX5OYYSAMYDT9PAAXbmdx5Z";
 const manas_pr = "https://drive.google.com/uc?export=download&id=1km7akZt7jwl__Pq3wMN2w8uTiw2W_CI0";

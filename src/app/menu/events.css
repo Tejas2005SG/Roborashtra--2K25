@@ -51,14 +51,18 @@
 }
 
 .timer-card {
-  border-radius: 8px;
-  width: 150px;
-  height: 80px;
+  padding-right: 5px;
+  height: 70px;
   text-align: center;
+  border-right: 2px solid white;
+}
+
+.timer-card:nth-child(4) {
+  border: none;
 }
 
 .timer-number {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: bankGothlic;
 }
 
@@ -103,10 +107,12 @@
   .timer-card {
     width: 80px;
     margin: 2px;
+    border: none;
   }
 
   .timer-number {
     font-size: 2.5rem;
+
   }
 
   .timer-label {

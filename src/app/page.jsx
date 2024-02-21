@@ -8,8 +8,6 @@ import pcet from "../images/PCET.png";
 import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
 import Logo from "@/images/loaderLogo.png";
-import diat from "@/images/Diat.png";
-import DRDO from "@/images/DRDO.png";
 
 import drone from "@/images/drone.png"
 export default function Home() {

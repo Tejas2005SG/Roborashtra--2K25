@@ -9,7 +9,6 @@
 }
 
 
-
 .page1,
 .page2 {
   transition: opacity 1s ease-in-out;
@@ -73,13 +72,26 @@
 
 }
 
+.bellwrapper {
+  position: fixed;
+  top: 5rem;
+  right: 1rem;
+  background-color: rgba(0, 0, 0, 0.744);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  cursor: pointer;
+  font-size: larger;
+  font-family: bankGothlic;
+  border-radius: 10px;
+}
+
 
 
 @media only screen and (max-width: 600px) {
   .Events {
     justify-content: center;
-    align-items: center;
-    place-items: center;
     grid-template-columns: 1fr;
   }
 
@@ -117,6 +129,16 @@
 
   .timer-label {
     font-size: .75rem;
+  }
+
+  .bellwrapper {
+    right: .5rem;
+    font-size: 14px;
+  }
+
+  .bellwrapper svg {
+    width: 24px;
+    height: 24px;
   }
 }
 

@@ -87,6 +87,11 @@
   border-radius: 10px;
 }
 
+.Notitext a {
+  color: rgb(9, 207, 233);
+  text-decoration: underline;
+}
+
 
 
 @media only screen and (max-width: 600px) {

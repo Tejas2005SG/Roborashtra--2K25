@@ -126,7 +126,13 @@ const Cards = () => {
           
    <div className="bellwrapper">
    <div className="Notitext" style={{ display: isNotiVisible ? 'grid' : 'none' }}>
-              <p>workshop on Autonomous Drone & Robotics Workshop on 25th February, 2024 <br /> For registration <a href="https://unstop.com/workshops-webinars/autonomous-drone-robotics-workshop-roborashtra-2k24-pimpri-chinchwad-college-of-engineering-and-resea-891168">click here</a></p>
+    <ul>
+              <li><p>Autonomous Drone & Robotics Workshop on 25th February, 2024 <br /> For registration <a href="https://unstop.com/workshops-webinars/autonomous-drone-robotics-workshop-roborashtra-2k24-pimpri-chinchwad-college-of-engineering-and-resea-891168">click here</a></p></li>
+              <li>Early Bird offer extended date to 29 Feb</li>
+
+              
+              
+              </ul>
             </div>
             <svg className="bell" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 14 14" style={{ enableBackground: "new 0 0 14 14" }} xmlSpace="preserve" onClick={() => setIsNotiVisible(prevState => !prevState)}>
               <g>

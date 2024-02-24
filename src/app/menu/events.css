@@ -92,6 +92,10 @@
   text-decoration: underline;
 }
 
+.Notitext ul {
+  padding-left: 20px;
+  list-style: disc;
+}
 
 
 @media only screen and (max-width: 600px) {

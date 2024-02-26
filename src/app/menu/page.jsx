@@ -101,6 +101,7 @@ const Cards = () => {
       <Image src={popUpimage} alt="" srcset="" />
       </div>    
     <div className="Container" style={{ display: isPopUpVisible ? 'none' : 'grid' }}>
+      <h2 style={{textAlign:"center", fontFamily:"bankGothlic", fontSize:"22px"}}>Click Cards to explore events</h2>
     <div className="Events">
       {events.map((event) => {
         return (

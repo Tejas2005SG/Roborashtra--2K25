@@ -344,7 +344,7 @@ main img {
     margin: 1px;
   }
 
-  .wrapper {
+  .main_wrapper {
     display: flex;
     flex-direction: column;
     gap: 4rem;

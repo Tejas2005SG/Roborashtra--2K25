@@ -34,7 +34,7 @@
   width: 10rem;
   height: 10rem;
   position: absolute;
-  top: -7rem;
+  top: -2rem;
   left: calc(50% - 0rem);
 }
 
@@ -48,7 +48,6 @@
   padding: 1rem;
   /* position: relative;
   top: 5rem; */
-  margin-top: 5rem;
   margin: .5rem;
   background-image: url(../../../images/blackLogo.png);
   background-position: center;

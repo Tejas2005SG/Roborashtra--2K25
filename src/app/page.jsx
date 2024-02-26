@@ -61,17 +61,11 @@ export default function Home() {
         </div>
         <div className="rightLogo"></div>
       </div>
-    <div className="wrapper">
-      {/* <div className="nav_wrapper">
-        <Nav />
-      </div> */}
+    <div className="main_wrapper">
       <main className="main">
         <div>
           <center>
           <Image src={MainCharater} alt="main-character" />
-          {/* <div className="color-dots"></div>
-          <div className="color-dots"></div>
-          <div className="color-dots"></div> */}
           </center>
         </div>
         <div className="main_title">
@@ -86,14 +80,6 @@ export default function Home() {
         </div>
       </main>
     </div>
-    {/* <div className="colaboration">
-      <h3>Technical Collaboration With</h3>
-      <div className="DRDOlogo">
-      <Image src={DRDO} alt="" srcset="" />
-      <Image src={diat} alt="" srcset="" />
-      </div>
-    </div> */}
-
   <div className="drone">
     <Image src={drone} alt="drone" srcset="" />
   </div>

@@ -57,12 +57,6 @@ const Nav = () => {
             );
           })}
         </ul>
-        {/* <GiHamburgerMenu
-          id="hammenu"
-          onClick={() => {
-            setMenu((prev) => !prev);
-          }}
-        /> */}
          <div className="hamMenu" id="hammenu" onClick={()=>{
           setMenu((prev)=> !prev)
          }}>

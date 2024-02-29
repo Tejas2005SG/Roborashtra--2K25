@@ -128,8 +128,9 @@ const Cards = () => {
    <div className="bellwrapper">
    <div className="Notitext" style={{ display: isNotiVisible ? 'grid' : 'none' }}>
     <ul>
-              <li><p>Autonomous Drone & Robotics Workshop on 25th February, 2024 <br /> For registration <a href="https://unstop.com/workshops-webinars/autonomous-drone-robotics-workshop-roborashtra-2k24-pimpri-chinchwad-college-of-engineering-and-resea-891168">click here</a></p></li>
               <li>Early Bird offer extended date to 29 Feb</li>
+              <li>Registration date extended to 15 Mar</li>
+
 
               
               

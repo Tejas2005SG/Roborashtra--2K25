@@ -12,9 +12,11 @@ const CamWarrior = () => {
         <h1 className="EventTitle">Steel Soldier Slam</h1>
         <p>
         Step into the exciting world of Steel Soldier Slam! Steel Soldier Slam is a competitive sporting event where teams design, build, and control remote-controlled robots to engage in combat with each other.Imagine fierce battles where teams of enthusiasts and engineers create incredible robots to compete in adrenaline-pumping showdowns. From speedy wheeled robots to mighty hammer-wielding machines, our webpage is your front-row seat to the thrilling clashes of these mechanical gladiators. Dive into the latest in cutting-edge technology, witness epic battles, and become part of a community passionate about pushing the limits of robotics. Whether you are an experienced engineer, a curious enthusiast, or just someone who loves high-tech action, Steel Soldier Slam is where creativity meets destruction for the ultimate victory. Get ready to experience the future of robotic warfare!
-
-
+        <h3>For any event related query <br />Contact Manas(Event Head) : 9175967324</h3>
         </p>
+        <a href="http://wa.me/+919307727077" rel="noopener noreferrer" target="_blank">
+        <button className="whatsapp">Contact Us On Whatsapp</button>
+        </a>
         <div className="action_btn">
           <Btn2 link={"/robowar.pdf"} />
           <Btn1 text={"Register"} link={"https://unstop.com/p/steel-soldiers-slam-roborashtra-2k24-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-888635"} />

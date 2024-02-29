@@ -18,6 +18,10 @@
   background-size: cover;
 }
 
+.blazeMaze {
+  width: 110%;
+}
+
 
 .body {
   overflow: hidden;
@@ -93,6 +97,11 @@
   animation-fill-mode: forwards;
 }
 
+.whatsapp {
+  background-color: green;
+  padding: 5px;
+  border-radius: 12px;
+}
 
 /* @media screen and (min-width: 621px) {
   

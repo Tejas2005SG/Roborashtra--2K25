@@ -132,7 +132,7 @@ const Cards = () => {
               <li>Registration date extended to 15 Mar</li>
 
 
-              
+  
               
               </ul>
             </div>

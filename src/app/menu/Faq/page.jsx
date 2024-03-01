@@ -46,6 +46,11 @@ export default function App() {
         question="What are the allowed dimensions and weight limits for the robots?"
         answer="Please refer to the rulebook for specific guidelines regarding the allowed dimensions and weight limits for the robots. Compliance with the regulations outlined in the rulebook is essential"
       />
+      <FAQItem
+        question="Can only undergraduate student can apply to the event?"
+        answer="
+        In CamWarrior, both undergraduate (UG) and postgraduate (PG) students can apply, whereas for other events, only undergraduate students are eligible to apply."
+      />
       {/* Add more FAQ items */}
     </div>
   );

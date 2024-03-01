@@ -4,6 +4,7 @@ import "./sponsors.css";
 import unstop from "../../../images/Unstop.jpg";
 import drdo from "../../../images/Drdo.png"
 import imperial from "../../../images/imperial.png"
+import cogna from "../../../images/cogna.png"
 
 
   export default function Sponsors(){
@@ -20,6 +21,8 @@ import imperial from "../../../images/imperial.png"
           <h3>Associative Sponsor</h3>
          <div className="sponsor_row">
           <Image src={imperial} alt="" srcset="" />
+          <Image src={cogna} alt="" srcset="" />
+
          </div> 
        </div>
       </div> 

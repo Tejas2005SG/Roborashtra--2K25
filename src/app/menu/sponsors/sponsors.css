@@ -6,25 +6,32 @@
     gap: 1rem;
 }
 
-.sponsor_wrapper p {
-    text-align: center;
-    font-size: 24px;
-    color: gold;
-}
-
 .sponsor_wrapper h3 {
     font-size: 26px;
-    text-decoration: underline;
+    font-family: bankGothlic;
 }
 
 .sponsor_wrapper img {
     width: 6rem;
     height: 6rem;
-    margin-left: 2rem;
-    border-radius: 50%;
+    border-radius: 10px;
+}
+
+.sponsor_row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 .sponsor_row img {
-    background-color: black;
     border-radius: 10px;
+}
+
+.sponsor_row img:nth-child(1) {
+    background-color: black;
+}
+
+.sponsor_row img:nth-child(2) {
+    width: 7rem;
+    background-color: white;
 }

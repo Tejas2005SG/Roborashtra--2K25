@@ -27,6 +27,10 @@ const options = [
     link: "/menu/clan",
   },
   {
+    opt: "FAQ",
+    link: "/menu/Faq",
+  },
+  {
     opt: "Contact Us",
     link: "/menu/Contact",
   },

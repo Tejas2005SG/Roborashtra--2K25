@@ -100,7 +100,7 @@ const Cards = () => {
       </div>
       <Image src={popUpimage} alt="" srcset="" />
       </div>    
-    <div className="Container" style={{ display: isPopUpVisible ? 'none' : 'grid' }}>
+    <div className="Container event_wrapper" style={{ display: isPopUpVisible ? 'none' : 'grid' }}>
       <h2 style={{textAlign:"center", fontFamily:"bankGothlic", fontSize:"22px"}}>Click Cards to explore events</h2>
     <div className="Events">
       {events.map((event) => {
@@ -128,7 +128,7 @@ const Cards = () => {
    <div className="bellwrapper">
    <div className="Notitext" style={{ display: isNotiVisible ? 'grid' : 'none' }}>
     <ul>
-              <li>Early Bird offer extended date to 29 Feb</li>
+              <li>SummerKickOff offer extended date to 15 Mar</li>
               <li>Registration date extended to 15 Mar</li>
 
 

@@ -1,33 +1,29 @@
-"use client";
-// page 2 menu
 import React from "react";
-// importing buttons
-import Button from "../Buttons/Btn1";
 import Link from "next/link";
-// all options for to navigate
+import Button from "../Buttons/Btn1";
+import "./EventMenu.css"
+
 const options = [
   { text: "EVENTS", link: "/menu" },
   { text: "Our Team", link: "/menu/teams" },
   { text: "Our Clan", link: "/menu/clan" },
   { text: "Sponsors", link: "/menu/sponsors" },
-  { text: "Contact", link: "/menu/Contact" }
+  { text: "Contact", link: "/menu/Contact" },
+  { text: "FAQ", link: "/menu/Faq" }
 ];
 
 const MenuBar = () => {
   return (
-    <div>
-      {options.map((option) => {
-        return (
-          <Link href={option.link} key={option.text}>
-            <Button
-              key={option.text}
-              style={{ margin: "1rem" }}
-              text={option.text}
-              link={option.link}
-            />
-          </Link>
-        );
-      })}
+    <div className="sideMenu">
+      {options.map((option, index) => (
+        <Link href={option.link} key={index}>
+          <Button
+            style={{ margin: "1rem" }}
+            text={option.text}
+            link={option.link}
+          />
+        </Link>
+      ))}
     </div>
   );
 };

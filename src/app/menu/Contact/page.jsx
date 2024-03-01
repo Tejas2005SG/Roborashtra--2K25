@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import './contact.css';
-import eventLink from "../page";
 
 const ContactPage = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -33,9 +32,24 @@ const ContactPage = () => {
   
   return (
     <>
+
     {!submitted ?(
     <div className="contact_wrapper text-3xl ">
       <h2>Contact Us</h2>
+      {/* <div className="contactTable">      <table>
+        <tr>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Contact No.</th>
+        </tr>
+        <tr>
+          <td>Om Khare</td>
+          <td>Team Lead</td>
+          <td>-</td>
+        </tr>
+      </table>
+      </div> */}
+
       <form onSubmit={handleSubmit}>
         
         <div className="Name">

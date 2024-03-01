@@ -1,15 +1,30 @@
-.team_wrapper {
+.sponsor_wrapper {
     display: grid;
     grid-template-columns: repeat(1fr, 3);
+    text-align: center;
+    place-items: center;
+    gap: 1rem;
 }
 
-.team_wrapper p {
+.sponsor_wrapper p {
     text-align: center;
     font-size: 24px;
     color: gold;
 }
 
-h3 {
+.sponsor_wrapper h3 {
     font-size: 26px;
     text-decoration: underline;
+}
+
+.sponsor_wrapper img {
+    width: 6rem;
+    height: 6rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+
+.sponsor_row img {
+    background-color: black;
+    border-radius: 10px;
 }

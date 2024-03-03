@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    position: relative;
+    top: 5rem;
+    text-align: left;
 }
 
 .faq_wrapper h1 {
@@ -15,10 +18,9 @@
 .faq-item {
     display: flex;
     flex-direction: column;
-    font-family: bankGothlic;
     font-size: 20px;
     margin-bottom: 1rem;
-    text-align: start;
+    text-align: left;
 }
 
 .question {
@@ -62,5 +64,11 @@
         flex-direction: column;
         position: relative;
         left: 5%;
+        top: -5rem;
+    }
+
+    .question,
+    .answer {
+        font-size: 16px;
     }
 }

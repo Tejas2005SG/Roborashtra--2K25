@@ -11,12 +11,12 @@ const play = Play({ subsets: ["latin"], weight: ["400"] });
 
 const options = [
   {
-    opt: "Start",
-    link: "/",
-  },
-  {
     opt: "Event",
     link: "/menu",
+  },
+  {
+    opt:"Accomodation",
+    link:"/menu/Acco"
   },
   {
     opt: "Team",

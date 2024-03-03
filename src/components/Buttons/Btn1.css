@@ -6,7 +6,7 @@
 }
 
 .btn1_wrapper {
-  width: 300px;
+  width: 350px;
   height: 45px;
   color: white;
   position: relative;
@@ -36,14 +36,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: var(--ft-1);
-  font-size: 20px;
-  font-weight: 400;
+  font-family: bankGothlic;
+  font-size: 22px;
   line-height: 24px;
   letter-spacing: 0.165em;
   text-align: left;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bolder;
+
 }
 
 .btn1_bar {

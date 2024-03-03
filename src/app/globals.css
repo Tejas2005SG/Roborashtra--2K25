@@ -35,6 +35,10 @@ body {
   src: url(../../public/Mortend\ Bold.ttf);
 }
 
+@font-face {
+  font-family: shapeSpace;
+  src: url(../../public/Square\ Space.ttf);
+}
 
 :root {
   --ft-car: "Carrois Gothic SC", sans-serif;

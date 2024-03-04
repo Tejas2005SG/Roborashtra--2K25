@@ -1,0 +1,6 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.imageSlider img {
+    height: 300px;
+    border-radius: 12px;
+}

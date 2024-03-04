@@ -14,9 +14,15 @@ const CamWarrior = () => {
         <h1 className="EventTitle">CAMWARRIOR</h1>
         <p>Get ready to soar to new heights at our exhilarating drone competition! Join us for a thrilling event where participants showcase their piloting skills in a series of rounds designed to challenge the drone enthusiasts. With each round presenting unique obstacles and tasks, contestants will maneuver their drones with precision and agility, aiming to outperform their rivals and claim victory. Dont miss out  for an unforgettable action-packed spectacle as pilots showcase their talent and push the boundaries of aerial excellence!!
         <h2 className="headContact">For any event related query <br />Contact Mayur(Event Head) : 9763733419</h2>
-        <a href="http://wa.me/+919307727077" rel="noopener noreferrer" target="_blank">
+        <div className="wpYoutube">
+                  <a href="http://wa.me/+919307727077" rel="noopener noreferrer" target="_blank">
         <button className="whatsapp">Contact Us On Whatsapp</button>
         </a>
+        <a href="https://youtu.be/_PlZLZdmn24" rel="noopener noreferrer" target="_blank">
+        <button className="youtube">Tutorial Video</button>
+        </a>
+        </div>
+
         </p> 
         <div className="action_btn">
           <Btn2 link={"/camwarrior.pdf"}/>

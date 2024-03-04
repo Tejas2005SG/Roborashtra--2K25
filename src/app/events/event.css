@@ -97,9 +97,17 @@
   animation-fill-mode: forwards;
 }
 
-.whatsapp {
+.wpYoutube {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}
+
+.whatsapp,
+.youtube {
   background-color: green;
-  padding: 5px;
+  padding: 7px;
   border-radius: 12px;
   font-family: bankGothlic;
   margin-top: .5rem;
@@ -107,9 +115,26 @@
   font-weight: 700;
 }
 
+.whatsapp {
+  box-shadow: 0px 2px 20px green;
+}
+
+.youtube {
+  background-color: red;
+  box-shadow: 0px 2px 20px red;
+}
+
+.youtube:hover {
+  background-color: white;
+  color: red;
+  scale: 1.1;
+}
+
+
 .whatsapp:hover {
   color: green;
   background-color: white;
+  scale: 1.1;
 }
 
 /* @media screen and (min-width: 621px) {
@@ -119,6 +144,7 @@
   margin-top: .5rem;
   font-size: 22px;
 }
+
 
 @media only screen and (max-width: 620px) {
   .Event {
@@ -209,6 +235,14 @@
     margin-bottom: 2rem;
     transform: scale(1.2);
   }
+
+  .wpYoutube {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+  }
 }
 
 
@@ -233,7 +267,6 @@
   .EventTitle {
     font-size: 32px;
   }
-
 
 }
 

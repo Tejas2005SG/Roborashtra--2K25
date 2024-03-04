@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     position: relative;
-    top: 5rem;
+    top: 3rem;
     text-align: left;
 }
 
@@ -64,7 +64,7 @@
         flex-direction: column;
         position: relative;
         left: 5%;
-        top: -5rem;
+        top: 2rem;
     }
 
     .question,

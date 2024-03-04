@@ -13,9 +13,14 @@ const CamWarrior = () => {
         <p>
         It is your chance to showcase your skills. We bring you a competition that will test your navigation skills along with your robot-building capabilities. You have to build a robot such that it can grab the victims and relocate them to a safe location without causing any harm to any of the victims. You will have to navigate the arena to find the victims. But, here is the catch, among other obstacles, there will be mines present. The mine goes off in 2 minutes, and you have two minutes to rescue the hostages, if u need more time, find the switches and disable the mines. You get a maximum of 10 minutes, the choice of the hostages and mines is up to you. Your decision-making skill is your ultimate tool.
         <h2 className="headContact">For any event related query <br />Contact Mehul(Event Head) : 9307705698</h2>
-        <a href="http://wa.me/+919307727077" rel="noopener noreferrer" target="_blank">
+        <div className="wpYoutube">
+                  <a href="http://wa.me/+919307727077" rel="noopener noreferrer" target="_blank">
         <button className="whatsapp">Contact Us On Whatsapp</button>
         </a>
+        <a href="https://youtu.be/Ta07XPid5VQ" rel="noopener noreferrer" target="_blank">
+        <button className="youtube">Tutorial Video</button>
+        </a>
+        </div>
         </p>
         <div className="action_btn">
           <Btn2 link={"/resqlympics.pdf"} />

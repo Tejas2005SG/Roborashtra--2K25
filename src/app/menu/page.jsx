@@ -130,9 +130,7 @@ const Cards = () => {
     <ul>
               <li>SummerKickOff offer extended date to 15 Mar</li>
               <li>Registration date extended to 15 Mar</li>
-
-
-  
+              <li>Event tutorials are updated to respective event page<br/> Explore the event page to get reference for bot</li>
               
               </ul>
             </div>

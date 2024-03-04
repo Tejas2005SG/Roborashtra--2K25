@@ -40,26 +40,20 @@ function Page() {
         </div>
         <div className="Reaching">
            
-            <p style={reaching}>PCCOER (Pimpri Chinchwad College of Engineering and Research) is located in the Ravet area of Pimpri-Chinchwad city in the Pune district of Maharashtra, India. It is situated near the Mumbai-Pune Expressway, making it easily accessible from both Pune and Mumbai.
-To reach PCCOER (Pimpri Chinchwad College of Engineering and Research) in Ravet, Pune, you have several options depending on your starting point and preferred mode of transportation. Here is a detailed guide:<br />
-
-By Car:
-- *From Pune City Center*: Take the Mumbai-Pune Expressway (National Highway 48) towards Mumbai. Take the exit towards Ravet from the expressway. Follow the signs towards Ravet and Nigdi. PCCOER is located near Akurdi Railway Station in the Pradhikaran area of Nigdi.
-- *From Mumbai*: Drive on the Mumbai-Pune Expressway (National Highway 48) towards Pune. Take the exit towards Ravet after passing through the toll booths. Follow signs towards Ravet and Nigdi.<br />
-
-By Public Transportation:<br />
-- *From Pune Railway Station*: You can take a local train from Pune Junction or Shivajinagar Railway Station to Akurdi Railway Station. From there, PCCOER is a short distance away. Alternatively, you can take a bus or taxi from the railway station to Ravet.<br />
-- *From Pune Bus Stand (Swargate or Shivajinagar)*: You can take a PMPML bus heading towards Nigdi or Ravet and get off at the nearest bus stop. From there, you can walk or take a rickshaw to PCCOER.<br />
-- *From Mumbai*: If you are coming from Mumbai, you can take a train to Pune and then follow the above directions. Alternatively, you can take a bus directly to Pune and then use local transportation to reach Ravet.
+            <p style={reaching}>
+<b>By Public Transportation:</b><br />
+- <b>From Pune Railway Station</b>: You can take a local train from Pune Junction or Shivajinagar Railway Station to Akurdi Railway Station. From there, PCCOER is a short distance away. Alternatively, you can take a bus or taxi from the railway station to Ravet.<br />
+- <b>From Pune Bus Stand (Swargate or Shivajinagar):</b> You can take a PMPML bus heading towards Nigdi or Ravet and get off at the nearest bus stop. From there, you can walk or take a rickshaw to PCCOER.<br />
+- <b>From Mumbai</b>: If you are coming from Mumbai, you can take a train to Pune and then follow the above directions. Alternatively, you can take a bus directly to Pune and then use local transportation to reach Ravet.
 <br/>
-By Air:
-- *From Pune Airport*: Upon arriving at Pune Airport, you can take a taxi or pre-booked cab to PCCOER Ravet. The college is approximately 25-30 kilometers away from the airport, and the journey takes around 45 minutes to an hour depending on traffic conditions.
+<b>By Air:</b><br/>
+- <b>From Pune Airport</b>: Upon arriving at Pune Airport, you can take a taxi or pre-booked cab to PCCOER Ravet. The college is approximately 25-30 kilometers away from the airport, and the journey takes around 45 minutes to an hour depending on traffic conditions.
 <br/>
-Local Transportation:
+<b>Local Transportation</b>:
 <br/>
-- *Rickshaws and Taxis*: You can easily find auto-rickshaws and taxis in Pune that can take you to Ravet. Ensure to negotiate the fare beforehand or use metered vehicles.
+-<b>Rickshaws and Taxis</b>: You can easily find auto-rickshaws and taxis in Pune that can take you to Ravet. Ensure to negotiate the fare beforehand or use metered vehicles.
 <br />
-- *App-Based Cabs*: Services like Uber and Ola operate in Pune and can take you to PCCOER Ravet. Just book a cab using their respective apps.
+- <b>App-Based Cabs</b>: Services like Uber and Ola operate in Pune and can take you to PCCOER Ravet. Just book a cab using their respective apps.
 <br/>
 Always double-check the location and address of PCCOER Ravet before starting your journey. Its also advisable to consider traffic conditions, especially during peak hours.
             <div className="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.306505707732!2d73.74034057929025!3d18.65023693726519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ba0251959e2d%3A0x4d7ea2cc35724480!2sPCCOE-Ravet%2C%20Pimpri%20Chinchwad%20College%20of%20Engineering%20and%20Research%2C%20Ravet%2C%20Pune!5e0!3m2!1sen!2sin!4v1709365971396!5m2!1sen!2sin" width="700" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></p>

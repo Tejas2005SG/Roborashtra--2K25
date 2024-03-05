@@ -4,7 +4,7 @@ import ImageGallery from "react-image-gallery";
 
 const images = [
   {
-    original: "https://picsum.photos/id/1018/1000/600/",
+    original: "https://drive.google.com/uc?export=download&id=1vBh79vooDSr6iUyGbgGtUZWtYBE5wyKz",
     fullscreen: false,
     orignalHeight: 250,
     orignalWidth: 250
@@ -25,7 +25,7 @@ const images = [
 
 function imageSlider() {
   return (
-    <div className='imageSlider'><ImageGallery items={images} /></div>
+    <div><ImageGallery items={images} /></div>
   )
 }
 

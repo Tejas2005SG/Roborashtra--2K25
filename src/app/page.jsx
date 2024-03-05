@@ -1,14 +1,13 @@
 'use client';
 import react, {useEffect, useState} from "react";
 import Image from "next/image";
-import MainCharater from "../images/Om.png";
+import MainCharater from "../images/mainChar.png";
 import "./main.css";
 import pccoer from "../images/PCCOER.png";
 import pcet from "../images/PCET.png";
 import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
 import Logo from "@/images/loaderLogo.png";
-import birthday from "@/images/hello-birthday.gif";
 
 import drone from "@/images/drone.png"
 export default function Home() {
@@ -74,7 +73,6 @@ export default function Home() {
           <span>Rashtra</span>
         </div>
         <div className="main_bottom">
-          <h2 className="text-5xl font-bold">Happy Birthday Team Lead</h2>
           <p>“Rise Of The RoboNation: Bharat Leads The Way”</p>
           <div className="start_btn">
             <Btn4 link={"./menu"} />

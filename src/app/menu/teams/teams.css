@@ -30,6 +30,7 @@
 .team_wrapper p {
   font-family: bankGothlic;
   font-size: 22px;
+  text-align: center;
 }
 
 .team_row {
@@ -104,6 +105,7 @@
 
   .team_wrapper p {
     font-size: 18px;
+    text-align: center;
   }
 
   .team h2 {

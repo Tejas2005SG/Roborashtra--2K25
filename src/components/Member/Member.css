@@ -97,5 +97,10 @@
 
   .contactInfo {
     font-size: 14px;
+    padding-left: .5rem;
+  }
+
+  .Contact {
+    font-size: 12px;
   }
 }

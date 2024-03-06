@@ -37,41 +37,42 @@ export default function Teams() {
     //   Coming Soon </div>
     <div className="team" >
     <div className="team_wrapper">
+      <p className="text-center">(Hover or Click Cards to see Contact details)</p>
 
 
       <h2 className="text-center text-lg">Event Co-ordinator</h2>
       <div className="team_row">
-            <Member image={coordinator} email={"mahendra.salunke@pccoer.in"} linkedIn={"https://www.linkedin.com/in/mahendra-salunke-b9958128/"}/>
+            <Member image={coordinator} email={"mahendra.salunke@pccoer.in"} linkedIn={"https://www.linkedin.com/in/mahendra-salunke-b9958128/"} phnNo={9763722206}/>
       </div>
 
       <h2 className="text-center text-lg">Lead & Co-Lead</h2>
       <div className="team_row">
-            <Member image={lead} email={"om.khare_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/om-khare-5bb6b8236/"}/>
-            <Member image={colead} email={"khushi.rohra_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/khushi-rohra-aa53a6259/"}/>
-            <Member image={colead2} email={"chandrakant.raut_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/chandrakant-raut-0606b8236/"}/>
+            <Member image={lead} email={"om.khare_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/om-khare-5bb6b8236/"} phnNo={9588654379}/>
+            <Member image={colead} email={"khushi.rohra_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/khushi-rohra-aa53a6259/"} phnNo={9307727077}/>
+            <Member image={colead2} email={"chandrakant.raut_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/chandrakant-raut-0606b8236/"} phnNo={9359142631}/>
 
       </div>
 
       <h2 className="text-center text-lg">Head & Co-Head</h2>
       <div className="team_row">
-      <Member image={vishal} email={"vishal.jangid_it22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/vishal-jangid-359b54259/"}/>
-            <Member image={shreeram} linkedIn={"https://www.linkedin.com/in/shreeramshanmugasundaram/"}/>
-            <Member image={gaurav} email={"gaurav.latpate_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/latpate-gaurav-433ba7236"}/>
-            <Member image={vedant} email={"vedant.patil_comp221@pccoer.in"} linkedIn={"https://www.linkedin.com/in/connect-vedant-patil/"}/>
-            <Member image={dnyanesh} email={"dnyaneshwari.jadhav_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/dnyaneshwari-jadhav-a927a3236"}/>
-            <Member image={shrushti} email={"srushti.bhoir_entc22@pccoer.in"}/>
-            <Member image={vedantRaut}/>
-            <Member image={srushti} email={"shrushti.bahiruwale_entc22@pccoer.in"}/>
-            <Member image={avishkar}/>
-            <Member image={aastha}/>
-            <Member image={manas_pr}/>
-            <Member image={manasi} email={"manasi.velhal_comp21@pccoer.in"} linkedIn={"www.linkedin.com/in/manasi-velhal-2a9921277"}/>
-            <Member image={samrudhi} email={"samruddhi.patil_comp22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/samruddhi-patil-833817259"}/>
-            <Member image={chetan} email={"chetan.phulmante_comp21@pccoer.in"} linkedIn={"www.linkedin.com/in/chetan-phulmante-303b99236"}/>
-            <Member image={mayur}/>
-            <Member image={mehul}/>
-            <Member image={manas}/>
-            <Member image={chandrakantBM} email={"chandrakant.raut_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/chandrakant-raut-0606b8236/"}/>
+      <Member image={vishal} email={"vishal.jangid_it22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/vishal-jangid-359b54259/"} phnNo={9172008630}/>
+            <Member image={shreeram} linkedIn={"https://www.linkedin.com/in/shreeramshanmugasundaram/"} phnNo={8530533222}/>
+            <Member image={gaurav} email={"gaurav.latpate_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/latpate-gaurav-433ba7236"} phnNo={8329583083}/>
+            <Member image={vedant} email={"vedant.patil_comp221@pccoer.in"} linkedIn={"https://www.linkedin.com/in/connect-vedant-patil/"} phnNo={7558321879}/>
+            <Member image={dnyanesh} email={"dnyaneshwari.jadhav_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/dnyaneshwari-jadhav-a927a3236"} phnNo={9307727077}/>
+            <Member image={shrushti} email={"srushti.bhoir_entc22@pccoer.in"} phnNo={9307727077}/>
+            <Member image={vedantRaut} phnNo={9307533577} />
+            <Member image={srushti} email={"shrushti.bahiruwale_entc22@pccoer.in"} phnNo={9307727077}/>
+            <Member image={avishkar} phnNo={9518320921}/>
+            <Member image={aastha} phnNo={9307727077}/>
+            <Member image={manas_pr} phnNo={9175967324}/>
+            <Member image={manasi} email={"manasi.velhal_comp21@pccoer.in"} linkedIn={"www.linkedin.com/in/manasi-velhal-2a9921277"} phnNo={9307727077}/>
+            <Member image={samrudhi} email={"samruddhi.patil_comp22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/samruddhi-patil-833817259"} phnNo={9307727077}/>
+            <Member image={chetan} email={"chetan.phulmante_comp21@pccoer.in"} linkedIn={"www.linkedin.com/in/chetan-phulmante-303b99236"} phnNo={8806946629}/>
+            <Member image={mayur} phnNo={9763733419}/>
+            <Member image={mehul} phnNo={9307705698}/>
+            <Member image={manas} phnNo={9175967324}/>
+            <Member image={chandrakantBM} email={"chandrakant.raut_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/chandrakant-raut-0606b8236/"} phnNo={9359142631}/>
 
       </div>
     </div>

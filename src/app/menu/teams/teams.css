@@ -27,6 +27,11 @@
   margin-bottom: 1rem;
 }
 
+.team_wrapper p {
+  font-family: bankGothlic;
+  font-size: 22px;
+}
+
 .team_row {
   display: flex;
   flex-direction: row;
@@ -95,6 +100,10 @@
     position: relative;
     right: 0;
     top: 0;
+  }
+
+  .team_wrapper p {
+    font-size: 18px;
   }
 
   .team h2 {

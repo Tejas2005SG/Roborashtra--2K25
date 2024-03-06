@@ -36,6 +36,7 @@ const ContactPage = () => {
     {!submitted ?(
     <div className="contact_wrapper text-3xl ">
       <h2>Contact Us</h2>
+      <h4>To Contact Heads Visit Team Page</h4>
       {/* <div className="contactTable">      <table>
         <tr>
         <th>Name</th>

@@ -21,7 +21,7 @@ const CamWarrior = () => {
                   <a href="http://wa.me/+919307727077" rel="noopener noreferrer" target="_blank">
         <button className="whatsapp">Contact Us On Whatsapp</button>
         </a>
-        <a href="/" rel="noopener noreferrer" target="_blank">
+        <a href="https://youtu.be/3PPSxmi0_pg" rel="noopener noreferrer" target="_blank">
         <button className="youtube">Tutorial Video</button>
         </a>
         </div>

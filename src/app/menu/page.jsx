@@ -10,8 +10,8 @@ import { ImCross } from "react-icons/im";
 import popUpimage from "@/images/POP UP.png"
 const events = [
   {
-    title: "Steel Soldier Slam",       
-    desc: "Step into the exciting world of Steel Soldier !..",
+    title: "RObofest",       
+    desc: "Calling all aspiring young minds and ...",
     link: "/events/robowar",
     image: "event1.svg",
   },

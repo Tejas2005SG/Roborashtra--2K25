@@ -21,7 +21,7 @@ Join us for a day filled with excitement, exploration, and inspiration. From ima
         </a>
         <div className="action_btn">
           {/* <Btn2 link={"/robowar.pdf"} /> */}
-          <Btn1 text={"Register"} link={"https://unstop.com/p/steel-soldiers-slam-roborashtra-2k24-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-888635"} />
+          <Btn1 text={"Register"} link={"https://forms.gle/2gN987WcGN5YWnM5A"} />
         </div>
       </div>
        <Image src="/" alt="robowar" width={500} height={400}/> 

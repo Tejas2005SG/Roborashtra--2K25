@@ -15,12 +15,12 @@ const options = [
     link: "/menu",
   },
   {
-    opt:"Accomodation",
-    link:"/menu/Acco"
-  },
-  {
     opt: "Team",
     link: "/menu/teams",
+  },
+  {
+    opt: "Sponsors",
+    link: "/menu/sponsors"
   },
   {
     opt: "Clan",

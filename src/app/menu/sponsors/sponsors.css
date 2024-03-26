@@ -44,7 +44,11 @@
     background-color: black;
 }
 
-.sponsor_row img:nth-child(2),
+.sponsor_row img:nth-child(2) {
+    width: 10rem;
+    background-color: white;
+}
+
 .sponsor_row img:nth-child(3) {
     width: 10rem;
     background-color: white;

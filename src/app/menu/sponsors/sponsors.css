@@ -4,19 +4,11 @@
     text-align: center;
     place-items: center;
     gap: 1rem;
-    margin-top: 5rem;
 }
 
 .sponsor_wrapper h3 {
     font-size: 26px;
     font-family: bankGothlic;
-}
-
-.dronePartner img {
-    width: auto;
-    height: 6rem;
-    background-color: white;
-    padding: 20px;
 }
 
 .sponsor_wrapper img {
@@ -29,11 +21,6 @@
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
 }
 
 .sponsor_row img {
@@ -44,8 +31,7 @@
     background-color: black;
 }
 
-.sponsor_row img:nth-child(2),
-.sponsor_row img:nth-child(3) {
-    width: 10rem;
+.sponsor_row img:nth-child(2) {
+    width: 7rem;
     background-color: white;
 }

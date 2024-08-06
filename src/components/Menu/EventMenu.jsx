@@ -12,17 +12,7 @@ const events = [
     title: "Cam Warrior",
     link: "/events/cam_warrior",
     image: "/event2.svg",
-  },
-  {
-    title: "ResQlympic",
-    link: "/events/resqlimpic",
-    image: "/event3.svg",
-  },
-  {
-    title: "Blaze Maze",
-    link: "/events/tactical_tracers",
-    image: "/event4.svg",
-  },
+  }
 ];
 const EventMenu = () => {
   return (

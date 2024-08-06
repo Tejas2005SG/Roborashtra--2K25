@@ -9,6 +9,9 @@ import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
 import Logo from "@/images/loaderLogo.png";
 
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
 import drone from "@/images/drone.png"
 export default function Home() {
   
@@ -16,28 +19,43 @@ export default function Home() {
   const [showContent, setShowContent] = useState(false);
 
   useEffect(() => {
-    // Show starterPage for 4 seconds
+  
     const starterPageTimeout = setTimeout(() => {
       setShowStarterPage(false);
     }, 
     3900);
 
-    // After 4 seconds, hide starterPage and show content
     const contentTimeout = setTimeout(() => {
       setShowContent(true);
-    }, 4000); // 4s (starterPage time) + 4s (delay before showing content)
-
-    // Cleanup timeouts on component unmount
+    }, 4000); 
     return () => {
       clearTimeout(starterPageTimeout);
       clearTimeout(contentTimeout);
     };
   }, []);
+
+  useGSAP(()=>{
+    const tl = gsap.timeline();
+    tl.from(".welcomeTag h1",{
+      opacity:0,
+      y: 100,
+      delay: 0,
+      duration: 1
+    })
+    tl.from(".yearTag h2",{
+      opacity:0,
+      y: 100,
+      delay: 0.5,
+      duration: 1
+    })
+  })
   return (
     <>  
     {showStarterPage &&
       <div className='startPage'>
-     
+        <div className="welcomeTag">
+      <h1 className="text-4xl text-center">Welcome To</h1>
+      </div>
       <div className="startTitle">
         <span style={{color:"orange"}}>ROBO</span>
         <span>RAS</span>
@@ -45,6 +63,9 @@ export default function Home() {
         </div>
         <div className="logo">
         <Image src={Logo} alt="logo" srcset="" />
+      </div>
+      <div className="yearTag">
+      <h2>2K25</h2>
       </div>
     </div>
 }
@@ -73,7 +94,7 @@ export default function Home() {
           <span>Rashtra</span>
         </div>
         <div className="main_bottom">
-          <p>“Rise Of The RoboNation: Bharat Leads The Way”</p>
+          <p className="">“Rise Of The RoboNation: Bharat Leads The Way”</p>
           <div className="start_btn">
             <Btn4 link={"./menu"} />
           </div>

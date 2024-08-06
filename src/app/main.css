@@ -7,14 +7,34 @@ body {
   height: 100%;
   background-color: black;
   background-size: cover;
+  z-index: 10;
+}
 
+.welcomeTag {
+  position: relative;
+  top: 10rem;
+  font-size: 44px;
+  font-family: mokoto;
+  letter-spacing: 5px;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.yearTag {
+  position: relative;
+  bottom: 20rem;
+  font-size: 64px;
+  font-family: mokoto;
+  letter-spacing: 5px;
+  text-align: center;
+  overflow: hidden;
 }
 
 .logo {
   width: 10rem;
   height: 10rem;
   position: absolute;
-  top: calc(50% - 5rem);
+  top: calc(50% - 4rem);
   left: calc(50% - 5rem);
   z-index: 0;
 }
@@ -27,6 +47,8 @@ body {
   align-items: center;
   align-content: center;
   z-index: 2;
+  position: relative;
+  top: -2.5rem;
 }
 
 .startTitle span {
@@ -44,7 +66,8 @@ body {
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .15em;
-  animation: animated-text 4s 1s normal ease-in-out both
+  animation: animated-text 4s 1s normal ease-in-out both;
+  /* opacity: 0.8; */
 }
 
 @keyframes animated-text {
@@ -67,6 +90,7 @@ main {
   flex-direction: column;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%);
   overflow: hidden;
+  z-index: 10;
 }
 
 .clgLogo img {
@@ -98,6 +122,7 @@ main {
 .clgName p:nth-child(1) {
   padding-bottom: 1rem;
   font-family: mokoto;
+
 }
 
 main {
@@ -127,6 +152,8 @@ main {
   text-align: center;
   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%); */
   padding: 2rem;
+  -webkit-text-stroke: 0.5px rgb(234, 45, 45);
+  color: transparent;
 }
 
 .main_title {
@@ -151,6 +178,10 @@ main {
   margin-left: 45px;
 }
 
+.main_title span {
+  -webkit-text-stroke: 1px rgb(241, 27, 27);
+}
+
 .colaboration {
   display: flex;
   flex-direction: column;
@@ -162,21 +193,6 @@ main {
   left: 2rem;
 }
 
-.colaboration h3 {
-  font-size: 18px;
-  font-family: bankGothlic;
-}
-
-.DRDOlogo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.DRDOlogo img {
-  width: 120px;
-  height: 120px;
-}
 
 main img {
   width: 100%;
@@ -185,66 +201,6 @@ main img {
   left: -4rem;
   /* margin-left: 4rem; */
 }
-
-/* .color-dots {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-}
-
-.color-dots:nth-child(3) {
-  position: absolute;
-  animation: dot1 infinite 3s ease-in-out;
-  left: 60%;
-  background-color: blue;
-  box-shadow: -12px 2px 15px rgb(43, 0, 255);
-}
-
-.color-dots:nth-child(2) {
-  position: absolute;
-  left: 30%;
-  background-color: aqua;
-  box-shadow: 12px 12px 10px rgba(0, 255, 255, 0.366);
-
-}
-
-@keyframes dot1 {
-  0% {
-    position: absolute;
-    top: 30%;
-    left: 30%;
-  }
-
-  30% {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-  }
-
-  50% {
-    position: absolute;
-    top: 60%;
-    left: 75%;
-  }
-
-  80% {
-    position: absolute;
-    z-index: -1;
-    top: 45%;
-    left: 50%;
-  }
-
-  100% {
-    position: absolute;
-    top: 30%;
-    left: 30%;
-  }
-} */
-
 
 .start_btn {
   transform: translate(-10%, 0%);
@@ -358,11 +314,13 @@ main img {
     margin-left: 0px;
   }
 
-  .main_bottom p {
+  .main_bottom {
     font-size: 20px;
     text-align: center;
     margin-bottom: 0rem;
+
   }
+
 
   main img {
     width: 75vw;

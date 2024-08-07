@@ -8,6 +8,7 @@ import pcet from "../images/PCET.png";
 import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
 import Logo from "@/images/loaderLogo.png";
+import dummyModel from "@/images/dummyModel.png"
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -86,7 +87,7 @@ export default function Home() {
       <main className="main">
         <div>
           <center>
-          <Image src={MainCharater} alt="main-character" />
+          <Image src={MainCharater} alt="main-character"  />
           </center>
         </div>
         <div className="main_title">

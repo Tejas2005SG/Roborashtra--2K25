@@ -5,11 +5,12 @@ import "./EventMenu.css"
 
 const options = [
   { text: "EVENTS", link: "/menu" },
-  { text: "Our Team", link: "/menu/teams" },
-  { text: "Our Clan", link: "/menu/clan" },
+
+  { text: "Glimpse", link: "/menu/Glimpse" },
   { text: "Sponsors", link: "/menu/sponsors" },
   { text: "Contact", link: "/menu/Contact" },
-  { text: "FAQ", link: "/menu/Faq" }
+  { text: "Our Team", link: "/menu/teams" },
+  { text: "Our Clan", link: "/menu/clan" }
 ];
 
 const MenuBar = () => {

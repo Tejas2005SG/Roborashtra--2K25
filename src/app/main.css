@@ -152,7 +152,7 @@ main {
   text-align: center;
   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%); */
   padding: 2rem;
-  -webkit-text-stroke: 0.5px rgb(234, 45, 45);
+  -webkit-text-stroke: 0.5px rgb(252, 247, 247);
   color: transparent;
 }
 

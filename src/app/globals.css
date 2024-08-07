@@ -48,7 +48,7 @@ body {
 }
 
 body {
-  background: url("../images/tempBg.jpg");
+  background: url("../images/bodyBg.png");
   color: white;
   overflow-x: hidden;
   width: 100%;
@@ -58,7 +58,7 @@ body {
 
 }
 
-body::before {
+/* body::before {
   content: " ";
   position: fixed;
   top: 0;
@@ -71,7 +71,7 @@ body::before {
   z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 
 

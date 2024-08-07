@@ -5,16 +5,40 @@ nav {
   top: 0;
   left: 0;
   z-index: 999;
-  background: rgba(17, 16, 16, 0.447);
+  /* background: rgba(17, 16, 16, 0.447); */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  
   align-items: center;
   backface-visibility: hidden;
+  flex-direction: column;
+}
+.Nav{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+  justify-content: center;
+}
+nav p{
+  font-size:14px;
+  font-weight: 700;
+  background:linear-gradient(to bottom,rgb(91, 87, 87),#fff);
+  /* -webkit-background-clip: "text"; */
+  -webkit-background-clip: text;
+
+  
+  /* -webkit-text-stroke: 2px black; */
+  color: transparent;
+
 }
 
-nav img {
-  padding-left: 5px;
-}
+/* nav img {
+  padding-left: 20px;
+  margin-left: 150%; 
+  align-items: center;  
+} */
+
 
 .desktop-links {
   width: 50%;
@@ -47,7 +71,10 @@ nav img {
 
 
 #smallLogo {
-  display: none;
+  display: inline;
+  
+  
+  
 }
 
 .desktop-links a {
@@ -103,6 +130,7 @@ nav img {
 
   #Logo {
     z-index: 999;
+    margin-left: 20px;
   }
 
   #hammenu {

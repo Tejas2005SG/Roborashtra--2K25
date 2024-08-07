@@ -41,12 +41,17 @@ const Nav = () => {
   let menustyle = menu ? { left: "0%" } : { left: "-110%" };
   return (
     <div >
-      <nav>
-        <Link href="/">
+      <nav className="">
+        <Link href="/" className="Nav">
+         
+          <Image src={smallLogo} width={50} height={50} alt="" srcset=""  id="smallLogo"/>
           <Image src={logo} width={275} height={100} alt="logo" />
-          <Image src={smallLogo} alt="" srcset=""  id="smallLogo"/>
         </Link>
-        <ul className="desktop-links" style={menustyle}>
+
+       <p>Powered By</p>
+       <Image src="" alt="" srcset="" />
+
+        {/* <ul className="desktop-links" style={menustyle}>
           {options.map((option) => {
             return (
               <li key={option.opt}>
@@ -60,7 +65,7 @@ const Nav = () => {
               </li>
             );
           })}
-        </ul>
+        </ul> */}
          <div className="hamMenu" id="hammenu" onClick={()=>{
           setMenu((prev)=> !prev)
          }}>
@@ -69,8 +74,11 @@ const Nav = () => {
         <div></div>
       </div>
       </nav>
+
      
     </div>
+
+
   );
 };
 

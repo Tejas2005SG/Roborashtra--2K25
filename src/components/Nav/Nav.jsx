@@ -9,7 +9,11 @@ import { Play } from "next/font/google";
 import { Ri4KFill, RiMenu4Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import Navcard from "../NavCard/navcard";
-import HomeNav from "../NavCard/images/Home.png"
+import HomeNav from "../NavCard/images/Home.png";
+
+// import Unstop from "./images/Unstop.jpg"; // Assuming the correct path
+
+
 const play = Play({ subsets: ["latin"], weight: ["400"] });
 
 const options = [
@@ -53,7 +57,7 @@ const Nav = () => {
         </Link>
 
        <p>Powered By</p>
-       <Image src="" alt="" srcset="" />
+       {/* <Image src={Unstop} width={50} height={50} alt="" srcset="" id="unstop"/>   */}
 
         <div className="HamMenuBar absolute top-4 right-3 text-4xl cursor-pointer"  onClick={()=>{
           setMenu((prev)=> !prev)

@@ -1,7 +1,6 @@
 "use client";
 import gsap from "gsap"
 import React, { useEffect, useRef } from 'react'
-import droneVideo from "../../../public/videos/dronecursor.mp4"
 
 
 const Cursor = () => {
@@ -14,7 +13,7 @@ const Cursor = () => {
         gsap.to(cursorRef.current, {
           x: dets.clientX,
           y: dets.clientY,
-          duration: 1,
+          duration: 0,
           ease: "back.out",
         });
       }

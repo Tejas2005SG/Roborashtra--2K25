@@ -49,7 +49,7 @@ const Nav = () => {
         <Link href="/" className="Nav">
          
           <Image src={smallLogo} width={50} height={50} alt="" srcset=""  id="smallLogo"/>
-          <Image src={logo} width={275} height={100} alt="logo" />
+          <Image src={logo} width={275} height={100} alt="logo" id="logo"/>
         </Link>
 
        <p>Powered By</p>

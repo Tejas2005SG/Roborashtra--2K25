@@ -5,7 +5,7 @@ module.exports = nextConfig
 
 module.exports = {
     images: {
-      domains: ['drive.google.com'],
+      domains: ['drive.google.com','ggayane.github.io'],
     },
     webpack: (config, { isServer }) => {
       config.module.rules.push({

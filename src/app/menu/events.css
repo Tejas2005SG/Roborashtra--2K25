@@ -52,7 +52,7 @@
   padding-right: 5px;
   height: 70px;
   text-align: center;
-  border-right: 2px solid white;
+  /* border-right: 2px solid white; */
 }
 
 .timer-card:nth-child(4) {

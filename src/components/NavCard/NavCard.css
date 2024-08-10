@@ -1,0 +1,14 @@
+.NavCard:hover {
+    background-color: black;
+
+    .Arrow {
+        rotate: 45deg;
+        color: black;
+        background-color: aqua;
+        /* background-color: orangered; */
+        transition: all 0.75s;
+
+    }
+
+    transition: all 0.75s;
+}

@@ -35,6 +35,10 @@ nav p {
 
 }
 
+.NavCard {
+  width: 12.5rem;
+}
+
 /* nav img {
   padding-left: 20px;
   margin-left: 150%; 
@@ -43,45 +47,42 @@ nav p {
 
 
 .desktop-links {
-  width: 50%;
-  display: flex;
-  justify-content: space-evenly;
+  z-index: 99;
+  top: -10px;
+  left: -110%;
+  position: absolute;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  place-items: center;
   align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 5rem;
+  background-color: rgba(44, 42, 42, 0.923);
+  padding: 3rem;
 }
 
-.desktop-links a {
-  font-size: 20px;
-  padding: 8px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  cursor: pointer;
-  border: 2px solid transparent;
+.desktop-links li {
+  width: 12.5rem;
+  height: 10rem;
 }
 
-.desktop-links a:hover {
-  border-bottom: 2px solid #fff;
-  border-top: 2px solid #fff;
-  color: #00e0ff;
-}
 
-#hammenu {
-  display: none;
-}
+
+
+
 
 
 
 #smallLogo {
   display: inline;
 
-
-
 }
 
-.desktop-links a {
-  transition: all ease-in-out 0.1s;
-}
+
 
 @media screen and (max-width: 960px) {
   /* nav img {
@@ -112,65 +113,18 @@ nav p {
     padding: 0;
   }
 
-  .desktop-links {
-    z-index: 99;
-    top: -10px;
-    left: -110%;
-    position: absolute;
-    color: white;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: start;
-    gap: 3rem;
-    padding-top: 5rem;
-    background-color: rgba(44, 42, 42, 0.923);
-    transition: all ease-in-out 0.3s;
-    border-top: none;
-  }
+
 
   #Logo {
     z-index: 999;
     margin-left: 20px;
   }
 
-  #hammenu {
-    position: absolute;
-    top: 1.2rem;
-    right: 1.5rem;
-    z-index: 900;
-    display: block;
-    font-size: 1.5rem;
-    transform: rotateY(180deg);
-    cursor: pointer;
-  }
 
-  .hamMenu {
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
-  }
 
-  .hamMenu div {
-    margin-top: 1px;
-    border: 1px solid black;
-    width: 2.3rem;
-    height: .3rem;
-    background-color: #00e0ff;
-  }
 
-  .hamMenu div:nth-child(2) {
-    width: 1.7rem;
-  }
 
-  .hamMenu div:nth-child(3) {
-    width: 1rem;
-  }
+
 
   .desktop-links a {
     font-size: 22px;

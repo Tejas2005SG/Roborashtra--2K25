@@ -67,7 +67,6 @@ const Cards = () => {
 
   return (
     <>
-      
     <div className="Container event_wrapper" >
       <h2 style={{textAlign:"center", fontFamily:"bankGothlic", fontSize:"22px"}}>Click Cards to explore events</h2>
     <div className="Events">

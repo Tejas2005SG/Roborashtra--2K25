@@ -2,9 +2,9 @@ import MenuBar from "@/components/Menu/MenuBar";
 import "./menu.css";
 import Nav from "@/components/Nav/Nav";
 import ImageLoader from "@/components/loader/Loader";
+import Cursor from "@/components/Cursor/cursor";
 
 
-import bell from "./bell.png";
 
 export const metadata = {
   title: "Roborashtra",
@@ -20,6 +20,7 @@ export default function MenuLayout({ children }) {
 
   return (
     <ImageLoader>
+      <Cursor />
     <div className="menu_mob">
       <div className="menu_nav">
     <Nav />

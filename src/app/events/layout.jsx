@@ -4,6 +4,7 @@ import React from "react";
 import "./event.css";
 import Nav from "@/components/Nav/Nav";
 import ImageLoader from "@/components/loader/Loader";
+import Cursor from "@/components/Cursor/cursor";
 export const metadata = {
   title: "Roborashtra",
   description:
@@ -13,6 +14,7 @@ export const metadata = {
 export default function EventLayout({ children }) {
   return (
     <ImageLoader>
+      <Cursor />
     <div>
       <Nav />
       <div className="Event_wrapper">

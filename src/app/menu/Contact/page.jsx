@@ -35,8 +35,8 @@ const ContactPage = () => {
 
     {!submitted ?(
     <div className="contact_wrapper text-3xl ">
-      <h2>Contact Us</h2>
-      <h4>To Contact Heads Visit Team Page</h4>
+      <h2 className="Contact">Contact Us</h2>
+      <h4 className="To">To Contact Heads Visit Team Page</h4>
       {/* <div className="contactTable">      <table>
         <tr>
         <th>Name</th>
@@ -54,7 +54,7 @@ const ContactPage = () => {
       <form onSubmit={handleSubmit}>
         
         <div className="Name">
-          <p>Name:</p>
+          <p className="Info">Name:</p>
           <input
             type="text"
             name="name"
@@ -63,7 +63,7 @@ const ContactPage = () => {
         </div>
         <div className="emaiPhn">
           <div className="email">
-            <p>Email:</p>
+            <p className="Info">Email:</p>
             <input
               type="email"
               name="email"
@@ -71,7 +71,7 @@ const ContactPage = () => {
             />
           </div>
           <div className="phnNo">
-            <p>Phone No:</p>
+            <p className="Info">Phone No:</p>
             <input
               type="tel"
               name="phoneNumber"
@@ -80,7 +80,7 @@ const ContactPage = () => {
           </div>
         </div>
         <div className="query">
-          <p>Query:</p>
+          <p className="Info">Query:</p>
           <textarea
             className="query-box"
             rows={4}
@@ -92,7 +92,7 @@ const ContactPage = () => {
           <button type="submit">Submit</button>
         </div>
       </form>
-      <p>Follow US ON</p>
+      <p className="Follow">Follow US ON</p>
       <div className="socialMedia flex row-auto gap-3">
         <a href="https://www.youtube.com/@RobohawkPCCOER"><FaYoutube /></a>
         <a href="https://www.linkedin.com/showcase/98926593/admin/feed/posts/"><FaLinkedin /></a>

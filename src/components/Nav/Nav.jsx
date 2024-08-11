@@ -18,9 +18,13 @@ const play = Play({ subsets: ["latin"], weight: ["400"] });
 
 const options = [
   {
+    opt: "Home",
+    link: "/",
+    img: HomeNav
+  },
+  {
     opt: "Event",
     link: "/menu",
-    img: HomeNav
   },
   {
     opt: "Team",
@@ -52,7 +56,7 @@ const Nav = () => {
       <nav className="">
         <Link href="/" className="Nav">
          
-          <Image src={smallLogo} width={50} height={50} alt="" srcset=""  id="smallLogo"/>
+          <Image src={smallLogo} width={60} height={60} alt="" srcset=""  id="smallLogo"/>
           <Image src={logo} width={275} height={100} alt="logo" id="logo"/>
         </Link>
 

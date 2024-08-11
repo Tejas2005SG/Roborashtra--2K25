@@ -60,14 +60,15 @@
 }
 
 .timer-number {
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: bankGothlic;
+  
 }
 
 .timer-label {
   font-size: 1rem;
   font-family: mokoto;
-  color: rgb(9, 207, 233);
+  color:  rgba(246, 127, 36, 0.838);
 
 }
 
@@ -87,7 +88,7 @@
 }
 
 .Notitext a {
-  color: rgb(9, 207, 233);
+  color:  rgb(198, 211, 213);
   text-decoration: underline;
 }
 
@@ -138,6 +139,7 @@
 
   .timer-label {
     font-size: .75rem;
+    color: red;
   }
 
   .bellwrapper {

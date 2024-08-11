@@ -1,6 +1,7 @@
 "use client";
 import gsap from "gsap"
 import React, { useEffect, useRef } from 'react'
+import handCursor from "@/images/Handcursor.png"
 
 
 const Cursor = () => {
@@ -30,9 +31,7 @@ const Cursor = () => {
   }, []);
   return (
     <div className='cursor' ref={cursorRef}>
-      {/* <video width={3000} autoPlay loop muted>
-        <source src={droneVideo} type="video/mp4" />
-      </video> */}
+     
     </div>
   )
 }

@@ -5,29 +5,32 @@
   line-height: 48px;
   letter-spacing: 0.015em;
   text-align: left;
-  border-bottom: 5px solid white;
+  border-bottom: 5px solid rgb(165, 204, 218);
   width: 80%;
   padding-bottom: 0.8rem;
   margin-bottom: 1rem;
 }
 
 .clan_text {
-  font-family: bankGothlic;
+  font-family: mokoto;
   font-size: 22px;
   font-weight: 900;
   line-height: 42px;
   letter-spacing: 0em;
   text-align: left;
+  color: rgba(233, 238, 241, 0.904);
 }
 
 .social_media {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
+  color: rgb(192, 244, 253);
 }
 
 .social_media img {
   margin: 0.5rem;
+  
 }
 
 .sittingRobo {

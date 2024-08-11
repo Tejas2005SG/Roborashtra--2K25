@@ -24,7 +24,9 @@
 
 
 .body {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
   background-position: fixed;
   background: fixed;
 }

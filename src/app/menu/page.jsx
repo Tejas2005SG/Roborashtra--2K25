@@ -84,7 +84,7 @@ const Cards = () => {
     </div>
     
     <div className="countdown-container md:relative md:-bottom-20">
-      <h1>Unleash the Future: RoboRashtra 2025 – <br />Where Innovation Soars!</h1>
+      <h1>Unleash the Future: RoboRashtra 2025  <br /> - Where Innovation Soars!</h1>
       <div className="timer-container">
       {timerComponents.length ? timerComponents : <span>Times up!</span>}
       </div>

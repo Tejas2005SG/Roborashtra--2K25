@@ -71,7 +71,7 @@ body {
   position: fixed;
   z-index: 999;
   overflow: hidden;
-} */
+}
 
 
 
@@ -97,4 +97,3 @@ body {
   max-width: min(72rem, 96%);
   margin: 0 auto;
 }
-

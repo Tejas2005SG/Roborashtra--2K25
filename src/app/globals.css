@@ -8,6 +8,7 @@
 * {
   padding: 0;
   margin: 0;
+  cursor: url("../images/handCursor.png"), auto;
 }
 
 body {
@@ -67,14 +68,10 @@ body {
   position: fixed;
   z-index: 999;
   overflow: hidden;
-}
+} */
 
-.cursor video {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-blend-mode: multiply;
-}
+
+
 
 /* body::before {
   content: " ";

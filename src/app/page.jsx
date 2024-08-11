@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
-import MainCharater from "../images/mainChar.png";
+import MainCharater from "../images/mainchar-2.png";
 import "./main.css";
 import pccoer from "../images/PCCOER.png";
 import pcet from "../images/PCET.png";
@@ -12,6 +12,7 @@ import Cursor from "@/components/Cursor/cursor";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import drone from "@/images/drone.png";
+
 
 export default function Home() {
   const [showStarterPage, setShowStarterPage] = useState(true);
@@ -46,8 +47,11 @@ export default function Home() {
       delay: 0.5,
       duration: 1,
     });
-  });
 
+   
+
+  });
+ 
   // Cursor
   
 
@@ -71,7 +75,7 @@ export default function Home() {
           </div>
         </div>
       )}
-      {showContent && (
+      {showContent && ( 
         <ImageLoader>
           <Cursor />
           <div className="main">
@@ -89,16 +93,16 @@ export default function Home() {
             </div>
             <div className="main_wrapper">
               <main className="main">
-                <div>
-                  <center>
-                    <Image src={MainCharater} alt="main-character" />
-                  </center>
+                <div className="main-character">
+                
+                     <Image src={MainCharater} alt="main-character" /> 
+                  
                 </div>
                 <div className="main_title">
-                  <span>Robo</span>
-                  <span>Rashtra</span>
+                  <span id="leftTitle">Robo</span>
+                  <span id="rightTitle">Rashtra</span>
                 </div>
-                <div className="main_bottom">
+                <div className="main_bottom ">
                   <p className="">
                     “Rise Of The RoboNation: Bharat Leads The Way”
                   </p>
@@ -113,7 +117,7 @@ export default function Home() {
             </div>
           </div>
         </ImageLoader>
-      )}
+     )} 
     </>
   );
 }

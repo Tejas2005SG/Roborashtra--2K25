@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
 body {
   overflow: hidden;
 }
@@ -133,6 +136,15 @@ main {
   padding-top: 3rem;
 }
 
+.main-character {
+  position: absolute;
+  /* top: 0; */
+  bottom: -120px;
+  left: 40px;
+  width: 520px;
+  z-index: -1;
+}
+
 .main_bottom {
   width: 100%;
   position: absolute;
@@ -143,7 +155,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%);
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%); */
 }
 
 .main_bottom p {
@@ -155,16 +167,17 @@ main {
   text-align: center;
   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%); */
   padding: 2rem;
-  -webkit-text-stroke: 0.5px rgb(252, 247, 247);
+  -webkit-text-stroke: 1px #ddd2d2;
   color: transparent;
 }
 
 .main_title {
   font-family: mokoto;
+  /* font-family: "Rajdhani", sans-serif; */
   font-size: 118px;
-  font-weight: 100;
+  font-weight: bold;
   line-height: 248px;
-  letter-spacing: 0em;
+  letter-spacing: 0.5rem;
   text-align: left;
   position: absolute;
   top: 30%;
@@ -177,24 +190,11 @@ main {
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 11rem;
-  margin-left: 45px;
+  gap: 2rem;
+  margin-left: 50px;
 }
 
-.main_title span {
-  -webkit-text-stroke: 1px rgb(241, 27, 27);
-}
 
-.colaboration {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  position: absolute;
-  top: 15rem;
-  left: 2rem;
-}
 
 
 main img {
@@ -262,7 +262,7 @@ main img {
   100% {
     position: absolute;
     bottom: 60%;
-    right: 10%;
+    right: 13.9%;
     transform: rotateZ(-30deg);
   }
 }

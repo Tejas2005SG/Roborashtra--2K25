@@ -11,6 +11,7 @@ nav {
   align-items: center;
   backface-visibility: hidden;
   flex-direction: column;
+  /* overflow-y: scroll; */
 }
 
 .Nav {
@@ -121,7 +122,7 @@ nav p {
     margin-left: 20px;
   }
 
-  #unstop{
+  #unstop {
     position: absolute;
     top: 0.5rem;
     left: 1rem;
@@ -152,5 +153,11 @@ nav p {
     padding-right: 25vw;
     color: #00e0ff;
     border-top: none;
+  }
+
+  .desktop-links {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    overflow-y: scroll;
+
   }
 }

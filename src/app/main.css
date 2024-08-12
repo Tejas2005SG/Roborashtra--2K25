@@ -194,6 +194,34 @@ main {
   margin-left: 50px;
 }
 
+.RobohawkRepresentation {
+  position: absolute;
+  top: 23%;
+  left: 25%;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+.representedBy {
+  position: relative;
+  top: 5.6rem;
+  left: -1rem;
+
+}
+
+.representedBy h2 {
+  font-size: 14px;
+  font-family: mokoto;
+  letter-spacing: 3px;
+}
+
+.representedBy h1 {
+  -webkit-text-stroke: 1px rgb(31, 212, 244);
+  font-size: 24px;
+  font-family: designer;
+  color: transparent;
+}
 
 
 
@@ -311,8 +339,8 @@ main img {
   }
 
   .main_title {
-    font-size: 42px;
-    top: 14%;
+    font-size: 40px;
+    top: 15%;
     gap: 0rem;
     margin-left: 0px;
   }
@@ -321,16 +349,32 @@ main img {
     font-size: 20px;
     text-align: center;
     margin-bottom: 0rem;
+  }
 
+  #string {
+    display: none;
+  }
+
+  .main_bottom p {
+    font-size: 20px;
+    position: relative;
+    bottom: 10rem;
+  }
+
+  .representedBy {
+    top: -35%;
+    left: 75%;
   }
 
 
   main img {
-    width: 75vw;
-    margin-bottom: 10rem;
+    width: 100vw;
+    /* margin-bottom: 10rem; */
     position: relative;
-    left: 0rem;
-    top: -1rem;
+    top: -15rem;
+    display: none;
+    /* left: 0rem;
+    top: -1rem; */
   }
 
   .drone img {
@@ -340,7 +384,9 @@ main img {
 
   .start_btn {
     transform: translate(0%, 0%);
-    margin-bottom: 7rem;
+    /* margin-bottom: 7rem; */
+    position: relative;
+    bottom: 10rem;
   }
 
   .nav_wrapper {

@@ -62,13 +62,13 @@
 .timer-number {
   font-size: 3rem;
   font-family: bankGothlic;
-  
+
 }
 
 .timer-label {
   font-size: 1rem;
   font-family: mokoto;
-  color:  rgba(246, 127, 36, 0.838);
+  color: rgba(246, 127, 36, 0.838);
 
 }
 
@@ -88,7 +88,7 @@
 }
 
 .Notitext a {
-  color:  rgb(198, 211, 213);
+  color: rgb(198, 211, 213);
   text-decoration: underline;
 }
 
@@ -102,21 +102,24 @@
   .Events {
     justify-content: center;
     grid-template-columns: 1fr;
+    margin-top: 1rem;
+    /* gap: 2rem; */
   }
 
   .Container {
     gap: 1rem;
-    margin-top: 3.5rem;
+    margin-top: 4rem;
   }
 
 
   .countdown-container {
     width: 100%;
     display: grid;
+    margin-top: 2rem;
   }
 
   .countdown-container h1 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .timer-container {

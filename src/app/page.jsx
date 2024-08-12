@@ -13,10 +13,11 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import drone from "@/images/drone.png";
 
-
 export default function Home() {
   const [showStarterPage, setShowStarterPage] = useState(true);
   const [showContent, setShowContent] = useState(false);
+
+  const stringRef = useRef(null);
 
   useEffect(() => {
     const starterPageTimeout = setTimeout(() => {
@@ -33,6 +34,46 @@ export default function Home() {
     };
   }, []);
 
+  useEffect(() => {
+ 
+      // Delaying the effect slightly to ensure the element is rendered
+      setTimeout(() => {
+        const string = stringRef.current;
+        console.log(string); // Check if string is still null
+
+        if (!string) return;
+
+        const handleMouseMove = (dets) => {
+          const path = `M 0 100 Q 400 ${dets.y} 780 100`;
+          gsap.to("svg path", {
+            attr: { d: path },
+            duration: 0.4,
+            ease: "power3.out",
+          });
+        };
+
+        const handleMouseLeave = () => {
+          const path = 'M 0 100 Q 400 100 780 100';
+          gsap.to("svg path", {
+            attr: { d: path },
+            duration: 1.5,
+            ease: "elastic.out(1,0.2)",
+          });
+        };
+
+        string.addEventListener("mousemove", handleMouseMove);
+        string.addEventListener("mouseleave", handleMouseLeave);
+
+        // Cleanup function
+        return () => {
+          if (string) {
+            string.removeEventListener("mousemove", handleMouseMove);
+            string.removeEventListener("mouseleave", handleMouseLeave);
+          }
+        };
+      }, 4000); // Setting timeout to 0 ensures the DOM has settled
+    }, [showContent]);
+
   useGSAP(() => {
     const tl = gsap.timeline();
     tl.from(".welcomeTag h1", {
@@ -47,13 +88,7 @@ export default function Home() {
       delay: 0.5,
       duration: 1,
     });
-
-   
-
   });
- 
-  // Cursor
-  
 
   return (
     <>
@@ -75,7 +110,7 @@ export default function Home() {
           </div>
         </div>
       )}
-      {showContent && ( 
+      {showContent && (
         <ImageLoader>
           <Cursor />
           <div className="main">
@@ -94,18 +129,24 @@ export default function Home() {
             <div className="main_wrapper">
               <main className="main">
                 <div className="main-character">
-                
-                     <Image src={MainCharater} alt="main-character" /> 
-                  
+                  <Image src={MainCharater} alt="main-character" />
                 </div>
                 <div className="main_title">
-                  <span id="leftTitle">Robo</span>
-                  <span id="rightTitle">Rashtra</span>
+                  <span id="leftTitle">RoboRashtra</span>
                 </div>
-                <div className="main_bottom ">
-                  <p className="">
-                    “Rise Of The RoboNation: Bharat Leads The Way”
-                  </p>
+                <div className="RobohawkRepresentation">
+                <div id="string" ref={stringRef}>
+                  <svg width="800" height="200">
+                    <path d="M 0 100 Q 400 100 780 100" stroke="white" fill="transparent" />
+                  </svg>
+                </div>
+                <div className="representedBy">
+                  <h2>Presented By</h2>
+                  <h1>Robohawk</h1>
+                </div>
+                </div>
+                <div className="main_bottom">
+                  <p>“Rise Of The RoboNation: Bharat Leads The Way”</p>
                   <div className="start_btn">
                     <Btn4 link={"./menu"} />
                   </div>
@@ -117,7 +158,7 @@ export default function Home() {
             </div>
           </div>
         </ImageLoader>
-     )} 
+      )}
     </>
   );
 }

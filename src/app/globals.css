@@ -57,6 +57,7 @@ body {
   height: 100%;
   background-size: cover;
   background-color: rgb(0, 0, 5);
+  cursor: none;
 }
 
 .cursor {
@@ -65,7 +66,6 @@ body {
   background: url("../images/Handcursor.png");
   background-repeat: no-repeat;
   background-size: cover;
-
   /* background: transparent; */
   border-radius: 50%;
   position: fixed;

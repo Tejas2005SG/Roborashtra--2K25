@@ -55,7 +55,7 @@
 
 
 .EventTitle {
-  font-family: designer;
+  font-family: mokoto;
   font-size: 34px;
   line-height: 40px;
   letter-spacing: 0.085em;
@@ -92,7 +92,7 @@
   border: 1px solid rgba(255, 255, 255, 0.125);
   padding: 2rem;
   transform: scale(1.1);
-  box-shadow: 2px 2px 25px rgba(0, 224, 255, 1);
+  box-shadow: 2px 2px 25px #ff6200;
   animation-name: eventContent;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
@@ -280,4 +280,8 @@
   to {
     transform: scale(1.1);
   }
+}
+
+.Content{
+  font-family: Sᴍᴀʟʟ ᴄᴀᴘs;
 }

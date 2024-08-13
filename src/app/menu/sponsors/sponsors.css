@@ -21,7 +21,7 @@
 .dronePartner img {
     width: auto;
     height: 6rem;
-    background-color: white;
+    background-color: rgb(161, 214, 249);
     padding: 20px;
 }
 
@@ -52,4 +52,24 @@
 .sponsor_row img:nth-child(3) {
     width: 10rem;
     background-color: white;
+}
+.Imgcontent{
+    display: flex;              /* Aligns images in a row */
+    justify-content: space-around; /* Distributes space evenly between images */
+    align-items: center;        /* Vertically centers images within the div */
+    flex-wrap: wrap;            /* Allows images to wrap to the next line if the screen is too narrow */
+    padding: 20px;              /* Adds padding around the images */
+    background-color: transparent;
+    gap: 1rem;
+}
+img {
+    max-width: 100%;             /* Ensures images are responsive */
+    height: auto;                /* Maintains aspect ratio of the images */
+    margin: 10px;                /* Adds space around each image */
+    border-radius: 10px;         /* Rounds the corners of the images */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow around the images */
+}
+img:hover {
+    transform: scale(1.1);       /* Slightly enlarges the image on hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Enhances the shadow on hover */
 }

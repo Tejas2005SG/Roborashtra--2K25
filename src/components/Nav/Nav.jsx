@@ -66,7 +66,7 @@ const Nav = () => {
         <div className="HamMenuBar absolute top-4 right-3 text-4xl cursor-pointer"  onClick={()=>{
           setMenu((prev)=> !prev)
          }}>
-          <RiMenu4Fill />
+          <RiMenu4Fill className="HamMenuIcon"/>
        
       
        </div>

@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 .Container {
   display: flex;
   flex-direction: column;
@@ -5,7 +9,11 @@
   align-content: center;
   align-items: center;
   gap: 1rem;
-  margin-top: 3rem;
+  position: relative;
+  top: -3rem;
+  /* margin-top: 1rem; */
+  /* overflow-y: hidden; */
+  overflow: hidden;
 }
 
 .page1,
@@ -35,7 +43,8 @@
   background-color: transparent;
   border-radius: 8px;
   position: relative;
-  bottom: -1rem;
+  /* bottom: -1rem; */
+  top: 1rem;
 }
 
 .countdown-container h1 {

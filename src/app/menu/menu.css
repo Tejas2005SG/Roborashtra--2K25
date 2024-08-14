@@ -1,3 +1,5 @@
+
+
 .Menu_wrapper {
   max-width: min(72rem, 98%);
   margin: 0 auto;
@@ -7,6 +9,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  /* overflow-y: hidden; */
 }
 
 .popUp {
@@ -38,6 +41,11 @@
 }
 
 @media only screen and (max-width: 650px) {
+  body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
   .Menu_wrapper {
     grid-template-columns: 1fr;
   }
@@ -53,6 +61,11 @@
 }
 
 @media only screen and (max-width: 920px) {
+  body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
   .Menu_bar {
     display: none;
   }
@@ -82,21 +95,47 @@
 
 .bell {
   width: 2rem;
-    animation: bellshake .5s cubic-bezier(.36,.07,.19,.97) infinite;
-    backface-visibility: hidden;
-    transform-origin: top right;
+  animation: bellshake .5s cubic-bezier(.36, .07, .19, .97) infinite;
+  backface-visibility: hidden;
+  transform-origin: top right;
 }
 
 @keyframes bellshake {
-  0% { transform: rotate(0); }
-  15% { transform: rotate(5deg); }
-  30% { transform: rotate(-5deg); }
-  45% { transform: rotate(4deg); }
-  60% { transform: rotate(-4deg); }
-  75% { transform: rotate(2deg); }
-  85% { transform: rotate(-2deg); }
-  92% { transform: rotate(1deg); }
-  100% { transform: rotate(0); }
+  0% {
+    transform: rotate(0);
+  }
+
+  15% {
+    transform: rotate(5deg);
+  }
+
+  30% {
+    transform: rotate(-5deg);
+  }
+
+  45% {
+    transform: rotate(4deg);
+  }
+
+  60% {
+    transform: rotate(-4deg);
+  }
+
+  75% {
+    transform: rotate(2deg);
+  }
+
+  85% {
+    transform: rotate(-2deg);
+  }
+
+  92% {
+    transform: rotate(1deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
 }
 
 

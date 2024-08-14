@@ -29,7 +29,7 @@
   top: 1rem;
   right: 1rem;
   font-size: 26px;
-  color: rgb(246, 127, 36);
+  color: rgb(177, 153, 152);
   cursor: pointer;
 }
 
@@ -167,5 +167,5 @@
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 3rem;
-  color: #666;
+  color: #e83717;
 }

@@ -5,8 +5,12 @@ import "./Card.css";
 import Image from "next/image";
 import Btn2 from "../Buttons/Btn3";
 import Title1 from "../../images/coverImage.png"
-const Card = ({ title, link, image, desc }) => {
-  console.log(image);
+import card1 from "../../images/card1bg.jpg"
+import card1Front from "../../images/card1Front.png"
+import card2Front from "../../images/card2front.png"
+import card2 from "../../images/card2.jpg"
+const Card = () => {
+
   return (
     <>
     {/* <div className="card-container">    <div className="Card">
@@ -24,17 +28,28 @@ const Card = ({ title, link, image, desc }) => {
 
 
 
-    <a href={link} alt="Mythrill" target="_blank">
+    <a href="/events/robowar" alt="Mythrill" target="_blank">
   <div class="card w-full h-full">
     <div class="wrapper w-full h-full">
-      <Image width={200} height={300} src="https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg" class="cover-image" />
+      <Image width={200} height={300} src={card1} class="cover-image" />
     </div>
     <Image width={200} height={300} src={Title1} class="title" />
-    <Image width={200} height={300} src="https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp" class="character" />
-
+    <Image width={200} height={300} src={card1Front} class="character" />
   </div>
   <button className="text-center w-full bg-orange-700">Explore Event</button>
 </a>
+
+<a href="/events/resqlimpic" alt="Mythrill" target="_blank">
+  <div class="card2 w-full h-full">
+    <div class="wrapper w-full h-full">
+      <Image width={0} height={0} src={card2} class="cover-image" />
+    </div>
+    <Image width={200} height={300} src={Title1} class="title" />
+    <Image width={200} height={300} src={card2Front} class="character" />
+  </div>
+  <button className="text-center w-full bg-orange-700">Explore Event</button>
+</a>
+
 
 
     

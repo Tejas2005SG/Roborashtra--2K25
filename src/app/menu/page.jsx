@@ -8,20 +8,7 @@ import { ImCross } from "react-icons/im";
 
 
 import popUpimage from "@/images/POP UP.png"
-const events = [
-  {
-    title: "RObofest",       
-    desc: "Calling all aspiring young minds and ...",
-    link: "/events/robowar",
-    image: "event1.svg",
-  },
-  {
-    title: "Cam Warrior",
-    desc: "Welcome to CamWarriors, an exciting...",
-    link: "/events/cam_warrior",
-    image: "event2.svg",
-  }
-];
+
 const Cards = () => {
   const calculateTimeLeft = () => {
     const endDate = new Date("2025-01-27");
@@ -70,17 +57,7 @@ const Cards = () => {
     <div className="Container event_wrapper" >
       <h2 style={{textAlign:"center", fontFamily:"bankGothlic", fontSize:"22px"}}>Click Cards to explore events</h2>
     <div className="Events">
-      {events.map((event) => {
-        return (
-          <Card
-            key={event.title}
-            title={event.title}
-            desc={event.desc}
-            link={event.link}
-            image={event.image}
-          />
-        );
-      })}
+      <Card />
     </div>
     
     <div className="countdown-container md:relative md:-bottom-20">

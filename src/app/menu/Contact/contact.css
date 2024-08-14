@@ -1,3 +1,8 @@
+body {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
 .contact_wrapper {
   display: grid;
   /* grid-template-rows: repeat(1fr, 5); */

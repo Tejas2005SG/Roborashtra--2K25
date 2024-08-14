@@ -186,3 +186,165 @@ input:active,input:focus{
 .Info{
     color: rgb(153, 177, 195);
 }
+
+.contact-wrapper {
+    background-color: #f0f4f8; /* Softer light blue background */
+    padding: 30px; /* Increased padding for more spacing */
+    border-radius: 15px; /* More rounded corners */
+    text-align: center; 
+    max-width: 600px; /* Increased max width */
+    margin: 40px auto; /* Center with added vertical spacing */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Deeper shadow for more depth */
+    border: 1px solid #e0e0e0; /* Light border for definition */
+    font-family: 'Arial', sans-serif; /* Apply a clean, readable font */
+  }
+  
+  .contact-heading {
+    color: #2c3e50; /* Dark blue for heading */
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase; /* Uppercase for emphasis */
+    letter-spacing: 2px; /* Spacing between letters for a modern look */
+  }
+  
+  .helpline {
+    color: #2980b9; /* Bright blue for helpline */
+    margin-bottom: 15px;
+    font-size: 22px; /* Slightly larger font */
+    font-weight: 600; /* Make it more prominent */
+  }
+  
+  .event-lead, .event-co-lead {
+    color: #34495e; /* Dark gray-blue for contrast */
+    margin-bottom: 10px;
+    font-size: 20px; /* Larger font size */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transition for both color and scale */
+  }
+  
+  .event-lead {
+    font-weight: bold; 
+    background-color: #ecf0f1; /* Light gray background for emphasis */
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+  
+  .event-co-lead {
+    font-weight: 500; /* Slightly less bold than lead */
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 10px; /* Add spacing between paragraphs */
+  }
+  
+  h2, h4 {
+    font-size: 26px; /* Larger font for headings */
+  }
+  
+  /* Add hover effect */
+  .helpline:hover, .event-lead:hover, .event-co-lead:hover {
+    color: #1abbe8; /* Bright blue on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+    cursor: pointer;
+  }
+  
+  /* Additional styling for links, if any */
+  a {
+    color: #e0d6ce; /* Match helpline color */
+    text-decoration: none; /* Remove underline */
+    border-bottom: 2px solid transparent; /* Add subtle border transition */
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #e4ecee; /* Change color on hover */
+    border-bottom-color:#bed3d6; /* Show border on hover */
+  }
+  .contact-wrapper {
+  background-color: #f0f4f8; /* Softer light blue background */
+  padding: 30px; /* Increased padding for more spacing */
+  border-radius: 15px; /* More rounded corners */
+  text-align: center; 
+  max-width: 600px; /* Increased max width */
+  margin: 40px auto; /* Center with added vertical spacing */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Deeper shadow for more depth */
+  border: 1px solid #e0e0e0; /* Light border for definition */
+  font-family: 'Arial', sans-serif; /* Apply a clean, readable font */
+}
+
+.contact-heading {
+  color: #2c3e50; /* Dark blue for heading */
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase; /* Uppercase for emphasis */
+  letter-spacing: 2px; /* Spacing between letters for a modern look */
+}
+
+.helpline {
+  color:#bed3d6 ; /* Bright blue for helpline */
+   /* Bright blue for helpline */
+  margin-bottom: 15px;
+  font-size: 22px; /* Slightly larger font */
+  font-weight: 600; /* Make it more prominent */
+}
+
+.event-lead, .event-co-lead {
+  color: #34495e; /* Dark gray-blue for contrast */
+  margin-bottom: 10px;
+  font-size: 20px; /* Larger font size */
+  transition: color 0.3s ease, transform 0.3s ease; /* Add transition for both color and scale */
+}
+
+.event-lead {
+  font-weight: bold; 
+  background-color: #ecf0f1; /* Light gray background for emphasis */
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.event-co-lead {
+  font-weight: 500; /* Slightly less bold than lead */
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 10px; /* Add spacing between paragraphs */
+}
+
+h2, h4 {
+  font-size: 26px; /* Larger font for headings */
+}
+
+/* Add hover effect */
+.helpline:hover, .event-lead:hover, .event-co-lead:hover {
+  color: #bed3d6; /* Bright blue on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+  cursor: pointer;
+}
+
+/* Additional styling for links, if any */
+a {
+  color: #bed3d6; /* Match helpline color */
+  text-decoration: none; /* Remove underline */
+  border-bottom: 2px solid transparent; /* Add subtle border transition */
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+a:hover {
+  color: #bed3d6; /* Change color on hover */
+  border-bottom-color: #9cbdc2; /* Show border on hover */
+}
+.route p {
+    font-size: 0.850rem; /* This sets the font size to 14px */
+  }
+  
+/* .contact-lead,
+.contact-co-lead {
+  font-size: 0.6em; /* Smaller font size 
+  margin-bottom: 0.2em;
+  text-align: left;
+} */
+.LNo{
+    font-size: 0.850rem ;
+    text-align: justify;
+}

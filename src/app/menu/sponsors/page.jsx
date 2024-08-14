@@ -10,8 +10,15 @@ import powerPlanner from "../../../images/powerPlaneer.jpg"
 import mitu from "../../../images/mitu.png"
 
 
+
+
+
+
   export default function Sponsors(){
+   
     return(
+
+      
     <div className="sponsor" style={{ }}>
        <div className="sponsor_wrapper">
          <h3>Technical Collaboration</h3>
@@ -26,13 +33,14 @@ import mitu from "../../../images/mitu.png"
          </div> */}
 
           <h3>Associative Sponsor</h3>
-         <div className="sponsor_row">
+         <div className="Imgcontent">
           <Image src={imperial} alt="" srcset="" />
           <Image src={cogna} alt="" srcset="" />
            <Image src={powerPlanner} alt="" srcset="" />
           <Image src={mitu} alt="" srcset="" />
 
          </div> 
+         
        </div>
       </div> 
     );

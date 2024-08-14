@@ -1,5 +1,7 @@
 .NavCard:hover {
     background-color: black;
+    box-shadow: 5px 5px 10px 5px rgba(0, 255, 255, 0.563);
+
 
     .Arrow {
         rotate: 45deg;
@@ -11,4 +13,19 @@
     }
 
     transition: all 0.75s;
+}
+
+.NavCard {
+    background: rgb(33, 37, 38);
+    box-shadow: 5px 5px 10px 5px rgba(251, 68, 1, 0.607);
+
+}
+
+.Arrow {
+    color: rgb(33, 37, 38);
+}
+
+.content h2 {
+    font-family: minimulist;
+    letter-spacing: 2px;
 }

@@ -159,23 +159,26 @@ main {
 }
 
 .main_bottom p {
-  font-family: bankGothlic;
+  font-family: aroma;
   font-size: 32px;
   font-weight: 400;
   /* line-height: 83px; */
   letter-spacing: 0em;
   text-align: center;
+  /* margin-left: 2rem; */
+  position: relative;
+  left: 2rem;
   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%); */
   padding: 2rem;
-  -webkit-text-stroke: 1px #ddd2d2;
+  -webkit-text-stroke: 2px rgb(181, 168, 168);
   color: transparent;
 }
 
 .main_title {
   font-family: mokoto;
   /* font-family: "Rajdhani", sans-serif; */
-  font-size: 118px;
-  font-weight: bold;
+  font-size: 110px;
+  /* font-weight: semi-bold; */
   line-height: 248px;
   letter-spacing: 0.5rem;
   text-align: left;
@@ -444,17 +447,22 @@ main img {
 
   .clgLogo img:nth-child(1) {
     left: 1rem;
-    top: 5rem;
+    top: 4rem;
+    width: 75px;
+    height: 75px;
   }
 
   .clgLogo img:nth-child(2) {
     right: 1rem;
-    top: 5rem;
+    top: 4rem;
+    width: 75px;
+    height: 75px;
   }
 
   .clgName {
     margin-left: 2rem;
     margin-right: 2rem;
+    font-size: 20px;
   }
 
   body {
@@ -471,7 +479,30 @@ main img {
     gap: 10rem;
     position: absolute;
     left: 24rem;
-    margin-top: 2rem;
+    top: 9rem;
+    /* margin-top: 2rem; */
+  }
+
+  #string {
+    position: absolute;
+    top: -5rem;
+    left: -2rem;
+    /* width: 40px; */
+  }
+
+  .representedBy {
+    position: relative;
+    top: 2rem;
+    /* right: 7rem; */
+  }
+
+  .main_bottom {
+    position: absolute;
+    bottom: -8rem;
+  }
+
+  .main_bottom p {
+    font-size: 26px;
   }
 
   main img {
@@ -489,11 +520,17 @@ main img {
 
 @media screen and (min-width:951px) and (max-width:1200px) {
   .clgName p {
-    font-size: 34px;
+    font-size: 22px;
     position: relative;
     top: 2%;
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  .clgLogo img {
+    width: 75px;
+    height: 75px;
+    margin-top: 2rem;
   }
 
   .startTitle {
@@ -506,13 +543,19 @@ main img {
   }
 
   .main_title {
-    font-size: 6rem;
+    font-size: 5rem;
     gap: 10rem;
-    margin-top: 5.5rem;
+    /* margin-top: 5.5rem; */
   }
 
-  .start_btn {
-    margin-bottom: 7rem;
+  .representedBy {
+    position: absolute;
+    top: 7rem;
+    left: 12rem;
+  }
+
+  .main_bottom p {
+    font-size: 24px;
   }
 
   .main_bottom {

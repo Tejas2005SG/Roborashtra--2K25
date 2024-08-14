@@ -71,7 +71,7 @@ export default function Home() {
             string.removeEventListener("mouseleave", handleMouseLeave);
           }
         };
-      }, 4000); // Setting timeout to 0 ensures the DOM has settled
+      }, 200); // Setting timeout to 0 ensures the DOM has settled
     }, [showContent]);
 
   useGSAP(() => {

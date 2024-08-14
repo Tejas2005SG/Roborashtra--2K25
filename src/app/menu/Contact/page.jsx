@@ -35,9 +35,27 @@ const ContactPage = () => {
 
     {!submitted ?(
     <div className="contact_wrapper text-3xl ">
-      <h2 className="Contact">Contact Us</h2>
-      <h4 className="To">To Contact Heads Visit Team Page</h4>
-      {/* <div className="contactTable">      <table>
+      <h2 className="Contact">For Any Query, You can make a call on:</h2>
+      <h4 className="To">Roborashtra Helpine : 9307727077</h4>
+      <p className="LNo">Event Lead(Aditya Pardeshi):8956596939</p>
+      <p className="LNo">Event Co-Lead(Vishal Jangid):9172008630</p>
+      <p className="LNo">Event CoLead(Pratik Chavare):9172008630</p>
+      <div className="route">
+        <h4>How to Reach ?</h4>
+        <p>By Train:<br></br>
+
+From Pune Junction, take a local train towards Talegaon or Lonavala and get off at Akurdi station.</p>
+       <p>By Bus:<br></br>
+
+From Akurdi station, you can take an auto-rickshaw directly to PCCOER in Ravet. Alternatively, catch a local bus heading towards Ravet or Dehu Road and get off at the nearest stop to the college.</p>
+       <p>By Auto-Rickshaw:<br></br>
+
+You can take an auto-rickshaw directly from Pune Junction to PCCOER, though this will be more expensive than the train and bus options.</p>
+      </div>
+      <div>
+        
+      </div>
+            {/* <div className="contactTable">      <table>
         <tr>
         <th>Name</th>
         <th>Position</th>
@@ -51,7 +69,7 @@ const ContactPage = () => {
       </table>
       </div> */}
 
-      <form onSubmit={handleSubmit}>
+      {/* <form onSubmit={handleSubmit}>
         
         <div className="Name">
           <p className="Info">Name:</p>
@@ -91,7 +109,16 @@ const ContactPage = () => {
         <div className="submitBtn">
           <button type="submit">Submit</button>
         </div>
-      </form>
+      </form> */}
+      {/* <div className="Name">
+          <p className="Info">Name:</p>
+          <input
+            type="text"
+            name="name"
+            required
+          />
+        </div> */}
+
       <p className="Follow">Follow US ON</p>
       <div className="socialMedia flex row-auto gap-3">
         <a href="https://www.youtube.com/@RobohawkPCCOER"><FaYoutube /></a>

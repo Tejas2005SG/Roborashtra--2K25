@@ -39,8 +39,8 @@ const options = [
     link: "/menu/clan",
   },
   {
-    opt: "FAQ",
-    link: "/menu/Faq",
+    opt: "Glimpse",
+    link: "/menu/Glimpse",
   },
   {
     opt: "Contact Us",

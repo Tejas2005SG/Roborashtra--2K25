@@ -4,7 +4,7 @@ nav {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 99;
   /* background: rgba(17, 16, 16, 0.447); */
   display: flex;
   justify-content: center;
@@ -114,12 +114,15 @@ nav p {
     padding: 0;
   }
 
+  nav p {
+    font-size: 14px;
+  }
 
 
 
-  #Logo {
-    z-index: 999;
-    margin-left: 20px;
+
+  #logo {
+    width: 175px;
   }
 
   #unstop {

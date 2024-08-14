@@ -24,7 +24,7 @@ const Card = ({ title, link, image, desc }) => {
 
 
 
-    <a href="https://www.mythrillfiction.com/the-dark-rider" alt="Mythrill" target="_blank">
+    <a href={link} alt="Mythrill" target="_blank">
   <div class="card w-full h-full">
     <div class="wrapper w-full h-full">
       <Image width={200} height={300} src="https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg" class="cover-image" />

@@ -8,7 +8,8 @@
 * {
   padding: 0;
   margin: 0;
-  cursor: url("../images/handCursor.png"), auto;
+  /* cursor: url("../images/handCursor.png"), auto; */
+   cursor: none; 
 }
 
 body {
@@ -42,6 +43,16 @@ body {
   src: url(../../public/Square\ Space.ttf);
 }
 
+@font-face {
+  font-family: minimulist;
+  src: url(../../public/Minimalust\ Small\ Cap.ttf);
+}
+
+@font-face {
+  font-family: aroma;
+  src: url(../../public/AROMA-Bold.ttf);
+}
+
 :root {
   --ft-car: "Carrois Gothic SC", sans-serif;
   --ft-ink: "Inknut Antiqua", serif;
@@ -57,7 +68,7 @@ body {
   height: 100%;
   background-size: cover;
   background-color: rgb(0, 0, 5);
-  cursor: none;
+  /* cursor: none; */
 }
 
 .cursor {

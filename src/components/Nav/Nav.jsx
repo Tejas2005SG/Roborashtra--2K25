@@ -10,6 +10,11 @@ import { Ri4KFill, RiMenu4Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import Navcard from "../NavCard/navcard";
 import HomeNav from "../NavCard/images/Home.png";
+import Eventnav from "../NavCard/images/Eventnav.png";
+import Teamnav from "../NavCard/images/Teamnav.jpg";
+import Sponsornav from "../NavCard/images/Sponsornav.png";
+import Clannav from "../NavCard/images/Clannav.png";
+import Contactnav from "../NavCard/images/contact.jpg"
 
 // import Unstop from "./images/Unstop.jpg"; // Assuming the correct path
 
@@ -25,18 +30,22 @@ const options = [
   {
     opt: "Event",
     link: "/menu",
+    img:Eventnav
   },
   {
     opt: "Team",
     link: "/menu/teams",
+    img:Teamnav
   },
   {
     opt: "Sponsors",
-    link: "/menu/sponsors"
+    link: "/menu/sponsors",
+    img:Sponsornav
   },
   {
     opt: "Clan",
     link: "/menu/clan",
+    img:Clannav
   },
   {
     opt: "Glimpse",
@@ -45,6 +54,7 @@ const options = [
   {
     opt: "Contact Us",
     link: "/menu/Contact",
+    img:Contactnav
   },
 ];
 

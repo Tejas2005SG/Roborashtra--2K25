@@ -37,9 +37,9 @@ const ContactPage = () => {
     <div className="contact_wrapper text-2xl ">
       <h2 className="Contact text-2xl text-orange-700">For Any Query, You can make a call on:</h2>
       <h4 className="text-xl ">Roborashtra Helpine : 9307727077</h4>
-      <p className="text-xl">Event Lead(Aditya Pardeshi):8956596939</p>
-      <p className="text-xl">Event Co-Lead(Vishal Jangid):9172008630</p>
-      <p className="text-xl">Event CoLead(Pratik Chavare):8265005103</p>
+      <p className="text-xl">Event Lead(Aditya Pardeshi) : 8956596939</p>
+      <p className="text-xl">Event Co-Lead(Vishal Jangid) : 9172008630</p>
+      <p className="text-xl">Event CoLead(Pratik Chavare) : 8265005103</p>
       <div className="routeMap flex sm:flex-row flex-col justify-center items-center gap-2">
       <div className="route mt-4 sm:w-1/2 w-full ">
         <h4 className="text-orange-700">How to Reach ?</h4>
@@ -53,7 +53,7 @@ From Akurdi station, you can take an auto-rickshaw directly to PCCOER in Ravet. 
 
 You can take an auto-rickshaw directly from Pune Junction to PCCOER, though this will be more expensive than the train and bus options.</p><br></br>
       </div>
-      <iframe  className="rounded-lg mt-[-260px] border-orange-600"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6357.674639144745!2d73.74122481005469!3d18.650710592595445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ba0251959e2d%3A0x4d7ea2cc35724480!2sPCCOE-Ravet%2C%20Pimpri%20Chinchwad%20College%20of%20Engineering%20and%20Research%2C%20Ravet%2C%20Pune!5e0!3m2!1sen!2sin!4v1723558759207!5m2!1sen!2sin" width="400" height="300" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe  className="rounded-lg mt-[-326px] ml-[90px] border-orange-600"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6357.674639144745!2d73.74122481005469!3d18.650710592595445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ba0251959e2d%3A0x4d7ea2cc35724480!2sPCCOE-Ravet%2C%20Pimpri%20Chinchwad%20College%20of%20Engineering%20and%20Research%2C%20Ravet%2C%20Pune!5e0!3m2!1sen!2sin!4v1723558759207!5m2!1sen!2sin" width="400" height="300" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <div>
       </div>
         

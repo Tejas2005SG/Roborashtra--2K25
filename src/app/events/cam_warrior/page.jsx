@@ -24,7 +24,7 @@ const CamWarrior = () => {
         </div>
 
         </p> 
-        <div className="action_btn">
+        <div className="mr-[20px] action_btn">
           <Btn2 link={"/camwarrior.pdf"}/>
           <Btn1 text={"Register"} link={"https://unstop.com/p/cam-warriors-roborashtra-2k24-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-889670"} />
         </div>

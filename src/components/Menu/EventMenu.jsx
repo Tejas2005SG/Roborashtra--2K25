@@ -9,9 +9,9 @@ const events = [
     image: "/event1.svg",
   },
   {
-    title: "Cam Warrior",
-    link: "/events/cam_warrior",
-    image: "/event2.svg",
+    title: "Resqlympic",
+    link: "/events/resqlimpic",
+    image: "/event3.svg",
   }
 ];
 const EventMenu = () => {

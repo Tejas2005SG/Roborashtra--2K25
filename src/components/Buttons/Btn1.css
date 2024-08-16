@@ -1,7 +1,7 @@
 :root {
   --btn-shape: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
   --btn-border-shape: polygon(12% 0, 100% 0%, 88% 100%, 0% 100%);
-  --border-clr: rgba(247, 20, 20, 0.898);
+  --border-clr: rgb(164, 50, 9);
   --background-clr: rgb(86, 101, 103);
 }
 
@@ -52,7 +52,7 @@
   position: absolute;
   top: 0;
   right: 2px;
-  background-color:  rgba(247, 20, 20, 0.898);
+  background-color: rgb(227, 72, 15);
   transform: skew(-45deg);
   filter: blur(1px);
 }
@@ -63,7 +63,7 @@
   position: absolute;
   top: 0;
   left: 2px;
-  background-color: rgba(255, 0, 0, 0.917);
+  background-color: rgb(227, 72, 15);
   transform: skew(-45deg);
   filter: blur(1px);
 }
@@ -74,8 +74,9 @@
 }
 
 .btn1_wrapper:hover .btn1_bar,
-.btn1_wrapper:hover .btn1_bar1 {
-  background-color: aliceblue;
+.btn1_wrapper:hover .btn1_bar1,
+.btn1_wrapper:hover .btn1 {
+  background-color: rgb(13, 232, 232);
 }
 
 

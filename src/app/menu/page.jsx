@@ -7,7 +7,7 @@ import "./events.css";
 import { ImCross } from "react-icons/im";
 
 
-import popUpimage from "@/images/POP UP.png"
+// import popUpimage from "@/images/POP UP.png"
 
 const Cards = () => {
   const calculateTimeLeft = () => {

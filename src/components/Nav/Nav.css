@@ -1,7 +1,12 @@
+body {
+  overflow: hidden;
+}
+
 nav {
   padding: .75rem 3rem;
-  /* position: relative; */
+  position: sticky;
   width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   z-index: 99;
@@ -22,6 +27,7 @@ nav ::-webkit-scrollbar {
 
 .Nav {
   /* width: 100%; */
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -103,6 +109,11 @@ nav p {
     width: 220px;
   } */
 
+  body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
   .desktop-links {
     width: 100%;
   }
@@ -113,6 +124,10 @@ nav p {
     padding: .25rem;
   }
 
+  body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
 
 
   #smallLogo {
@@ -167,6 +182,7 @@ nav p {
     padding-right: 25vw;
     color: #00e0ff;
     border-top: none;
+    transition: all 0.75s;
   }
 
   .desktop-links {

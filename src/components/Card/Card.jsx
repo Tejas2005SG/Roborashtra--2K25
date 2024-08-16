@@ -36,7 +36,7 @@ const Card = () => {
     <Image width={200} height={300} src={Title1} class="title" />
     <Image width={200} height={300} src={card1Front} class="character" />
   </div>
-  <button className="text-center w-full bg-orange-700">Explore Event</button>
+  {/* <button className="text-center w-full bg-orange-700">Explore Event</button> */}
 </a>
 
 <a href="/events/resqlimpic" alt="Mythrill" target="_blank">
@@ -47,7 +47,7 @@ const Card = () => {
     <Image width={200} height={300} src={Title1} class="title" />
     <Image width={200} height={300} src={card2Front} class="character" />
   </div>
-  <button className="text-center w-full bg-orange-700">Explore Event</button>
+  {/* <button className="text-center w-full bg-orange-700">Explore Event</button> */}
 </a>
 
 

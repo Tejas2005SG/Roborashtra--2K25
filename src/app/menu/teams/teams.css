@@ -1,3 +1,7 @@
+body {
+  overflow-y: scroll;
+}
+
 .team h2 {
   font-family: mokoto;
   font-size: 32px;
@@ -21,6 +25,7 @@
   width: 100vw;
   right: -9rem;
   overflow-y: scroll;
+  scroll-behavior: smooth;
   overflow-x: hidden;
   position: relative;
   top: -6rem;
@@ -43,19 +48,13 @@
   gap: 6rem;
 }
 
-
-
 .team_wrapper::-webkit-scrollbar {
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 10px;
-  background-color: #f5f5f5;
+ 
 }
 
-.team_wrapper::-webkit-scrollbar-thumb {
-  background-color: #00e0ff;
-}
+
+
 
 
 

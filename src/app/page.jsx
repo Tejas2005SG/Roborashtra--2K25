@@ -12,6 +12,7 @@ import Cursor from "@/components/Cursor/cursor";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import drone from "@/images/drone.png";
+import bottomRobo from "@/images/card2front.png"
 
 export default function Home() {
   const [showStarterPage, setShowStarterPage] = useState(true);
@@ -155,6 +156,9 @@ export default function Home() {
             </div>
             <div className="drone">
               <Image src={drone} alt="drone" />
+            </div>
+            <div className="bottomImg">
+            <Image src={bottomRobo} alt="" srcset="" width={100} height={100}/>
             </div>
           </div>
         </ImageLoader>

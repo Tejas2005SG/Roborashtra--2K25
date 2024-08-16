@@ -256,6 +256,18 @@ main img {
   right: 1%;
 }
 
+.bottomImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.bottomImg img {
+  width: 200px;
+  /* height: 100px; */
+}
+
 @keyframes drone {
   10% {
     position: absolute;

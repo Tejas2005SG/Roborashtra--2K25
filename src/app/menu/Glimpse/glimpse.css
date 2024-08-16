@@ -3,12 +3,9 @@ body {
     scroll-behavior: smooth;
 }
 
-.Menu_bar {
-    display: none;
-}
 
 .glimpse_container {
-    width: 150%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;

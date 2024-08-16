@@ -110,6 +110,11 @@ body {
 
 
 @media only screen and (max-width: 600px) {
+  body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
   .Events {
     justify-content: center;
     grid-template-columns: 1fr;
@@ -168,8 +173,9 @@ body {
 }
 
 @media screen and (max-width: 920px) {
-  .body {
-    overflow: hidden;
+  body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
   }
 
   .Events {

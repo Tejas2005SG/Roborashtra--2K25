@@ -2,6 +2,12 @@ body {
   overflow: hidden;
 }
 
+.Menu_wrappper {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+}
+
+
 .title {
   font-family: mortend;
   font-weight: 0;

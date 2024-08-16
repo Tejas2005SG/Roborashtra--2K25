@@ -3,7 +3,7 @@
 }
 
 .robowar {
-  background-image: url("../../images/newModel.jpg");
+  /* background-image: url("../../images/newModel.jpg"); */
   background-size: cover;
   background-position: center;
 }
@@ -14,7 +14,7 @@
 }
 
 .tractical {
-  background-image: url("../../images/event4bg.jpg");
+  /* background-image: url("../../images/event4bg.jpg"); */
   background-size: cover;
 }
 
@@ -282,6 +282,6 @@
   }
 }
 
-.Content{
+.Content {
   font-family: Sᴍᴀʟʟ ᴄᴀᴘs;
 }

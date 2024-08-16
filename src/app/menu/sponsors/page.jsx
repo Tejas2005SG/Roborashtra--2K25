@@ -1,13 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "./sponsors.css";
-import unstop from "../../../images/Unstop.jpg";
-import drdo from "../../../images/Drdo.png"
-import imperial from "../../../images/imperial.png"
-import cogna from "../../../images/cogna.png"
-//import insidefpv from "../../../images/insidefpv.png"
-import powerPlanner from "../../../images/powerPlaneer.jpg"
-import mitu from "../../../images/mitu.png"
+
 
 
 

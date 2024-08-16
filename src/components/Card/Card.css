@@ -444,7 +444,8 @@ HTML CSSResult Skip Results Iframe EDIT ON:root {
 
 .card .title,
 .card2 .title {
-  mix-blend-mode: multiply;
+  /* mix-blend-mode: multiply; */
+  background-color: rgba(0, 0, 0, 0.605);
 }
 
 .wrapper::before {

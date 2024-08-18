@@ -60,12 +60,13 @@ nav p {
   /* border: 2px solid white; */
   padding: 4px;
   font-size: 42px;
+  margin-right: 1rem;
 }
 
 .desktop-links {
   z-index: 99;
   top: -10px;
-  left: -110%;
+  /* left: -110%; */
   position: absolute;
   color: white;
   height: 100vh;
@@ -121,7 +122,8 @@ nav p {
 
 @media only screen and (max-width: 680px) {
   nav {
-    padding: .25rem;
+    /* padding: .25rem; */
+    width: 150%;
   }
 
   body {
@@ -131,13 +133,8 @@ nav p {
 
 
   #smallLogo {
-    position: absolute;
-    top: 0.5rem;
-    left: 1rem;
-    display: block;
-    width: 3rem;
-    height: 3rem;
-    padding: 0;
+
+    display: none;
   }
 
   nav p {
@@ -151,43 +148,24 @@ nav p {
     width: 175px;
   }
 
-  #unstop {
-    position: absolute;
-    top: 0.5rem;
-    left: 1rem;
-    display: block;
-    width: 3rem;
-    height: 3rem;
-    padding: 0;
-  }
 
 
 
 
 
 
-
-  .desktop-links a {
-    font-size: 22px;
-    border-bottom: 3px solid white;
-    margin-left: 4rem;
-    width: 100vw;
-    padding-right: 10vw;
-    font-family: "Courier New", Courier, monospace;
-  }
-
-
-  .desktop-links a:hover {
-    border-bottom: 3px solid #00e0ff;
-    padding-right: 25vw;
-    color: #00e0ff;
-    border-top: none;
-    transition: all 0.75s;
-  }
 
   .desktop-links {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    width: 100vw;
+    height: 130vh;
+  }
 
+  .HamMenuIcon {
+    margin-right: 0;
   }
 }

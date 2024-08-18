@@ -1,11 +1,8 @@
 body {
-  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
-.Menu_wrappper {
-  display: grid;
-  grid-template-columns: 1fr 0.4fr;
-}
 
 
 .title {
@@ -61,7 +58,8 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.125);
   padding: 1rem;
   position: relative;
-  top: -3rem;
+  top: 1rem;
+  /* top: -3rem; */
   margin: .5rem;
   background-image: url(./icons/Clanbg.png);
   background-position: center;
@@ -86,7 +84,9 @@ body {
 
   .clan {
     position: absolute;
-    top: 5rem;
+    top: 6rem;
+    /* left: 2rem; */
+    margin-bottom: 2rem;
   }
 
   .clan_text {

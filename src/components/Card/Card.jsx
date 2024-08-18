@@ -29,7 +29,7 @@ const Card = () => {
 
 
     <a href="/events/robowar" alt="Mythrill" target="_blank">
-  <div class="card w-full h-full">
+  <div class="card w-full h-full mb-3 md:mb-0">
     <div class="wrapper w-full h-full">
       <Image width={200} height={300} src={card1} class="cover-image" />
     </div>

@@ -96,7 +96,7 @@ export default function Home() {
       {showStarterPage && (
         <div className='startPage'>
           <div className="welcomeTag">
-            <h1 className="text-4xl text-center">Welcome To</h1>
+            <h1 className="text-2xl md:text-4xl text-center">Welcome To</h1>
           </div>
           <div className="startTitle">
             <span style={{ color: "orange" }}>ROBO</span>
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="logo">
             <Image src={Logo} alt="logo" />
           </div>
-          <div className="yearTag">
+          <div className="yearTag text-2xl md:text-4xl ">
             <h2>2K25</h2>
           </div>
         </div>

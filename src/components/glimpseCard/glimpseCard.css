@@ -1,0 +1,44 @@
+.mainDiv {
+    width: 15rem;
+    height: 16.5rem;
+    background-color: white;
+}
+
+
+
+.mainDiv img,
+.mainDiv video {
+    width: 14rem;
+    height: 13.5rem;
+    position: relative;
+    left: 0.5rem;
+    top: 0.5rem;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:950px) {
+    .mainDiv {
+        width: 13rem;
+        height: 15rem;
+    }
+
+    .mainDiv img,
+    .mainDiv video {
+        width: 12rem;
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .mainDiv {
+        width: 10rem;
+        height: 12rem;
+    }
+
+    .mainDiv img,
+    .mainDiv video {
+        width: 9rem;
+        height: 10rem;
+    }
+}

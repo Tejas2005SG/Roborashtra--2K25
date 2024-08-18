@@ -19,7 +19,7 @@ body {
 .welcomeTag {
   position: relative;
   top: 10rem;
-  font-size: 44px;
+  /* font-size: 44px; */
   font-family: mokoto;
   letter-spacing: 5px;
   padding: 1rem;
@@ -29,7 +29,7 @@ body {
 .yearTag {
   position: relative;
   bottom: 20rem;
-  font-size: 64px;
+  /* font-size: 64px; */
   font-family: mokoto;
   letter-spacing: 5px;
   text-align: center;
@@ -322,6 +322,8 @@ main img {
 
   .startTitle {
     font-size: 38px;
+    top: -2rem;
+    position: relative;
 
   }
 
@@ -373,12 +375,13 @@ main img {
   .main_bottom p {
     font-size: 20px;
     position: relative;
-    bottom: 10rem;
+    bottom: 5rem;
+    left: 0;
   }
 
   .representedBy {
     top: -35%;
-    left: 75%;
+    left: 10rem;
   }
 
 
@@ -401,7 +404,7 @@ main img {
     transform: translate(0%, 0%);
     /* margin-bottom: 7rem; */
     position: relative;
-    bottom: 10rem;
+    bottom: 5rem;
   }
 
   .nav_wrapper {
@@ -414,16 +417,36 @@ main img {
     overflow: hidden;
   }
 
-  .prizePool {
-    display: none;
+  .representedBy {
+    position: relative;
+    top: -2rem;
+    /* font-size: 16px; */
   }
 
+  .representedBy h2 {
+    font-size: 12px;
+  }
+
+  .representedBy h1 {
+    font-size: 18px;
+  }
+
+  .bottomImg {
+    position: relative;
+    left: 4rem;
+    top: 5rem;
+  }
+
+  .bottomImg img {
+    width: 250px;
+
+  }
 
 }
 
 @media screen and (max-width:380px) {
   .start_btn {
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
 
   .clgName p {

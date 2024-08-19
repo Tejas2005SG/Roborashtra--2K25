@@ -11,6 +11,7 @@ body {
   /* font-size: 28px; */
   gap: 0.5rem;
   padding: 10px;
+  /* font-size: 5px; */
   /* border: 2px solid rgb(226, 130, 95); */
   border-radius: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -31,7 +32,7 @@ body {
 
 
 
-.input_wrapper > div {
+/* .input_wrapper>div {
   width: 100%;
 }
 
@@ -132,7 +133,7 @@ input:focus {
 
 
 
-.socialMedia > a:hover {
+.socialMedia>a:hover {
   color: rgb(152, 187, 196);
 }
 
@@ -174,5 +175,15 @@ input:focus {
   .Thankingtext {
     font-size: 22px;
   }
+
+} */
+
+@media screen and (max-width:430px) {
+ 
+  
+  .contact_wrapper{
+    font-size: 10px;
+  }
+ 
 
 }

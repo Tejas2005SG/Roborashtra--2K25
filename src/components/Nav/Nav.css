@@ -1,5 +1,5 @@
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 nav {
@@ -168,4 +168,9 @@ nav p {
   .HamMenuIcon {
     margin-right: 0;
   }
+}
+
+@media  screen and (max-width:500px) {
+
+  
 }

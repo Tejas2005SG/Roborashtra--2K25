@@ -296,21 +296,102 @@ main img {
     right: 10%;
   }
 
-  90% {
+  80% {
     position: absolute;
     bottom: 65%;
     right: 13%;
   }
 
+
+  90% {
+    position: absolute;
+    bottom: 72%;
+    right: 34%;
+  }
+
   100% {
     position: absolute;
-    bottom: 60%;
-    right: 13.9%;
+    bottom: 61%;
+    right: 34%;
     transform: rotateZ(-30deg);
   }
 }
 
+
+
 @media only screen and (max-width: 500px) {
+  body{
+    overflow-x:  hidden;
+    overflow-y:  hidden;
+  }
+
+  .bottomImg  {
+    width: 150px;
+    margin-top: 200px ;
+    margin-left: 60px;
+  }
+ 
+  
+
+  .drone img {
+    width: 10rem;
+    height: 10rem;
+    animation: drone 3.5s ease-in-out forwards;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+  }
+  @keyframes drone {
+    10% {
+      position: absolute;
+      bottom: 10%;
+      right: 10%;
+      transform: rotate(-15deg);
+    }
+  
+    25% {
+      position: absolute;
+      bottom: 25%;
+      right: 10%;
+      transform: rotate(0deg);
+    }
+  
+    40% {
+      position: absolute;
+      bottom: 50%;
+      right: 10%;
+      /* transform: rotate(-45deg); */
+    }
+  
+    60% {
+      position: absolute;
+      bottom: 50%;
+      right: 10%;
+    }
+  
+    80% {
+      position: absolute;
+      bottom: 65%;
+      right: 13%;
+    }
+  
+  
+    90% {
+      position: absolute;
+      bottom: 72%;
+      right: 34%;
+    }
+  
+    100% {
+      position: absolute;
+      bottom: 68%;
+      right: 34.8%;;
+      transform: rotate(-30deg)
+
+    }
+  }
+
+
   .logo {
     width: 5rem;
     height: 5rem;
@@ -347,6 +428,9 @@ main img {
     font-size: 16px;
     margin: 1px;
   }
+  .main-character{
+   display: none;
+  }
 
   .main_wrapper {
     display: flex;
@@ -356,10 +440,17 @@ main img {
   }
 
   .main_title {
-    font-size: 40px;
+    font-size: 35px;
     top: 15%;
     gap: 0rem;
-    margin-left: 0px;
+    margin-left: -10px;
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+
+  .RobohawkRepresentation{
+    margin-left: -18px;
+   
   }
 
   .main_bottom {
@@ -443,6 +534,8 @@ main img {
   }
 
 }
+
+
 
 @media screen and (max-width:380px) {
   .start_btn {

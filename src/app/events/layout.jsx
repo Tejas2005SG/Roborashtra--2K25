@@ -15,8 +15,11 @@ export default function EventLayout({ children }) {
   return (
     <ImageLoader>
       <Cursor />
-    <div>
+    <div >
+      <div>
+
       <Nav />
+      </div>
       <div className="Event_wrapper">
         <div className="event_menu">
           <EventMenu />

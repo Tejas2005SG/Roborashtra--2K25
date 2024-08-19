@@ -12,8 +12,8 @@ import card2 from "../../images/card2.jpg"
 const Card = () => {
 
   return (
-    <>
-    {/* <div className="card-container">    <div className="Card">
+    <div>
+      {/* <div className="card-container">    <div className="Card">
       <Image src={image} width={312} height={210} class="before-element" alt={title} />
 
       <div className="headDesc">
@@ -27,33 +27,37 @@ const Card = () => {
     </div> */}
 
 
+      <div className="flex justify-center ">
+        <a href="/events/robowar" alt="Mythrill" target="_blank">
+          <div class="card w-full h-full mb-3 md:mb-0">
+            <div class="wrapper w-full h-full">
+              <Image width={200} height={300} src={card1} class="cover-image" />
+            </div>
+            <Image width={200} height={300} src={Title1} class="title" />
+            <Image width={200} height={300} src={card1Front} class="character" />
+          </div>
+          {/* <button className="text-center w-full bg-orange-700">Explore Event</button> */}
+        </a>
+      </div>
 
-    <a href="/events/robowar" alt="Mythrill" target="_blank">
-  <div class="card w-full h-full mb-3 md:mb-0">
-    <div class="wrapper w-full h-full">
-      <Image width={200} height={300} src={card1} class="cover-image" />
+      <div className="flex justify-center ">
+
+        <a href="/events/resqlimpic" alt="Mythrill" target="_blank">
+          <div class="card2 w-full h-full">
+            <div class="wrapper w-full h-full">
+              <Image width={0} height={0} src={card2} class="cover-image" />
+            </div>
+            <Image width={200} height={300} src={Title1} class="title" />
+            <Image width={200} height={300} src={card2Front} class="character" />
+          </div>
+          {/* <button className="text-center w-full bg-orange-700">Explore Event</button> */}
+        </a>
+      </div>
+
+
+
+
     </div>
-    <Image width={200} height={300} src={Title1} class="title" />
-    <Image width={200} height={300} src={card1Front} class="character" />
-  </div>
-  {/* <button className="text-center w-full bg-orange-700">Explore Event</button> */}
-</a>
-
-<a href="/events/resqlimpic" alt="Mythrill" target="_blank">
-  <div class="card2 w-full h-full">
-    <div class="wrapper w-full h-full">
-      <Image width={0} height={0} src={card2} class="cover-image" />
-    </div>
-    <Image width={200} height={300} src={Title1} class="title" />
-    <Image width={200} height={300} src={card2Front} class="character" />
-  </div>
-  {/* <button className="text-center w-full bg-orange-700">Explore Event</button> */}
-</a>
-
-
-
-    
-    </>
   );
 };
 

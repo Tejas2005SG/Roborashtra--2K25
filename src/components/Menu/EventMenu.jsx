@@ -16,7 +16,7 @@ const events = [
 ];
 const EventMenu = () => {
   return (
-    <div className="EventMenu">
+    <div className="EventMenu ">
       {events.map((event) => {
         return (
           <Link href={event.link} key={event.title}>

@@ -147,7 +147,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="main_bottom">
-                  <p>“Rise Of The RoboNation: Bharat Leads The Way”</p>
+                  <p className="tagline">“Rise Of The RoboNation: Bharat Leads The Way”</p>
                   <div className="start_btn">
                     <Btn4 link={"./menu"} />
                   </div>

@@ -1,7 +1,7 @@
 "use client";
 import gsap from "gsap"
 import React, { useEffect, useRef } from 'react'
-import handCursor from "@/images/Handcursor.png"
+// import HandCursor from "@/images/Handcursor.png"
 
 
 const Cursor = () => {

@@ -71,7 +71,7 @@ const Nav = () => {
           <Image src={logo} width={275} height={100} alt="logo" id="logo"/>
         </Link>
 
-       <p>Powered By</p>
+       {/* <p>Powered By</p> */}
        {/* <Image src={Unstop} width={50} height={50} alt="" srcset="" id="unstop"/>   */}
 
         <div className="HamMenuBar absolute top-4 right-3 text-4xl cursor-pointer"  onClick={()=>{

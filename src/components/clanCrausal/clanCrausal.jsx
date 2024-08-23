@@ -1,3 +1,4 @@
+"use client";
 import SlCarousel from '@shoelace-style/shoelace/dist/react/carousel';
 import SlCarouselItem from '@shoelace-style/shoelace/dist/react/carousel-item';
 import testImage from "@/images/img1.jpg"

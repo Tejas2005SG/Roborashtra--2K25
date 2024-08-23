@@ -15,7 +15,7 @@ import Teamnav from "../NavCard/images/Teamnav.jpg";
 import Sponsornav from "../NavCard/images/Sponsornav.png";
 import Clannav from "../NavCard/images/Clannav.png";
 import Contactnav from "../NavCard/images/contact.jpg"
-
+import glimpsenav from "@/components/NavCard/images/glimpsenav.jpg";
 // import Unstop from "./images/Unstop.jpg"; // Assuming the correct path
 
 
@@ -50,6 +50,7 @@ const options = [
   {
     opt: "Glimpse",
     link: "/menu/Glimpse",
+    img:glimpsenav
   },
   {
     opt: "Contact Us",

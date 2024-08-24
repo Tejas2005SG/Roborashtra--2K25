@@ -170,12 +170,13 @@ main {
   left: 2rem;
   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%); */
   padding: 2rem;
-  -webkit-text-stroke: 2px white;
-  color:  rgb(149, 81, 45);
+  -webkit-text-stroke: 1px white;
+  color: rgb(149, 81, 45);
 }
 
 .main_title {
   font-family: mokoto;
+  background: linear-gradient(180deg, #000000, #4f4e4e, #f1e4e4, #4f4e4e, #000000);
   /* font-family: "Rajdhani", sans-serif; */
   font-size: 110px;
   /* font-weight: semi-bold; */
@@ -187,10 +188,16 @@ main {
   left: 53%;
   transform: translate(-50%, -50%);
   z-index: -1;
+
+  /* -webkit-text-stroke-width: 4pc; */
+  background-clip: text;
+  /* -webkit-text-stroke: 4px #000000; */
+  color: transparent;
 }
 
 .main_title {
   width: 100%;
+  height: fit-content;
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -320,18 +327,18 @@ main img {
 
 
 @media only screen and (max-width: 500px) {
-  body{
-    overflow-x:  hidden;
-    overflow-y:  hidden;
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
-  .bottomImg  {
+  .bottomImg {
     width: 150px;
-    margin-top: 200px ;
+    margin-top: 200px;
     margin-left: 60px;
   }
- 
-  
+
+
 
   .drone img {
     width: 10rem;
@@ -341,6 +348,7 @@ main img {
     bottom: 1%;
     right: 1%;
   }
+
   @keyframes drone {
     10% {
       position: absolute;
@@ -348,46 +356,46 @@ main img {
       right: 10%;
       transform: rotate(-15deg);
     }
-  
+
     25% {
       position: absolute;
       bottom: 25%;
       right: 10%;
       transform: rotate(0deg);
     }
-  
+
     40% {
       position: absolute;
       bottom: 50%;
       right: 10%;
       /* transform: rotate(-45deg); */
     }
-  
+
     60% {
       position: absolute;
       bottom: 50%;
       right: 10%;
     }
-  
+
     80% {
       position: absolute;
       bottom: 65%;
       right: 13%;
     }
-  
-  
+
+
     90% {
       position: absolute;
       bottom: 72%;
       right: 34%;
     }
-  
+
     100% {
       position: absolute;
       bottom: 68%;
-      right: 34.8%;;
+      right: 34.8%;
+      ;
       transform: rotate(-30deg)
-
     }
   }
 
@@ -428,8 +436,9 @@ main img {
     font-size: 16px;
     margin: 1px;
   }
-  .main-character{
-   display: none;
+
+  .main-character {
+    display: none;
   }
 
   .main_wrapper {
@@ -448,9 +457,9 @@ main img {
     /* justify-content: center; */
   }
 
-  .RobohawkRepresentation{
+  .RobohawkRepresentation {
     margin-left: -18px;
-   
+
   }
 
   .main_bottom {
@@ -628,7 +637,7 @@ main img {
   .main_bottom {
     position: absolute;
     bottom: -8rem;
-    -webkit-text-stroke-color: antiquewhite;
+    -webkit-text-stroke-color: 1px antiquewhite;
   }
 
   .main_bottom p {

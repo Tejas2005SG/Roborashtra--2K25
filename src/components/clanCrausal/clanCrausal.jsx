@@ -1,6 +1,9 @@
 "use client";
-import SlCarousel from '@shoelace-style/shoelace/dist/react/carousel';
-import SlCarouselItem from '@shoelace-style/shoelace/dist/react/carousel-item';
+import dynamic from 'next/dynamic'
+
+const SlCarousel = dynamic(()=> import( '@shoelace-style/shoelace/dist/react/carousel'),{ssr:false});
+
+const SlCarouselItem= dynamic(()=>import ('@shoelace-style/shoelace/dist/react/carousel-item'),{ssr:false});
 import testImage from "@/images/img1.jpg"
 import testImage2 from "@/images/img2.jpg"
 import testImage3 from "@/images/img3.jpg"

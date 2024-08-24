@@ -12,7 +12,7 @@ import card2 from "../../images/card2.jpg"
 const Card = () => {
 
   return (
-    <div>
+    <div className="newContainer">
       {/* <div className="card-container">    <div className="Card">
       <Image src={image} width={312} height={210} class="before-element" alt={title} />
 
@@ -27,7 +27,7 @@ const Card = () => {
     </div> */}
 
 
-      <div className="flex justify-center ">
+      <div className=" ">
         <a href="/events/robowar" alt="Mythrill" target="_blank">
           <div class="card w-full h-full mb-3 md:mb-0">
             <div class="wrapper w-full h-full">
@@ -40,7 +40,7 @@ const Card = () => {
         </a>
       </div>
 
-      <div className="flex justify-center ">
+      <div className="">
 
         <a href="/events/resqlimpic" alt="Mythrill" target="_blank">
           <div class="card2 w-full h-full">

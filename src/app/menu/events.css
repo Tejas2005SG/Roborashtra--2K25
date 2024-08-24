@@ -11,6 +11,7 @@ body {
   gap: 1rem;
   position: relative;
   top: -3rem;
+  width: 100%;
   /* margin-top: 1rem; */
   /* overflow-y: hidden; */
   overflow: hidden;
@@ -32,8 +33,8 @@ body {
 
 .Events {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  place-items: center;
+  place-content: center;
 }
 
 .countdown-container {

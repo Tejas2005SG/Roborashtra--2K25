@@ -3,7 +3,7 @@ import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import MainCharater from "../images/mainchar-2.png";
 import "./main.css";
-import pccoer from "../images/pccoer.png";
+import pccoer from "../images/PCCOER.png";
 import pcet from "../images/PCET.png";
 import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";

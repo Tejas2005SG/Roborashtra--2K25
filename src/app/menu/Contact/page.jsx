@@ -34,31 +34,65 @@ const ContactPage = () => {
     <>
 
       {!submitted ? (
-        <div className="contact_wrapper text-2xl ">
-          <h2 className="querytext text-2xl text-orange-700">For Any Query, You can make a call on:</h2>
-          <h4 className="text-xl ">Roborashtra Helpine : 9307727077</h4>
-          <p className="text-xl">Event Lead (Aditya Pardeshi) : 8956596939</p>
-          <p className="text-xl">Event Co-Lead (Vishal Jangid) : 9172008630</p>
-          <p className="text-xl">Event CoLead (Pratik Chavare) : 8265005103</p>
-          <div className="routeMap flex sm:flex-row flex-col justify-center items-center gap-2">
-            <div className="route mt-4 sm:w-1/2 w-full ">
-              <h4 className="text-orange-700 text-2xl">How to Reach ?</h4>
-              <p className="mt-2 text-xl">By Train:<br></br>
+        <div className="contact-main-container">
+          <div className="contact_wrapper mt-[-10vw] ml-[-10vw]">
+            <div className=" contact-media w-[60vw] h-[60vh]  flex ">
+              <div className="adresses w-[30vw] h-[60vh]  ">
+                <div className="helpline w-[28vw] h-[18vh]  m-auto ">
+                  <h4 className="robohelp text-[orangered] font-bold text-center text-lg">Roborashtra Helpine : 9307727077</h4>
+                  <p className="text-white">Event Lead ( Aditya Pardeshi ) : <span className="text-orange-400">8956596939</span></p>
+                  <p className="text-white">Event Co-Lead ( Vishal Jangid ) : <span className="text-orange-400">9172008630</span></p>
+                  <p className="text-white">Event Co-Lead ( Pratik Chavare ) : <span className="text-orange-400">8265005103</span></p>
+                </div>
+                <div className="how-to-reach  w-[28vw] h-[40vh]  m-auto">
+                  <h4 className="how-to-reach-text text-[orangered] font-bold m-auto leading-[20px] text-center text-lg">How to Reach ?</h4>
+                  <p className=" font-bold text-orange-400">By Train:</p>
+                  <p className="text-white">From Pune Junction, take a local train towards Talegaon or Lonavala and get off at Akurdi station.</p>
 
-                From Pune Junction, take a local train towards Talegaon or Lonavala and get off at Akurdi station.</p><br></br>
-              <p>By Bus:<br></br>
 
-                From Akurdi station, you can take an auto-rickshaw directly to PCCOER in Ravet. Alternatively, catch a local bus heading towards Ravet or Dehu Road and get off at the nearest stop to the college.</p><br></br>
-              <p>By Auto-Rickshaw:<br></br>
+                  <p className=" font-bold text-orange-400">By Bus:</p>
+                  <p className="text-white"> From Akurdi station, you can take an auto-rickshaw directly to PCCOER in Ravet. Alternatively, catch a local bus heading towards Ravet or Dehu Road and get off at the nearest stop to the college.</p>
 
-                You can take an auto-rickshaw directly from Pune Junction to PCCOER, though this will be more expensive than the train and bus options.</p><br></br>
+
+                  <p className=" font-bold text-orange-400">By Auto-Rickshaw:</p>
+                  <p className="text-white"> From Akurdi station, you can take an auto-rickshaw directly to PCCOER in Ravet. Alternatively, catch a local bus heading towards Ravet or Dehu Road and get off at the nearest stop to the college.</p>
+
+
+                </div>
+
+              </div>
+
+              <div className="map-container w-[30vw] h-[60vh]  flex justify-center items-center">
+                <iframe className=" map rounded-lg  border-orange-600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6357.674639144745!2d73.74122481005469!3d18.650710592595445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ba0251959e2d%3A0x4d7ea2cc35724480!2sPCCOE-Ravet%2C%20Pimpri%20Chinchwad%20College%20of%20Engineering%20and%20Research%2C%20Ravet%2C%20Pune!5e0!3m2!1sen!2sin!4v1723558759207!5m2!1sen!2sin" width="400" height="300" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+              </div>
+
+
             </div>
-            <div className="map">
-            <iframe className=" rounded-lg mt-[-500px] ml-[90px] border-orange-600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6357.674639144745!2d73.74122481005469!3d18.650710592595445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ba0251959e2d%3A0x4d7ea2cc35724480!2sPCCOE-Ravet%2C%20Pimpri%20Chinchwad%20College%20of%20Engineering%20and%20Research%2C%20Ravet%2C%20Pune!5e0!3m2!1sen!2sin!4v1723558759207!5m2!1sen!2sin" width="400" height="300" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
 
-          </div>
-          {/* <div className="contactTable">      <table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {/* <div className="contactTable">      <table>
         <tr>
         <th>Name</th>
         <th>Position</th>
@@ -72,7 +106,7 @@ const ContactPage = () => {
       </table>
       </div> */}
 
-          {/* <form onSubmit={handleSubmit}>
+            {/* <form onSubmit={handleSubmit}>
         
         <div className="Name">
           <p className="Info">Name:</p>
@@ -113,7 +147,7 @@ const ContactPage = () => {
           <button type="submit">Submit</button>
         </div>
       </form> */}
-          {/* <div className="Name">
+            {/* <div className="Name">
           <p className="Info">Name:</p>
           <input
             type="text"
@@ -122,13 +156,14 @@ const ContactPage = () => {
           />
         </div> */}
 
-          <p className="Follow text-center">Follow US ON</p>
-          <div className="socialMedia flex row-auto gap-3 items-center align-middle justify-center">
-            <a href="https://www.youtube.com/@RobohawkPCCOER"><FaYoutube /></a>
-            <a href="https://www.linkedin.com/showcase/98926593/admin/feed/posts/"><FaLinkedin /></a>
-            <a href="https://www.instagram.com/roborashtra.pccoer/?igsh=MzB4bW1kcnNuOGw1"><FaInstagram /></a>
-            <a href="https://www.facebook.com/profile.php?id=61555881009876&mibextid=ZbWKwL"><FaFacebook /></a>
-            <a href="https://twitter.com/robohawk_pccoer?t=hC53cUOhsLkE3kaTwc6TNQ&s=08"><FaTwitter /></a>
+            <p className="Follow text-center">Follow US ON</p>
+            <div className="socialMedia flex row-auto gap-3 items-center align-middle justify-center">
+              <a href="https://www.youtube.com/@RobohawkPCCOER"><FaYoutube /></a>
+              <a href="https://www.linkedin.com/showcase/98926593/admin/feed/posts/"><FaLinkedin /></a>
+              <a href="https://www.instagram.com/roborashtra.pccoer/?igsh=MzB4bW1kcnNuOGw1"><FaInstagram /></a>
+              <a href="https://www.facebook.com/profile.php?id=61555881009876&mibextid=ZbWKwL"><FaFacebook /></a>
+              <a href="https://twitter.com/robohawk_pccoer?t=hC53cUOhsLkE3kaTwc6TNQ&s=08"><FaTwitter /></a>
+            </div>
           </div>
         </div>) : (
         <div className="thankContainer">
@@ -143,6 +178,7 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
+
       )}
     </>
   );

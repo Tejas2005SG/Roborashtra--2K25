@@ -139,9 +139,9 @@ main {
 .main-character {
   position: absolute;
   /* top: 0; */
-  bottom: -120px;
+  bottom: -130px;
   left: 40px;
-  width: 520px;
+  width: 550px;
   z-index: -1;
 }
 
@@ -155,6 +155,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.48%); */
 }
 
@@ -172,6 +173,7 @@ main {
   padding: 2rem;
   -webkit-text-stroke: 1px white;
   color: rgb(149, 81, 45);
+  
 }
 
 .main_title {
@@ -265,13 +267,15 @@ main img {
 
 .bottomImg {
   position: absolute;
-  right: 0;
+  right: 2%;
   bottom: 0;
-  z-index: 100;
+  
 }
 
 .bottomImg img {
   width: 200px;
+  /* z-index: 50; */
+  
   /* height: 100px; */
 }
 
@@ -318,7 +322,8 @@ main img {
 
   100% {
     position: absolute;
-    bottom: 61%;
+    bottom:61%; 
+/* ']]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
     right: 34%;
     transform: rotateZ(-30deg);
   }
@@ -466,6 +471,7 @@ main img {
     font-size: 20px;
     text-align: center;
     margin-bottom: 0rem;
+    /* z-index: 51; */
   }
 
   #string {
@@ -535,10 +541,12 @@ main img {
     position: relative;
     left: 4rem;
     top: 5rem;
+    
   }
 
   .bottomImg img {
     width: 250px;
+    /* z-index:50; */
 
   }
 

@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Inknut+Antiqua&family=Roboto:wght@400;700&display=swap");
-@import url("https://www.freepik.com/font/mokoto");
+/* @import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Inknut+Antiqua&family=Roboto:wght@400;700&display=swap");
+@import url("https://www.freepik.com/font/mokoto"); */
 
 * {
   padding: 0;
@@ -18,7 +18,7 @@ body {
   cursor: url("../images/handCursor.png"), auto;
   /* background-color: black; */
   /* z-index: 200; */
-  
+
   /* cursor: none; */
 
 }
@@ -67,7 +67,7 @@ body {
 }
 
 body {
-  background: url("../images/tempbg-5.jpg");
+  background: url("../images/tempBg2.png");
   color: white;
   overflow-x: hidden;
   width: 100%;

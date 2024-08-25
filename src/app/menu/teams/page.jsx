@@ -3,22 +3,21 @@ import "./teams.css";
 
 
 
-const coordinator = "https://drive.google.com/uc?export=download&id=17krXNhYPK8RdRXOGSh18u0hQ1kP1_bFQ"
-const lead="https://drive.google.com/uc?export=download&id=1hQVM9pWlFG0d9zdj4ixiZyH24uoUegsv"
-const colead="https://drive.google.com/uc?export=download&id=1moKkj5GKyT2f3JlTzTr6y7hxBDhGWi5M"
-const colead2 = "https://drive.google.com/uc?export=download&id=1jTs5U0jnHXyCcjsO4DrKFBw32dkNz0me"
-const chetan = "https://drive.google.com/uc?export=download&id=1itO9IjekkgFBHqQmuY3nnGlc2yu8pwoR";
+const coordinator = "https://drive.google.com/uc?export=download&id=10rBpQFaw3iHZw-2WEf8OppljusQWxK7q"
+const lead="https://drive.google.com/uc?export=download&id=13BZo7bdTqDuoDZEgKWo7AJLJ4fDxTuQk"
+const colead="https://drive.google.com/uc?export=download&id=14hQYI3VO8vVxtU6xqpFRGfxJ4i87hM-h"
+const colead2 = "https://drive.google.com/uc?export=download&id=1YM6V3CQ5gMoeTfPlsYRRA4E1vjRAW2hz"
+const chetan = "https://drive.google.com/uc?export=download&id=1gzH0ZZxR1E8BkWDItnTk721v0WUCh5sK";
 const dnyanesh = "https://drive.google.com/uc?export=download&id=1rZ3aggd63viXnRrpJ8S9vWRiAZhYrC9Q";
 const manas = "https://drive.google.com/uc?export=download&id=1P9B3oT8GPIX5OYYSAMYDT9PAAXbmdx5Z";
-const manas_pr = "https://drive.google.com/uc?export=download&id=1km7akZt7jwl__Pq3wMN2w8uTiw2W_CI0";
-const manasi = "https://drive.google.com/uc?export=download&id=1v3O0i-XW5buTJ9mKrwjKvjxpGRAzTBlV";
-const mayur = "https://drive.google.com/uc?export=download&id=19MSHDGAY8XVtp-x8qLBUIQvBJMDv-nuP";
-const mehul = "https://drive.google.com/uc?export=download&id=1BjZatuHgef6Ml6MwgYXcEIFKfc9XfPzM";
+const manas_pr = "https://drive.google.com/uc?export=download&id=1xUCTAczAmZirZdok3rOvLCpZ3ht1s678";
+const manasi = "https://drive.google.com/uc?export=download&id=1cX2bOS0a2B9CXBuZKEwAPesD_0OzHVl7";
+const mayur = "https://drive.google.com/uc?export=download&id=1IWt97QUYU0puoJDQXaAQ1b2i9J8X16fn";
+const mehul = "https://drive.google.com/uc?export=download&id=1nSwW0JQfQRBLEIzyQ7CWKe8lFwavX8E0";
 const samrudhi = "https://drive.google.com/uc?export=download&id=1Hcc0rLRYka0HsX-59ZdQ3Oe2yO912xYV";
-const shreeram = "https://drive.google.com/uc?export=download&id=1lEOIr_MaE__ta_nlTI2ULSlWbADu6EWe";
-const gaurav = "https://drive.google.com/uc?export=download&id=18g8ILvtYTbociH2MorIC5Yxwj2o9bu9y"
-const vedant = "https://drive.google.com/uc?export=download&id=14luZ-VUtPWaEc9-4dnzlZKo8h0rTkA4P";
-const vishal = "https://drive.google.com/uc?export=download&id=1TE463tRRpkG0fpKWvZr6Cx-RmSpeOcB-";
+
+const vedant = "https://drive.google.com/uc?export=download&id=14fTxlYoJpgLi_cBP3T6x3MyMSEf1XQmA";
+const vishal = "https://drive.google.com/uc?export=download&id=1FIBaedrns-ad0_CJAfJ9KtCp-bNjO_7b";
 const shrushti = "https://drive.google.com/uc?export=download&id=1yip3hjKCYRmLcN7wq0JcSuNyw-zG0KR_";
 const srushti = "https://drive.google.com/uc?export=download&id=1BPH5ocDjW6m6zcJHstYqZcxK-BLxCBzb";
 const vedantRaut = "https://drive.google.com/uc?export=download&id=1_NCNC0NZOTTkWdNMkUkAU8E0HGLusjl4";
@@ -56,24 +55,20 @@ export default function Teams() {
       <h2 className="text-center text-lg">Head & Co-Head</h2>
       <div className="team_row">
       <Member image={vishal} email={"vishal.jangid_it22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/vishal-jangid-359b54259/"} phnNo={9172008630}/>
-            <Member image={shreeram} linkedIn={"https://www.linkedin.com/in/shreeramshanmugasundaram/"} phnNo={8530533222}/>
-            <Member image={gaurav} email={"gaurav.latpate_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/latpate-gaurav-433ba7236"} phnNo={8329583083}/>
+           
+          
             <Member image={vedant} email={"vedant.patil_comp221@pccoer.in"} linkedIn={"https://www.linkedin.com/in/connect-vedant-patil/"} phnNo={7558321879}/>
-            <Member image={dnyanesh} email={"dnyaneshwari.jadhav_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/dnyaneshwari-jadhav-a927a3236"} phnNo={9307727077}/>
-            <Member image={shrushti} email={"srushti.bhoir_entc22@pccoer.in"} phnNo={9307727077}/>
-            <Member image={vedantRaut} phnNo={9307533577} />
-            <Member image={srushti} email={"shrushti.bahiruwale_entc22@pccoer.in"} phnNo={9307727077}/>
-            <Member image={avishkar} phnNo={9518320921}/>
-            <Member image={aastha} phnNo={9307727077}/>
+    
+        
+        
+        
             <Member image={manas_pr} phnNo={9175967324}/>
             <Member image={manasi} email={"manasi.velhal_comp21@pccoer.in"} linkedIn={"www.linkedin.com/in/manasi-velhal-2a9921277"} phnNo={9307727077}/>
-            <Member image={samrudhi} email={"samruddhi.patil_comp22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/samruddhi-patil-833817259"} phnNo={9307727077}/>
+           
             <Member image={chetan} email={"chetan.phulmante_comp21@pccoer.in"} linkedIn={"www.linkedin.com/in/chetan-phulmante-303b99236"} phnNo={8806946629}/>
             <Member image={mayur} phnNo={9763733419}/>
             <Member image={mehul} phnNo={9307705698}/>
-            <Member image={manas} phnNo={9175967324}/>
-            <Member image={chandrakantBM} email={"chandrakant.raut_comp21@pccoer.in"} linkedIn={"https://www.linkedin.com/in/chandrakant-raut-0606b8236/"} phnNo={9359142631}/>
-
+           
       </div>
     </div>
   </div>

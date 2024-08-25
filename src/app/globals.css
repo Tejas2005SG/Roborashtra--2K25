@@ -16,6 +16,9 @@ body {
   width: 100%;
   height: 100%;
   cursor: url("../images/handCursor.png"), auto;
+  /* background-color: black; */
+  /* z-index: 200; */
+  
   /* cursor: none; */
 
 }
@@ -64,7 +67,7 @@ body {
 }
 
 body {
-  background: url("../images/tempBg2.png");
+  background: url("../images/tempbg-5.jpg");
   color: white;
   overflow-x: hidden;
   width: 100%;

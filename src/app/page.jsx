@@ -4,7 +4,7 @@ import Image from "next/image";
 import MainCharater from "../images/mainchar-2.png";
 import "./main.css";
 import pccoer from "../images/pccoer.png";
-import pcet from "../images/PCET.png";
+import pcet from "../images/pcet.png";
 import ImageLoader from "@/components/loader/Loader";
 import Btn4 from "@/components/Buttons/Btn4";
 import Logo from "@/images/loaderLogo.png";
@@ -12,7 +12,9 @@ import Cursor from "@/components/Cursor/cursor";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import drone from "@/images/drone.png";
-import bottomRobo from "@/images/homerobo-3.png"
+import bottomRobo from "@/images/homerobo-3.png";
+
+
 
 export default function Home() {
   const [showStarterPage, setShowStarterPage] = useState(true);
@@ -95,6 +97,7 @@ export default function Home() {
     <>
       {showStarterPage && (
         <div className='startPage'>
+         
           <div className="welcomeTag">
             <h1 className="text-2xl md:text-4xl text-center">Welcome To</h1>
           </div>
@@ -158,9 +161,9 @@ export default function Home() {
               <Image src={drone} alt="drone" />
             </div>
             <div>
-              
+
             </div>
-            
+
             <div className="bottomImg">
               <Image src={bottomRobo} alt="" srcset="" width={100} height={100} />
             </div>

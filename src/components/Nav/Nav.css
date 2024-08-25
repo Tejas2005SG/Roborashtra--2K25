@@ -87,9 +87,6 @@ nav p {
   height: 10rem;
 }
 
-
-
-
 #logo {
   /* width: rem */
   height: 2.25rem;
@@ -106,12 +103,9 @@ nav p {
 
 
 @media screen and (max-width: 960px) {
-  /* nav img {
-    width: 220px;
-  } */
-   nav{
-    width:150%;
-   }
+  nav {
+    width: 150%;
+  }
 
   body {
     overflow-y: scroll;
@@ -123,7 +117,7 @@ nav p {
   }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 620px) {
   nav {
     /* padding: .25rem; */
     width: 100vw;
@@ -150,13 +144,6 @@ nav p {
   #logo {
     width: 175px;
   }
-
-
-
-
-
-
-
 
   .desktop-links {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -195,7 +182,7 @@ nav p {
   }
 
   .desktop-links {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
     overflow-y: scroll;
     position: absolute;
     top: 0;

@@ -3,7 +3,7 @@ import "./teams.css";
 
 
 
-const coordinator = "https://drive.google.com/uc?export=download&id=10rBpQFaw3iHZw-2WEf8OppljusQWxK7q"
+const coordinator = "https://drive.google.com/uc?export=download&id=1e3pcRVa4rf35dEW_-Lnuh9gA2U_BTsmh"
 const lead="https://drive.google.com/uc?export=download&id=13BZo7bdTqDuoDZEgKWo7AJLJ4fDxTuQk"
 const colead="https://drive.google.com/uc?export=download&id=14hQYI3VO8vVxtU6xqpFRGfxJ4i87hM-h"
 const colead2 = "https://drive.google.com/uc?export=download&id=1YM6V3CQ5gMoeTfPlsYRRA4E1vjRAW2hz"

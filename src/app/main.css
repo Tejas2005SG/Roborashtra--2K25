@@ -139,7 +139,7 @@ main {
 .main-character {
   position: absolute;
   /* top: 0; */
-  bottom: -120px;
+  bottom: -130px;
   left: 40px;
   width: 520px;
   z-index: -1;
@@ -265,7 +265,7 @@ main img {
 
 .bottomImg {
   position: absolute;
-  right: 0;
+  right: 2%;
   bottom: 0;
   z-index: 100;
 }

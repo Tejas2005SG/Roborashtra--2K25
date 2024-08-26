@@ -39,7 +39,7 @@ const css = `
 
 const clanCrausal = () => (
   <>
-    <SlCarousel className="vertical" loop pagination orientation="vertical" autoplay>
+    <SlCarousel className="vertical" loop pagination orientation="horizontal" autoplay>
       <SlCarouselItem>
         <Image
           alt="The sun shines on the mountains and trees (by Adam Kool on Unsplash)"

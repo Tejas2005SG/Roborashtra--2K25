@@ -87,9 +87,6 @@ nav p {
   height: 10rem;
 }
 
-
-
-
 #logo {
   /* width: rem */
   height: 2.25rem;
@@ -106,12 +103,9 @@ nav p {
 
 
 @media screen and (max-width: 960px) {
-  /* nav img {
-    width: 220px;
-  } */
-   nav{
-    width:150%;
-   }
+  nav {
+    width: 150%;
+  }
 
   body {
     overflow-y: scroll;
@@ -123,10 +117,10 @@ nav p {
   }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 620px) {
   nav {
     /* padding: .25rem; */
-    width: 150%;
+    width: 100vw;
   }
 
   body {
@@ -151,12 +145,41 @@ nav p {
     width: 175px;
   }
 
+  .desktop-links {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    width: 100vw;
+    height: 130vh;
+  }
+
+  .HamMenuIcon {
+    margin-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width:950px) {
+  nav {
+    /* padding: .25rem; */
+    width: 100vw;
+  }
+
+  body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
 
 
 
+  nav p {
+    font-size: 14px;
+  }
 
-
-
+  #logo {
+    width: 175px;
+  }
 
   .desktop-links {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -169,11 +192,6 @@ nav p {
   }
 
   .HamMenuIcon {
-    margin-right: 0;
+    margin-right: 1rem;
   }
-}
-
-@media  screen and (max-width:500px) {
-
-  
 }

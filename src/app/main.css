@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Rajdhani:wght@300;400;500;600;700&display=swap'); */
 
 
 body {
@@ -323,6 +323,10 @@ main img {
   100% {
     position: absolute;
     bottom: 61%;
+<<<<<<< HEAD
+=======
+    /* ']]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
+>>>>>>> 27706195ede1432f67bf878fb018f09d5ddeb1d4
     right: 34%;
     transform: rotateZ(-30deg);
   }
@@ -580,6 +584,18 @@ main img {
   }
 }
 
+@media screen and (max-height:800px) {
+
+
+  .start_btn {
+    margin-bottom: 3rem;
+  }
+
+  .bottomImg {
+    bottom: 4rem;
+  }
+}
+
 
 @media only screen and (min-width:501px) and (max-width: 950px) {
   .startTitle {
@@ -660,6 +676,10 @@ main img {
 
   .prizePool {
     display: none;
+  }
+
+  .bottomImg img {
+    width: 150px;
   }
 
 }

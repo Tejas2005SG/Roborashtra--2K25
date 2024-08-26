@@ -359,6 +359,12 @@
     margin-bottom: 2rem;
     margin-left: 1rem;
   }
+
+  .newContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width: 920px) {

@@ -95,6 +95,7 @@
   box-shadow: 2px 2px 25px #ff6200;
   animation-name: eventContent;
   animation-duration: 1s;
+  
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }

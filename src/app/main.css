@@ -581,6 +581,18 @@ main img {
   }
 }
 
+@media screen and (max-height:800px) {
+
+
+  .start_btn {
+    margin-bottom: 3rem;
+  }
+
+  .bottomImg {
+    bottom: 4rem;
+  }
+}
+
 
 @media only screen and (min-width:501px) and (max-width: 950px) {
   .startTitle {
@@ -661,6 +673,10 @@ main img {
 
   .prizePool {
     display: none;
+  }
+
+  .bottomImg img {
+    width: 150px;
   }
 
 }

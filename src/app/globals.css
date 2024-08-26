@@ -67,13 +67,9 @@ body {
 }
 
 body {
-<<<<<<< HEAD
   background: url("../images/bodyBg.png");
   background-repeat: no-repeat;
   background-size:cover;
-=======
-  background: url("../images/tempBg2.png");
->>>>>>> 27706195ede1432f67bf878fb018f09d5ddeb1d4
   color: white;
   overflow-x: hidden;
   width: 100%;

@@ -16,7 +16,12 @@ import bottomRobo from "@/images/homerobo-3.png";
 
 
 
+
+
+
+
 export default function Home() {
+
   const [showStarterPage, setShowStarterPage] = useState(true);
   const [showContent, setShowContent] = useState(false);
 
@@ -97,7 +102,7 @@ export default function Home() {
     <>
       {showStarterPage && (
         <div className='startPage'>
-         
+
           <div className="welcomeTag">
             <h1 className="text-2xl md:text-4xl text-center">Welcome To</h1>
           </div>
@@ -136,7 +141,9 @@ export default function Home() {
                   <Image src={MainCharater} alt="main-character" />
                 </div>
                 <div className="main_title ">
-                  <span id="leftTitle">RoboRashtra</span>
+                  <span id="leftTitle ">Robo</span>
+                  
+                  <span>Rashtra</span>
                 </div>
                 <div className="RobohawkRepresentation">
                   <div id="string" ref={stringRef}>
@@ -173,3 +180,4 @@ export default function Home() {
     </>
   );
 }
+

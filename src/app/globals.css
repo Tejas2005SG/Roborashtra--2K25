@@ -67,7 +67,9 @@ body {
 }
 
 body {
-  background: url("../images/tempbg-5.jpg");
+  background: url("../images/bodyBg.png");
+  background-repeat: no-repeat;
+  background-size:cover;
   color: white;
   overflow-x: hidden;
   width: 100%;
@@ -75,6 +77,13 @@ body {
   background-size: cover;
   background-color: rgb(0, 0, 5);
   /* cursor: none; */
+}
+
+.body-container{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  z-index: 500;
 }
 
 .cursor {

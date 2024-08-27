@@ -2,8 +2,17 @@ import React from 'react'
 import "./glimpse.css";
 import Image from "next/image"
 import GlimpseCard from '@/components/glimpseCard/glimpseCard';
-import glimpse1 from "../../../images/glimpse1.png"
-import glimpse2 from "@/images/card2.jpg"
+import glimpse1 from "../../../images/BlazeTrophy.png"
+import glimpse7 from "../../../images/glimpse1.png"
+
+import glimpse2 from "@/images/Team.png"
+import glimpse3 from "@/images/blazeTeam.png"
+import glimpse4 from "@/images/Trophy.png"
+import glimpse5 from "@/images/ResqBot.png"
+import glimpse6 from "@/images/resqArena.png"
+
+
+
 
 
 
@@ -13,13 +22,14 @@ function gallery() {
         <br></br>
         <h1 >Our Gallery</h1>
         <div className="imgs">
-          <GlimpseCard imgUrl={"https://drive.google.com/uc?export=download&id=1FkKK0sT_VUvpNw1HZbWQdm9ycjJtBslZ"}/>
-          <GlimpseCard imgUrl={"https://drive.google.com/uc?export=download&id=1wurWBu9dzXSoEUf7N-uLuuPFwmOETEBw"}/>
-          <GlimpseCard  imgUrl={"https://drive.google.com/uc?export=download&id=15a07v3oXjdQQiw5mIHbceXtbGemym0dF"}/>
-          <GlimpseCard imgUrl={"https://drive.google.com/uc?export=download&id=1LVo70QREC8lBUrWxCQAHlPNSbPKlMSms"}/>
-          <GlimpseCard imgUrl={"https://drive.google.com/uc?export=download&id=1LVo70QREC8lBUrWxCQAHlPNSbPKlMSms"}/>
+        <GlimpseCard imgUrl={glimpse7}/>
+          <GlimpseCard imgUrl={glimpse2}/>
+          <GlimpseCard imgUrl={glimpse3}/>
+          <GlimpseCard  imgUrl={glimpse1}/>
+          <GlimpseCard imgUrl={glimpse4}/>
+          <GlimpseCard imgUrl={glimpse5}/>
          
-          <GlimpseCard imgUrl={"https://drive.google.com/uc?export=download&id=1RAuXh3mjnOKY-CeD6w_qvDdy7uKtwmoZ"}/>
+          <GlimpseCard imgUrl={glimpse6}/>
          
           <GlimpseCard imgUrl={glimpse2}/>
 

@@ -8,6 +8,8 @@ import testImage from "@/images/img1.jpg"
 import testImage2 from "@/images/img2.jpg"
 import testImage3 from "@/images/img3.jpg"
 import testImage4 from "@/images/img4.jpg"
+import testImage5 from "@/images/BlazeTrophy.png"
+
 import Image from "next/image"
 
 
@@ -64,12 +66,12 @@ const clanCrausal = () => (
           src={testImage4} width={0} height={0}
         />
       </SlCarouselItem>
-      {/* <SlCarouselItem>
+       <SlCarouselItem>
         <Image
           alt="A scenic view of a mountain with clouds rolling in (by V2osk on Unsplash)"
-          src="/assets/exa width={100} height={100}mples/carousel/valley.jpg"
+          src={testImage5} width={0} height={0}
         />
-      </SlCarouselItem> */}
+      </SlCarouselItem> 
     </SlCarousel>
     <style>{css}</style>
   </>

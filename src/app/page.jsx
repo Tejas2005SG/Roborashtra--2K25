@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
-import MainCharater from "../images/mainchar-2.png";
+import MainCharater from "../images/mainChar2.png";
 import "./main.css";
 import pccoer from "../images/PCCOER.png";
 import pcet from "../images/PCET.png";

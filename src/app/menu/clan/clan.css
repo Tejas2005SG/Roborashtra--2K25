@@ -67,6 +67,7 @@ body {
   background-size: 50%;
   background-repeat: no-repeat;
   box-shadow: 5px 5px 10px 10px orangered;
+  margin-bottom: 4rem;
   /* background-size: cover; */
 }
 
@@ -74,6 +75,7 @@ body {
   width: 100%;
   height: 50vh;
 }
+
 
 
 @media only screen and (max-width:700px) {

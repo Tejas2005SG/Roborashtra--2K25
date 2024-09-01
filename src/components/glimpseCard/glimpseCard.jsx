@@ -8,13 +8,15 @@ const glimpseCard = ({imgUrl, videoUrl}) => {
   return (
     <div className='mainDiv h-25 bottom-2 border-red'>
         {imgUrl &&
-        <Image src={imgUrl} alt="" srcset="" width={0} height={0} />
+        <div className="ImgContainer">
+        <Image src={imgUrl} alt="" srcset="" width={0} height={0} loading='lazy'/>
+        </div>
 }
-        { videoUrl &&
+        {/* { videoUrl &&
         <video controls loop autoPlay>
             <source src={videoUrl} type="video/mp4"/>
         </video>
-}
+} */}
     </div>
   )
 }

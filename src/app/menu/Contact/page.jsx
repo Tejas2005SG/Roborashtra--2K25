@@ -63,7 +63,7 @@ const ContactPage = () => {
               </div>
 
               <div className="map-container w-[30vw] h-[60vh]  flex justify-center items-center">
-                <iframe className=" map rounded-lg  border-orange-600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6357.674639144745!2d73.74122481005469!3d18.650710592595445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ba0251959e2d%3A0x4d7ea2cc35724480!2sPCCOE-Ravet%2C%20Pimpri%20Chinchwad%20College%20of%20Engineering%20and%20Research%2C%20Ravet%2C%20Pune!5e0!3m2!1sen!2sin!4v1723558759207!5m2!1sen!2sin" width="400" height="300" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe className=" map rounded-lg  border-orange-600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6357.674639144745!2d73.74122481005469!3d18.650710592595445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ba0251959e2d%3A0x4d7ea2cc35724480!2sPCCOE-Ravet%2C%20Pimpri%20Chinchwad%20College%20of%20Engineering%20and%20Research%2C%20Ravet%2C%20Pune!5e0!3m2!1sen!2sin!4v1723558759207!5m2!1sen!2sin" width="400" height="300" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
 
 
               </div>
@@ -156,8 +156,8 @@ const ContactPage = () => {
           />
         </div> */}
 
-            <p className="Follow text-center">Follow US ON</p>
-            <div className="socialMedia flex row-auto gap-3 items-center align-middle justify-center">
+            <p className="Follow text-xl md:pl-12 md:pt-9 text-center">Follow US ON</p>
+            <div className="socialMedia flex row-auto gap-3  justify-center md:justify-start text-2xl md:pl-9">
               <a href="https://www.youtube.com/@RobohawkPCCOER"><FaYoutube /></a>
               <a href="https://www.linkedin.com/showcase/98926593/admin/feed/posts/"><FaLinkedin /></a>
               <a href="https://www.instagram.com/roborashtra.pccoer/?igsh=MzB4bW1kcnNuOGw1"><FaInstagram /></a>

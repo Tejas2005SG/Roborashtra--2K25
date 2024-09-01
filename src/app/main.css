@@ -42,7 +42,8 @@ body {
   position: absolute;
   top: calc(50% - 4rem);
   left: calc(50% - 5rem);
-  z-index: 0;
+  z-index: 99;
+  opacity: .8;
 }
 
 
@@ -139,10 +140,16 @@ main {
 .main-character {
   position: absolute;
   /* top: 0; */
+<<<<<<< HEAD
   bottom: -14vh;
   left: -15vw;
   width: 750px;
   opacity: .7;
+=======
+  bottom: -130px;
+  left: 40px;
+  width: 375px;
+>>>>>>> 3ce2ae1e86b066f36b3d645fc2b103fdd5482147
   z-index: -1;
   /* transform: rotate('180deg'); */
   transform: rotateY(180deg);

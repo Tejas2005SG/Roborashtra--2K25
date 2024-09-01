@@ -139,10 +139,13 @@ main {
 .main-character {
   position: absolute;
   /* top: 0; */
-  bottom: -130px;
-  left: 40px;
-  width: 550px;
+  bottom: -14vh;
+  left: -15vw;
+  width: 750px;
+  opacity: .7;
   z-index: -1;
+  /* transform: rotate('180deg'); */
+  transform: rotateY(180deg);
 }
 
 .main_bottom {

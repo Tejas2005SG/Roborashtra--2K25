@@ -19,7 +19,8 @@ import glimpse14 from  "@/images/Glimpse/PrincipalMam.png"
 import glimpse15 from  "@/images/Glimpse/PrizeDistribution1.png"
 import glimpse16 from  "@/images/Glimpse/Prizedistribution2.png"
 import glimpse17 from  "@/images/Glimpse/Prizesholding.png"
-import glimpse18 from  "@/images/Glimpse/Ribbin.png"
+import glimpse18 from  "@/images/Glimpse/Ribbin.png";
+import glimpse19 from "@/images/Glimpse/check.png";
 
 
 
@@ -53,6 +54,7 @@ function gallery() {
           <GlimpseCard imgUrl={glimpse16}/>
           <GlimpseCard imgUrl={glimpse17}/>
           <GlimpseCard imgUrl={glimpse18}/>
+          <GlimpseCard imgUrl={glimpse19}/>
 
 
 

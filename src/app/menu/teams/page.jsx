@@ -23,7 +23,8 @@ const srushti = "https://drive.google.com/uc?export=download&id=1BPH5ocDjW6m6zcJ
 const vedantRaut = "https://drive.google.com/uc?export=download&id=1_NCNC0NZOTTkWdNMkUkAU8E0HGLusjl4";
 const aastha = "https://drive.google.com/uc?export=download&id=19GYnFV-G792CUTvDxJVBuQo00VkfVKWX";
 const avishkar = "https://drive.google.com/uc?export=download&id=1349abd4F_J9qud77hTcTEhjyswAHW7lQ"
-const chandrakantBM = "https://drive.google.com/uc?export=download&id=1BG-MWvTq62l3CrV14waDueXe_9cpmXOB"
+const chandrakantBM = "https://drive.google.com/uc?export=download&id=1BG-MWvTq62l3CrV14waDueXe_9cpmXOB";
+
 
 
 export default function Teams() {

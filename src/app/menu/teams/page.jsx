@@ -24,6 +24,7 @@ const vedantRaut = "https://drive.google.com/uc?export=download&id=1_NCNC0NZOTTk
 const aastha = "https://drive.google.com/uc?export=download&id=19GYnFV-G792CUTvDxJVBuQo00VkfVKWX";
 const avishkar = "https://drive.google.com/uc?export=download&id=1349abd4F_J9qud77hTcTEhjyswAHW7lQ"
 const chandrakantBM = "https://drive.google.com/uc?export=download&id=1BG-MWvTq62l3CrV14waDueXe_9cpmXOB";
+const dijvijay = "https://drive.google.com/file/d/1VZl6iLKjkicqCGjPYXSPp-6kaZoO3dfo/view?usp=drive_link";
 
 
 
@@ -69,6 +70,7 @@ export default function Teams() {
             <Member image={chetan} email={"chetan.phulmante_comp21@pccoer.in"} linkedIn={"www.linkedin.com/in/chetan-phulmante-303b99236"} phnNo={8806946629}/>
             <Member image={mayur} phnNo={9763733419}/>
             <Member image={mehul} phnNo={9307705698}/>
+            <Member image={dijvijay} phnNo={1234567890}/>
            
       </div>
     </div>

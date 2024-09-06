@@ -130,7 +130,7 @@ export default function Home() {
                 <Image src={pccoer} alt="pccoer" />
                 <Image src={pcet} alt="pcet" />
               </div>
-              <div className="clgName text-xl text-center">
+              <div className="clgName  ">
                 <div className="leftLogo"></div>
                 <div className="Name">
                   <p>Pimpri Chinchwad College Of Engineering & Research</p>

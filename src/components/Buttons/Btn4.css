@@ -175,3 +175,10 @@ button:hover #clip {
         transform: translateX(-10px);
     }
 }
+
+@media screen and (max-width:375px) {
+    
+
+
+    
+}

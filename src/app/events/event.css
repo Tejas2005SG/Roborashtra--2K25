@@ -95,7 +95,7 @@
   box-shadow: 2px 2px 25px #ff6200;
   animation-name: eventContent;
   animation-duration: 1s;
-  
+
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -161,8 +161,9 @@
     display: flex;
     justify-content: center;
   }
+
   .Event-content {
-    
+
     backdrop-filter: blur(2px) saturate(100%);
     -webkit-backdrop-filter: blur(2px) saturate(100%);
     background-color: rgba(17, 25, 40, 0.11);
@@ -175,7 +176,7 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    
+
   }
 
   .eventBtn {
@@ -270,10 +271,10 @@
 }
 
 
-@media screen and (max-width:1050px) and (min-width:620px) {
+@media screen and (max-width:920px) and (min-width:620px) {
   .Event_wrapper {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 100%;
   }
 
   .Event-content {

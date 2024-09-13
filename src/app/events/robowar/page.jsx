@@ -24,7 +24,7 @@ const CamWarrior = () => {
             <Btn1 text={"Register"} link={"https://forms.gle/2gN987WcGN5YWnM5A"} />
           </div>
         </div>
-        <Image src="/" alt="robowar" width={500} height={400} />
+        {/* <Image src="/" alt="robowar" width={500} height={400} /> */}
       </div>
     </ImageLoader>
   );

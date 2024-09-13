@@ -14,13 +14,6 @@ import { useGSAP } from "@gsap/react";
 import drone from "@/images/drone.png";
 import bottomRobo from "@/images/homerobo-3.png";
 import MainImg from "@/images/Main-3.png";
-// import Spline from "@/components/spline/spline.js";
-
-
-
-
-
-
 
 
 export default function Home() {

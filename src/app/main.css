@@ -333,7 +333,7 @@ main img {
 
   100% {
     position: absolute;
-    bottom: 61%;
+    bottom: 58%;
     right: 34%;
     transform: rotateZ(-30deg);
   }
@@ -842,7 +842,7 @@ main img {
 
     100% {
       position: absolute;
-      bottom: 61%;
+      bottom: 62%;
       right: 34%;
       transform: rotateZ(-30deg);
     }

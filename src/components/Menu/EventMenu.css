@@ -7,11 +7,12 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: rows;
+  flex-direction: column;
   align-items: left;
   justify-content: center;
   gap: 1rem;
   font-family: designer;
+  margin-left: -60px;
 
 }
 

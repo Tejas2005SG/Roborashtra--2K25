@@ -4,8 +4,6 @@ import Nav from "@/components/Nav/Nav";
 import ImageLoader from "@/components/loader/Loader";
 import Cursor from "@/components/Cursor/cursor";
 
-
-
 export const metadata = {
   title: "Roborashtra",
   description:
@@ -13,11 +11,6 @@ export const metadata = {
 };
 
 export default function MenuLayout({ children }) {
-
-  
-
-
-
   return (
     <ImageLoader>
       <Cursor />

@@ -10,9 +10,9 @@
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   font-family: designer;
-  margin-left: -60px;
+  /* margin-left: -60px; */
 
 }
 
@@ -51,6 +51,12 @@
   margin-left: 1.2rem;
 }
 
+@media screen and (max-width:920px) {
+  .EventMenu {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .EventMenu {
     display: none;
@@ -58,8 +64,8 @@
 }
 
 @media screen and (max-width: 500px) {
-  .EventMenu{
+  .EventMenu {
     padding: 10px;
   }
-  
+
 }

@@ -5,8 +5,8 @@ body {
 nav {
   padding: .75rem 3rem;
   position: sticky;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   z-index: 99;
@@ -66,7 +66,7 @@ nav p {
 
 .desktop-links {
   z-index: 99;
-  top: -10px;
+  top: 0px;
   /* left: -110%; */
   position: absolute;
   color: white;
@@ -78,9 +78,10 @@ nav p {
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
   background-color: rgba(44, 42, 42, 0.923);
   padding: 3rem;
+  /* padding-top: 4rem; */
 }
 
 .desktop-links li {

@@ -11,7 +11,7 @@ const events = [
   {
     title: "Resqlympic",
     link: "/events/resqlimpic",
-    image: "/event3.svg",
+    image: "/resqlmpic.jpg",
   }
 ];
 const EventMenu = () => {

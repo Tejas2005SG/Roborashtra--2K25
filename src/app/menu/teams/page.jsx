@@ -24,7 +24,7 @@ const vedantRaut = "https://drive.google.com/uc?export=download&id=1_NCNC0NZOTTk
 const aastha = "https://drive.google.com/uc?export=download&id=19GYnFV-G792CUTvDxJVBuQo00VkfVKWX";
 const avishkar = "https://drive.google.com/uc?export=download&id=1349abd4F_J9qud77hTcTEhjyswAHW7lQ"
 const chandrakantBM = "https://drive.google.com/uc?export=download&id=1BG-MWvTq62l3CrV14waDueXe_9cpmXOB";
-const dijvijay = "https://drive.google.com/file/d/1VZl6iLKjkicqCGjPYXSPp-6kaZoO3dfo/view?usp=drive_link";
+const dijvijay = "https://drive.google.com/uc?export=download&id=1TZALd41jeKOvyGKkJguPxxqcWhif2_KG";
 
 
 

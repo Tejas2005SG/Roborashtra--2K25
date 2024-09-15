@@ -11,8 +11,16 @@ const CamWarrior = () => {
       <div className="Event-content resq">
       <h1 className="EventTitle">ResQlympic</h1>
         <p className="Content">
-        It is your chance to showcase your skills. We bring you a competition that will test your navigation skills along with your robot-building capabilities. You have to build a robot such that it can grab the victims and relocate them to a safe location without causing any harm to any of the victims. You will have to navigate the arena to find the victims. But, here is the catch, among other obstacles, there will be mines present. The mine goes off in 2 minutes, and you have two minutes to rescue the hostages, if u need more time, find the switches and disable the mines. You get a maximum of 10 minutes, the choice of the hostages and mines is up to you. Your decision-making skill is your ultimate tool.
-        <h2 className="headContact">For any event related query <br />Contact Mehul(Event Head) : 9307705698</h2>
+        🚨 Welcome to ResQlympic – The Ultimate Robotics Rescue Challenge! 🤖🛠️ <br />
+
+Get ready for ResQlympic, where manual-operated robots with in-built cameras navigate a challenging arena filled with obstacles to rescue hostages and bring them to safety! <br />
+
+🏁 How It Works: <br />
+
+One thrilling round: Operate your robot remotely from a separate room using a live camera feed. <br />
+Navigate obstacles: Steer through the arena to reach and rescue hostages, delivering them to the safe zone. <br />
+Put your skills to the test and become the ResQlympic champion! <br />
+        <h2 className="headContact">For any event related query <br />Contact Atharva(Problem Statement Head) : 8767835399</h2>
         <div className="wpYoutube">
                   <a href="http://wa.me/+919307727077" rel="noopener noreferrer" target="_blank">
         <button className="whatsapp">Contact Us On Whatsapp</button>
@@ -27,7 +35,7 @@ const CamWarrior = () => {
           <Btn1 text={"Register"} link={"https://unstop.com/p/resqlympic-roborashtra-2k24-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-889624"} />
         </div>
       </div>
-      <Image src={EventChar} alt="robowar" width={400} height={200} />
+      {/* <Image src={EventChar} alt="robowar" width={400} height={200} /> */}
     </div>
     </ImageLoader>
   );

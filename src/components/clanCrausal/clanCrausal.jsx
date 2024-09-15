@@ -16,32 +16,19 @@ import Image from "next/image"
 
 
 const css = `
-  .vertical {
-    height: auto;
-  }
 
-  .vertical::part(base) {
-    grid-template-areas: 'slides slides pagination';
-  }
-
-  .vertical::part(pagination) {
-    flex-direction: column;
-  }
-
-  .vertical::part(navigation) {
-    transform: rotate(90deg);
-    display: flex;
-  }
+  
    .imgSlContainer{
     width: 10rem;
     height:10rem;
     opacity: 0.8;
+    border-radius: 20px;
     }
 `;
 
 const clanCrausal = () => (
   <>
-    <SlCarousel className="vertical" loop pagination orientation="horizontal" autoplay>
+    <SlCarousel loop navigation pagination autoplay autoplayInterval={1}>
       <SlCarouselItem>
         <Image
           alt="The sun shines on the mountains and trees (by Adam Kool on Unsplash)"

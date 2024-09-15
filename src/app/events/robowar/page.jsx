@@ -9,12 +9,19 @@ const CamWarrior = () => {
     <ImageLoader>
       <div className="Event">
         <div className="Event-content robowar">
-          <h1 className="EventTitle">Robofest</h1>
+          <h1 className="EventTitle">YantraUtsav</h1>
           <p>
-            Calling all aspiring young minds and future engineers! Get ready to showcase your ingenuity and passion for robotics at our eagerly awaited event: the Young Innovators  RoboFest. Whether you are an elementary school student or a high schooler, this fest is your chance to shine bright and demonstrate your robotic creations and innovative ideas.<br />
+          🎉 Welcome to Yantrautsav - Unleash Your Robotics Genius! 🤖🚀<br />
 
-            Join us for a day filled with excitement, exploration, and inspiration. From imaginative robot designs to groundbreaking concepts, this fest is the ultimate platform for you to unleash your creativity and make your mark in the world of robotics.
-            <h2 className="headContact">For any event related query <br />Contact Manas(Event Head) : 9175967324</h2>
+Join Yantrautsav, where aspiring innovators showcase their creativity and robotics skills! Whether you are a beginner or a pro, this is your chance to bring your bold ideas to life. <br />
+
+✨ Why Attend?<br />
+
+Show off your creations and compete with the best. <br />
+Learn and inspire alongside passionate tech minds. <br />
+Open to all: No matter your experience, students of all ages are welcome! <br />
+Do not miss this thrilling event - register now and make your mark in the world of robotics! <br />
+            <h2 className="headContact">For any event related query <br />Contact Atharva(Problem Statement Head) : 8767835399</h2>
           </p>
           <a href="http://wa.me/+919307727077" rel="noopener noreferrer" target="_blank">
             <button className="whatsapp">Contact Us On Whatsapp</button>

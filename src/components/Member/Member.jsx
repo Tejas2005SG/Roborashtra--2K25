@@ -6,7 +6,7 @@ import { FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 const Member = ({ image, email, linkedIn, phnNo }) => {
   return (
     <div className="Team_Member">
-       <Image src={image} width={240} height={320} alt="member-position" /> 
+       <Image src={image} width={240} height={320} alt="member-position" loading="lazy" /> 
         <div className="contactInfo text-center">
         <div className="email text-center">
           <a href={`mailto:${email}`}>

@@ -8,9 +8,9 @@ const options = [
 
   { text: "Glimpse", link: "/menu/Glimpse" },
   { text: "Sponsors", link: "/menu/sponsors" },
-  { text: "Contact", link: "/menu/Contact" },
   { text: "Our Team", link: "/menu/teams" },
-  { text: "Our Clan", link: "/menu/clan" }
+  { text: "Our Clan", link: "/menu/clan" },
+  { text: "Contact", link: "/menu/Contact" },
 ];
 
 const MenuBar = () => {

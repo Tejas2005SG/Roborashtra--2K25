@@ -30,7 +30,7 @@ const Cursor = () => {
     };
   }, []);
   return (
-    <div className='cursor' ref={cursorRef}>
+    <div className='cursorImg' ref={cursorRef}>
      
     </div>
   )

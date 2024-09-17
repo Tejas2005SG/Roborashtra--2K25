@@ -501,15 +501,7 @@ main img {
   }
 
 
-  main img {
-    width: 100vw;
-    /* margin-bottom: 10rem; */
-    position: relative;
-    top: -15rem;
-    display: none;
-    /* left: 0rem;
-    top: -1rem; */
-  }
+
 
   .drone img {
     width: 7rem;
@@ -549,16 +541,13 @@ main img {
 
   .bottomImg {
     position: relative;
-    left: 4rem;
-    top: 5rem;
+    left: 2rem;
+    width: 200px;
+    top: rem;
+   
 
   }
 
-  .bottomImg img {
-    width: 250px;
-    /* z-index:50; */
-
-  }
 
 }
 
@@ -604,7 +593,7 @@ main img {
 }
 
 
-@media only screen and (min-width:501px) and (max-width: 950px) {
+@media only screen and (min-width:501px) and (max-width: 1020px) {
   .startTitle {
     font-size: 72px;
   }
@@ -644,29 +633,30 @@ main img {
   .main_title {
     font-size: 4rem;
     text-align: center;
-    gap: 10rem;
+    gap: 0rem;
     position: absolute;
-    left: 24rem;
+    left: 20rem;
     top: 9rem;
     /* margin-top: 2rem; */
   }
 
   #string {
     position: absolute;
-    top: -5rem;
-    left: -2rem;
+    top: -7rem;
+    left: -5rem;
     /* width: 40px; */
   }
 
   .representedBy {
     position: relative;
-    top: 2rem;
+    top: 0rem;
+    left: 19rem;
     /* right: 7rem; */
   }
 
   .main_bottom {
     position: absolute;
-    bottom: -8rem;
+    bottom: -6rem;
     -webkit-text-stroke-color: 1px antiquewhite;
   }
 
@@ -675,10 +665,11 @@ main img {
   }
 
   main img {
-    margin-bottom: 13rem;
-    width: 45vw;
+    /* margin-bottom: 13rem; */
+    width: 70vw;
     position: relative;
-    left: -3.5rem;
+    left: 0rem;
+    bottom: 15rem;
   }
 
   .prizePool {
@@ -687,6 +678,7 @@ main img {
 
   .bottomImg img {
     width: 150px;
+    display: none;
   }
 
 }
@@ -711,13 +703,15 @@ main img {
   }
 
   main img {
-    margin-bottom: 12rem;
-    width: 45vw;
+    width: 70vw;
+    position: relative;
+    left: 4rem;
+    bottom: 15rem;
   }
 
   .main_title {
     font-size: 5rem;
-    gap: 10rem;
+    gap: 0rem;
     /* margin-top: 5.5rem; */
   }
 
@@ -754,28 +748,30 @@ main img {
     gap: 10px;
     display: inline;
   }
-  
+
   .clgName p:nth-child(1) {
     padding-bottom: 5px;
     font-family: mokoto;
-  
+
   }
+
   .clgLogo img {
     width: 2rem;
     height: 2rem;
     position: absolute;
-   
+
   }
-  
+
   .clgLogo img:nth-child(1) {
     left: 1rem;
     top: 1rem;
   }
-  
+
   .clgLogo img:nth-child(2) {
     right: 1rem;
     top: 1rem;
   }
+
   .drone img {
     width: 5rem;
     height: 5rem;
@@ -784,18 +780,18 @@ main img {
     bottom: 1%;
     right: 1%;
   }
-  
+
   .bottomImg {
     position: absolute;
     right: 2%;
     bottom: 0;
-  
+
   }
-  
+
   .bottomImg img {
     width: 50px;
     /* z-index: 50; */
-  
+
     /* height: 100px; */
   }
 
@@ -847,14 +843,15 @@ main img {
       transform: rotateZ(-30deg);
     }
   }
-  .tagline{
+
+  .tagline {
     margin-top: 100px;
   }
 
-  
-  
-  
 
 
-  
+
+
+
+
 }

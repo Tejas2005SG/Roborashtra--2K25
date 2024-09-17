@@ -16,7 +16,7 @@ const Navcard = ({index, imgSrc, name}) => {
   // })
   return (
 
-    <div className='NavCard h-40 rounded-xl p-4 relative overflow-hidden'>
+    <div className='NavCard h-32 sm:h-40 rounded-xl p-4 relative overflow-hidden'>
       <FaArrowRight className='Arrow absolute text-4xl -top-1 -left-1  p-1 rounded-full gap-3' />
       <div className="content grid grid-rows-2 mt-4 items-center text-center align-middle justify-center w-full h-full">
         {/* <h2 className='relative -right-28 -top-4 text-xl font-bold'>{index}</h2> */}

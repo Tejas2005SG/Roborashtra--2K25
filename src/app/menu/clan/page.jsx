@@ -20,7 +20,7 @@ export default function Clan() {
        <ClanCrausal /> 
       <div className="social_media">
         <a href="https://www.instagram.com/robohawk.pccoer?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
-          <Image src={instagram} alt="instagram" />
+          <Image src={instagram} alt="instagram"  />
         </a>
         <a href="https://www.facebook.com/profile.php?id=61552083314105&mibextid=ZbWKwL">
           <Image src={facebook} alt="instagram" />

@@ -33,10 +33,10 @@ const Card = () => {
         <a href="/events/robowar" alt="Mythrill" >
           <div class="card w-full h-full mb-3 md:mb-0">
             <div class="wrapper w-full h-full">
-              <Image width={200} height={300} src={card1} class="cover-image" />
+              <Image width={200} height={300} src={card1} class="cover-image" alt="cardImg"/>
             </div>
-            <Image width={200} height={300} src={Title1} class="title" />
-            <Image width={200} height={300} src={card1Front} class="character" />
+            <Image width={200} height={300} src={Title1} class="title" alt="cardImg" />
+            <Image width={200} height={300} src={card1Front} class="character" alt="cardImg" />
           </div>
           {/* <button className="text-center w-full bg-orange-700">Explore Event</button> */}
         </a>
@@ -47,10 +47,10 @@ const Card = () => {
         <a href="/events/resqlimpic" alt="Mythrill" >
           <div class="card2 w-full h-full">
             <div class="wrapper w-full h-full">
-              <Image width={0} height={0} src={card2} class="cover-image" />
+              <Image width={0} height={0} src={card2} class="cover-image" alt="cardImg" />
             </div>
-            <Image width={200} height={300} src={Title2} class="title" />
-            <Image width={200} height={300} src={card2Front} class="character" />
+            <Image width={200} height={300} src={Title2} class="title" alt="cardImg"/>
+            <Image width={200} height={300} src={card2Front} class="character"alt="cardImg" />
           </div>
           {/* <button className="text-center w-full bg-orange-700">Explore Event</button> */}
         </a>

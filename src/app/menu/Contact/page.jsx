@@ -44,7 +44,10 @@ const ContactPage = () => {
                   <p className="text-white">Event Co-Lead ( Vishal Jangid ) : <span className="text-orange-400">9172008630</span></p>
                   <p className="text-white">Event Co-Lead ( Pratik Chavare ) : <span className="text-orange-400">8265005103</span></p>
                 </div>
+                
+              <div className="content">
                 <div className="how-to-reach  w-[28vw] h-[40vh]  m-auto">
+                  
                   <h4 className="how-to-reach-text text-[orangered] font-bold m-auto leading-[20px] text-center text-lg">How to Reach ?</h4>
                   <p className=" font-bold text-orange-400">By Train:</p>
                   <p className="text-white">From Pune Junction, take a local train towards Talegaon or Lonavala and get off at Akurdi station.</p>
@@ -60,6 +63,7 @@ const ContactPage = () => {
 
                 </div>
 
+              </div>
               </div>
 
               <div className="map-container w-[30vw] h-[60vh]  flex justify-center items-center">
@@ -92,72 +96,8 @@ const ContactPage = () => {
 
 
 
-            {/* <div className="contactTable">      <table>
-        <tr>
-        <th>Name</th>
-        <th>Position</th>
-        <th>Contact No.</th>
-        </tr>
-        <tr>
-          <td>Om Khare</td>
-          <td>Team Lead</td>
-          <td>-</td>
-        </tr>
-      </table>
-      </div> */}
-
-            {/* <form onSubmit={handleSubmit}>
-        
-        <div className="Name">
-          <p className="Info">Name:</p>
-          <input
-            type="text"
-            name="name"
-            required
-          />
-        </div>
-        <div className="emaiPhn">
-          <div className="email">
-            <p className="Info">Email:</p>
-            <input
-              type="email"
-              name="email"
-              required
-            />
-          </div>
-          <div className="phnNo">
-            <p className="Info">Phone No:</p>
-            <input
-              type="tel"
-              name="phoneNumber"
-              required
-            />
-          </div>
-        </div>
-        <div className="query">
-          <p className="Info">Query:</p>
-          <textarea
-            className="query-box"
-            rows={4}
-            name="message"
-            required
-          ></textarea>
-        </div>
-        <div className="submitBtn">
-          <button type="submit">Submit</button>
-        </div>
-      </form> */}
-            {/* <div className="Name">
-          <p className="Info">Name:</p>
-          <input
-            type="text"
-            name="name"
-            required
-          />
-        </div> */}
-
             <p className="Follow text-xl md:pl-12 md:pt-9 text-center">Follow US ON</p>
-            <div className="socialMedia flex row-auto gap-3  justify-center md:justify-start text-2xl md:pl-9">
+            <div className="socialMedia flex row-auto gap-3  justify-center  text-2xl md:pl-9">
               <a href="https://www.youtube.com/@RobohawkPCCOER"><FaYoutube /></a>
               <a href="https://www.linkedin.com/showcase/98926593/admin/feed/posts/"><FaLinkedin /></a>
               <a href="https://www.instagram.com/roborashtra.pccoer/?igsh=MzB4bW1kcnNuOGw1"><FaInstagram /></a>

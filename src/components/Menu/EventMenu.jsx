@@ -4,7 +4,7 @@ import Image from "next/image";
 import "./EventMenu.css";
 const events = [
   {
-    title: "Robofest",
+    title: "YantraUtsav",
     link: "/events/robowar",
     image: "/event1.svg",
   },

@@ -39,6 +39,7 @@ nav p {
   font-weight: 700;
   background: linear-gradient(to bottom, rgb(91, 87, 87), #fff);
   /* -webkit-background-clip: "text"; */
+  background-clip: border-box;
   -webkit-background-clip: text;
 
   margin-top: -0.5rem;
@@ -72,16 +73,23 @@ nav p {
   color: white;
   height: 100vh;
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(44, 42, 42, 0.923);
+  padding: 3rem;
+
+}
+
+.link-shelf {
+  width: 80vw;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   place-items: center;
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  /* padding-top: 5rem; */
-  background-color: rgba(44, 42, 42, 0.923);
-  padding: 3rem;
-  /* padding-top: 4rem; */
+
 }
 
 .desktop-links li {
@@ -117,6 +125,11 @@ nav p {
   .desktop-links {
     width: 150%;
   }
+
+  .link-shelf {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  }
 }
 
 @media only screen and (max-width: 620px) {
@@ -148,10 +161,14 @@ nav p {
   }
 
   .desktop-links {
+    overflow-y: hidden;
+  }
+
+  .link-shelf {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     overflow-y: scroll;
     position: absolute;
-    top: 0;
+    top: 5rem;
     left: -1rem;
     width: 100vw;
     height: 130vh;

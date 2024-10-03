@@ -82,6 +82,7 @@ const Nav = () => {
       
        </div>
          <ul className="desktop-links" style={menustyle}>
+          <div className="link-shelf">
           {options.map((option, index) => {
             return (
               <>              <li key={option.opt}>
@@ -98,6 +99,7 @@ const Nav = () => {
 
             );
           })}
+          </div>
         </ul> 
         
 

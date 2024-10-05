@@ -264,6 +264,7 @@
   }
 
   .wpYoutube {
+    display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -277,11 +278,19 @@
   .Event_wrapper {
     display: grid;
     grid-template-columns: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
   }
 
-  .Event-content {
-    width: 70vw;
+  .resq {
+    width: 80vw;
     height: auto;
+    position: relative;
+    top: 9rem;
+    left: 2rem;
+    text-align: justify;
   }
 
   .Event img {
@@ -293,6 +302,15 @@
 
   .EventTitle {
     font-size: 32px;
+  }
+
+  .wpYoutube {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
   }
 
 }

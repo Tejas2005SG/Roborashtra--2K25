@@ -28,7 +28,9 @@ Do not miss this thrilling event - register now and make your mark in the world 
           </a>
           <div className="action_btn ml-[20px]">
             {/* <Btn2 link={"/robowar.pdf"} /> */}
-            <Btn1 text={"Register"} link={"https://unstop.com/p/yantra-utsav-junior-category-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-1172922"} />
+            <Btn1 text={"Register (Junior)"} link={"https://unstop.com/p/yantra-utsav-junior-category-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-1172922"} />
+
+            <Btn1 text={"Register (Senior)"} link={"https://unstop.com/p/yantrautsav-senior-category-roborashtra-2k25-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-1172914"} />
           </div>
         </div>
         {/* <Image src="/" alt="robowar" width={500} height={400} /> */}

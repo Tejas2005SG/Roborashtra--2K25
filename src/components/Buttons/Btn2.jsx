@@ -6,7 +6,7 @@ import { IoMdDownload } from "react-icons/io";
 const Btn2 = ({ link }) => {
   return (
     <a href={link} rel="noopener noreferrer" target="_blank" className="Btn2" type="disabled">
-      <IoMdDownload /> Rulebook coming soon
+      <IoMdDownload /> Download Rule Book
     </a>
   );
 };

@@ -16,6 +16,7 @@ import Sponsornav from "../NavCard/images/Sponsornav.png";
 import Clannav from "../NavCard/images/Clannav.png";
 import Contactnav from "../NavCard/images/contact.jpg"
 import glimpsenav from "@/components/NavCard/images/glimpsenav.png";
+import historyImg from "@/images/history.png"
 // import Unstop from "./images/Unstop.jpg"; // Assuming the correct path
 
 
@@ -56,6 +57,11 @@ const options = [
     opt: "Contact Us",
     link: "/menu/Contact",
     img:Contactnav
+  },
+  {
+    opt: "History",
+    link: "/menu/history",
+    img:historyImg
   },
 ];
 

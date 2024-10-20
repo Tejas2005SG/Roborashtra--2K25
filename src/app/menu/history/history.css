@@ -1,0 +1,38 @@
+.main-container{
+}
+.past-institute-container{
+    width:50vw;
+    height: 100vh;
+    margin-top: 80px;
+
+}
+.list-container{
+    width: 45vw;
+    padding: 15px;
+    display: flex;
+    margin-top: 30px;
+    }
+
+    .institute-winner{
+        font-size: 25px;
+    }
+
+    .inner-container-list{
+        width: 45vw;
+    }
+
+    @media screen and (max-width:390px) {
+        
+        .past-institute-container{
+            width:80vw;
+            /* height: 100vh; */
+            margin-top: 80px;
+        
+        }
+        .inner-container-list{
+            width: 80vw;
+        }
+
+        
+    }
+
